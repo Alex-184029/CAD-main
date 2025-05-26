@@ -1,0 +1,114 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1129,
+          158
+        ],
+        [
+          1373,
+          158
+        ],
+        [
+          1373,
+          168
+        ],
+        [
+          1129,
+          168
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1382,
+          158
+        ],
+        [
+          1627,
+          158
+        ],
+        [
+          1627,
+          168
+        ],
+        [
+          1382,
+          168
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1127,
+          162
+        ],
+        [
+          1375,
+          162
+        ],
+        [
+          1375,
+          163
+        ],
+        [
+          1127,
+          163
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1381,
+          162
+        ],
+        [
+          1628,
+          162
+        ],
+        [
+          1628,
+          163
+        ],
+        [
+          1381,
+          163
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/01-\u5730\u4e0a\u516c\u533a\u5e73\u9762\u65bd\u5de5\u56fe-12.jpg",
+  "imageData": null,
+  "imageHeight": 1876,
+  "imageWidth": 2653
+}

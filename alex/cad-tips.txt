@@ -1,0 +1,42 @@
+# -- 本地电脑
+cd E:\School\Grad1\CAD\MyCAD2\redis
+redis-server.exe redis.windows.conf
+
+cd E:\School\Grad1\CAD\MyCAD2\CAD-main
+python main_server2.py
+
+cd E:\School\Grad1\CAD\MyCAD2\CAD-main
+celery -A main_server2.celery worker --loglevel=info
+celery -A main_server2.celery worker --loglevel=info -P eventlet      # use this
+
+cd E:\School\Grad1\CAD\MyCAD2\vue-element-admin-v3\vue-element-admin
+npm run dev
+
+其他：
+虚拟机密码13579Cad
+数据库用户root 密码123456，use cad
+前端页面用户LiangTianlin 密码123456
+用户LiuPuhua 密码alex123     # 这个为准，加密过的
+
+
+# -- bnrc服务器
+Windows Server 2019虚拟机IP：192.168.85.128
+bnrc服务器IP：10.112.55.219
+MySQL root账号密码：Bnrc-410
+
+启动脚本
+cd /data/hdd3/lph
+source .bashrc
+
+cd cad/MyCAD/tools/redis
+./src/redis-server redis.conf
+
+cd cad/MyCAD/CAD-main
+python main_server3.py
+
+cd cad/MyCAD/CAD-main
+celery -A main_server3.celery worker --loglevel=info -P eventlet
+
+cd cad/MyCAD/vue-element-admin-v3/vue-element-admin
+npm run dev
+

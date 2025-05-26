@@ -1,0 +1,500 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          904.0,
+          592.0
+        ],
+        [
+          986.0,
+          592.0
+        ],
+        [
+          986.0,
+          592.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1024.0,
+          592.0
+        ],
+        [
+          1106.0,
+          592.0
+        ],
+        [
+          1106.0,
+          592.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          902.0,
+          596.0
+        ],
+        [
+          990.0,
+          596.0
+        ],
+        [
+          990.0,
+          609.0
+        ],
+        [
+          902.0,
+          609.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1020.0,
+          596.0
+        ],
+        [
+          1108.0,
+          596.0
+        ],
+        [
+          1108.0,
+          609.0
+        ],
+        [
+          1020.0,
+          609.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          797.0,
+          623.0
+        ],
+        [
+          885.0,
+          623.0
+        ],
+        [
+          885.0,
+          627.0
+        ],
+        [
+          797.0,
+          627.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          798.0,
+          627.0
+        ],
+        [
+          880.0,
+          627.0
+        ],
+        [
+          880.0,
+          631.0
+        ],
+        [
+          798.0,
+          631.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          735.0,
+          995.0
+        ],
+        [
+          807.0,
+          995.0
+        ],
+        [
+          807.0,
+          999.0
+        ],
+        [
+          735.0,
+          999.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          725.0,
+          999.0
+        ],
+        [
+          813.0,
+          999.0
+        ],
+        [
+          813.0,
+          1003.0
+        ],
+        [
+          725.0,
+          1003.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          845.0,
+          1033.0
+        ],
+        [
+          933.0,
+          1033.0
+        ],
+        [
+          933.0,
+          1037.0
+        ],
+        [
+          845.0,
+          1037.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          855.0,
+          1037.0
+        ],
+        [
+          927.0,
+          1037.0
+        ],
+        [
+          927.0,
+          1041.0
+        ],
+        [
+          855.0,
+          1041.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          592.0,
+          1038.0
+        ],
+        [
+          660.0,
+          1038.0
+        ],
+        [
+          660.0,
+          1041.0
+        ],
+        [
+          592.0,
+          1041.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          807.0,
+          915.0
+        ],
+        [
+          820.0,
+          915.0
+        ],
+        [
+          820.0,
+          1003.0
+        ],
+        [
+          807.0,
+          1003.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          880.0,
+          623.0
+        ],
+        [
+          890.0,
+          623.0
+        ],
+        [
+          890.0,
+          711.0
+        ],
+        [
+          880.0,
+          711.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          927.0,
+          1033.0
+        ],
+        [
+          940.0,
+          1033.0
+        ],
+        [
+          940.0,
+          1121.0
+        ],
+        [
+          927.0,
+          1121.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          982.0,
+          510.0
+        ],
+        [
+          986.0,
+          510.0
+        ],
+        [
+          986.0,
+          592.0
+        ],
+        [
+          982.0,
+          592.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          986.0,
+          514.0
+        ],
+        [
+          990.0,
+          514.0
+        ],
+        [
+          994.6075268817203,
+          569.5737327188941
+        ],
+        [
+          990.0,
+          603.0
+        ],
+        [
+          986.0,
+          603.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1020.0,
+          514.0
+        ],
+        [
+          1024.0,
+          514.0
+        ],
+        [
+          1024.0,
+          603.0
+        ],
+        [
+          1020.0,
+          603.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1024.0,
+          510.0
+        ],
+        [
+          1028.0,
+          510.0
+        ],
+        [
+          1028.0,
+          592.0
+        ],
+        [
+          1024.0,
+          592.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1100.0,
+          1012.0
+        ],
+        [
+          1104.0,
+          1012.0
+        ],
+        [
+          1104.0,
+          1125.0
+        ],
+        [
+          1100.0,
+          1125.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "01-花样年-家天下四期类住宅G1户型平面图-2.jpg",
+  "imageData": null,
+  "imageHeight": 1435,
+  "imageWidth": 2029
+}

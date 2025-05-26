@@ -1,0 +1,218 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Balcony1",
+      "points": [
+        [
+          1252,
+          1292
+        ],
+        [
+          1612,
+          1292
+        ],
+        [
+          1612,
+          1287
+        ],
+        [
+          1252,
+          1287
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony1",
+      "points": [
+        [
+          992,
+          1234
+        ],
+        [
+          1212,
+          1234
+        ],
+        [
+          1212,
+          1227
+        ],
+        [
+          992,
+          1227
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony1",
+      "points": [
+        [
+          722,
+          1234
+        ],
+        [
+          982,
+          1234
+        ],
+        [
+          982,
+          1227
+        ],
+        [
+          722,
+          1227
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony1",
+      "points": [
+        [
+          792,
+          510
+        ],
+        [
+          852,
+          510
+        ],
+        [
+          852,
+          503
+        ],
+        [
+          792,
+          503
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony1",
+      "points": [
+        [
+          722,
+          1234
+        ],
+        [
+          729,
+          1234
+        ],
+        [
+          729,
+          1174
+        ],
+        [
+          722,
+          1174
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony1",
+      "points": [
+        [
+          792,
+          643
+        ],
+        [
+          799,
+          643
+        ],
+        [
+          799,
+          503
+        ],
+        [
+          792,
+          503
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony1",
+      "points": [
+        [
+          1206,
+          1234
+        ],
+        [
+          1212,
+          1234
+        ],
+        [
+          1212,
+          1174
+        ],
+        [
+          1206,
+          1174
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony1",
+      "points": [
+        [
+          1252,
+          1292
+        ],
+        [
+          1257,
+          1292
+        ],
+        [
+          1257,
+          1174
+        ],
+        [
+          1252,
+          1174
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/01 1-6\u53f7\u4f4f\u5b85\u697c\u6807\u51c6\u5c42A\u6237\u578b\u5e73\u9762\u56fe-2.jpg",
+  "imageData": null,
+  "imageHeight": 1628,
+  "imageWidth": 2301
+}

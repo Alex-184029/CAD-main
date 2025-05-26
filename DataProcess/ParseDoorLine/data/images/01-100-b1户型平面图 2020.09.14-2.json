@@ -1,0 +1,300 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1288.0,
+          272.0
+        ],
+        [
+          1385.0,
+          272.0
+        ],
+        [
+          1385.0,
+          277.0
+        ],
+        [
+          1288.0,
+          277.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          833.0,
+          658.0
+        ],
+        [
+          911.0,
+          658.0
+        ],
+        [
+          911.0,
+          662.0
+        ],
+        [
+          833.0,
+          662.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          833.0,
+          677.0
+        ],
+        [
+          921.0,
+          677.0
+        ],
+        [
+          921.0,
+          682.0
+        ],
+        [
+          833.0,
+          682.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          625.0,
+          783.0
+        ],
+        [
+          713.0,
+          783.0
+        ],
+        [
+          713.0,
+          787.0
+        ],
+        [
+          625.0,
+          787.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          385.8024691358024,
+          230.2469135802469
+        ],
+        [
+          395.55555555555554,
+          202.76543209876544
+        ],
+        [
+          401.55555555555554,
+          202.76543209876544
+        ],
+        [
+          401.55555555555554,
+          391.7654320987654
+        ],
+        [
+          395.55555555555554,
+          391.7654320987654
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          365.0,
+          377.0
+        ],
+        [
+          368.0,
+          377.0
+        ],
+        [
+          368.0,
+          444.0
+        ],
+        [
+          365.0,
+          444.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          368.0,
+          255.0
+        ],
+        [
+          371.0,
+          255.0
+        ],
+        [
+          371.0,
+          324.0
+        ],
+        [
+          368.0,
+          324.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          368.0,
+          324.0
+        ],
+        [
+          371.0,
+          324.0
+        ],
+        [
+          371.0,
+          393.0
+        ],
+        [
+          368.0,
+          393.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          813.0,
+          807.0
+        ],
+        [
+          818.0,
+          807.0
+        ],
+        [
+          818.0,
+          895.0
+        ],
+        [
+          813.0,
+          895.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1112.0,
+          307.0
+        ],
+        [
+          1114.0,
+          307.0
+        ],
+        [
+          1114.0,
+          467.0
+        ],
+        [
+          1112.0,
+          467.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1113.0,
+          384.0
+        ],
+        [
+          1114.0,
+          384.0
+        ],
+        [
+          1114.0,
+          467.0
+        ],
+        [
+          1113.0,
+          467.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "01-100-b1户型平面图 2020.09.14-2.jpg",
+  "imageData": null,
+  "imageHeight": 1168,
+  "imageWidth": 1652
+}

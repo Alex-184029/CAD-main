@@ -1,0 +1,9982 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1411,
+          517
+        ],
+        [
+          1373,
+          497
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1373,
+          497
+        ],
+        [
+          1336,
+          517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1261,
+          517
+        ],
+        [
+          1298,
+          497
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1298,
+          497
+        ],
+        [
+          1336,
+          517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1791,
+          847
+        ],
+        [
+          1811,
+          817
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1811,
+          817
+        ],
+        [
+          1791,
+          787
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1551,
+          337
+        ],
+        [
+          1551,
+          357
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          357
+        ],
+        [
+          1731,
+          337
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1551,
+          350
+        ],
+        [
+          1731,
+          350
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1551,
+          343
+        ],
+        [
+          1731,
+          343
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          337
+        ],
+        [
+          1551,
+          337
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          357
+        ],
+        [
+          1551,
+          357
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1671,
+          1567
+        ],
+        [
+          1671,
+          1557
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1546,
+          1557
+        ],
+        [
+          1546,
+          1567
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1671,
+          1567
+        ],
+        [
+          1546,
+          1567
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1671,
+          1557
+        ],
+        [
+          1546,
+          1557
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1546,
+          1560
+        ],
+        [
+          1671,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1546,
+          1564
+        ],
+        [
+          1671,
+          1564
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1671,
+          1564
+        ],
+        [
+          1663,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1654,
+          1564
+        ],
+        [
+          1646,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1662,
+          1564
+        ],
+        [
+          1654,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1637,
+          1564
+        ],
+        [
+          1629,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1645,
+          1564
+        ],
+        [
+          1637,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1620,
+          1564
+        ],
+        [
+          1612,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1628,
+          1564
+        ],
+        [
+          1620,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1603,
+          1564
+        ],
+        [
+          1595,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          1564
+        ],
+        [
+          1603,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1586,
+          1564
+        ],
+        [
+          1578,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1594,
+          1564
+        ],
+        [
+          1586,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1569,
+          1564
+        ],
+        [
+          1561,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1577,
+          1564
+        ],
+        [
+          1569,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1552,
+          1564
+        ],
+        [
+          1546,
+          1561
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1560,
+          1564
+        ],
+        [
+          1552,
+          1560
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1811,
+          787
+        ],
+        [
+          1791,
+          787
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1791,
+          847
+        ],
+        [
+          1811,
+          847
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1797,
+          787
+        ],
+        [
+          1797,
+          847
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1804,
+          787
+        ],
+        [
+          1804,
+          847
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1811,
+          847
+        ],
+        [
+          1811,
+          787
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1791,
+          847
+        ],
+        [
+          1791,
+          787
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1021,
+          497
+        ],
+        [
+          1021,
+          517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1171,
+          517
+        ],
+        [
+          1171,
+          497
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1021,
+          510
+        ],
+        [
+          1171,
+          510
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1021,
+          503
+        ],
+        [
+          1171,
+          503
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1171,
+          497
+        ],
+        [
+          1021,
+          497
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1171,
+          517
+        ],
+        [
+          1021,
+          517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1691,
+          1537
+        ],
+        [
+          1691,
+          1517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1871,
+          1517
+        ],
+        [
+          1871,
+          1537
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1691,
+          1524
+        ],
+        [
+          1871,
+          1524
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1691,
+          1530
+        ],
+        [
+          1871,
+          1530
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1871,
+          1537
+        ],
+        [
+          1691,
+          1537
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1871,
+          1517
+        ],
+        [
+          1691,
+          1517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1261,
+          497
+        ],
+        [
+          1261,
+          517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1411,
+          517
+        ],
+        [
+          1411,
+          497
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1261,
+          510
+        ],
+        [
+          1411,
+          510
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1261,
+          503
+        ],
+        [
+          1411,
+          503
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1411,
+          497
+        ],
+        [
+          1261,
+          497
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1411,
+          517
+        ],
+        [
+          1261,
+          517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          911,
+          777
+        ],
+        [
+          911,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          821,
+          797
+        ],
+        [
+          821,
+          777
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          911,
+          790
+        ],
+        [
+          821,
+          790
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          911,
+          783
+        ],
+        [
+          821,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          821,
+          777
+        ],
+        [
+          911,
+          777
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          821,
+          797
+        ],
+        [
+          911,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1302,
+          1483
+        ],
+        [
+          1406,
+          1483
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1406,
+          1483
+        ],
+        [
+          1406,
+          1487
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1406,
+          1487
+        ],
+        [
+          1302,
+          1487
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1302,
+          1483
+        ],
+        [
+          1302,
+          1487
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1500,
+          1487
+        ],
+        [
+          1397,
+          1487
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1397,
+          1487
+        ],
+        [
+          1397,
+          1491
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1397,
+          1491
+        ],
+        [
+          1500,
+          1491
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1500,
+          1487
+        ],
+        [
+          1500,
+          1491
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1362,
+          1490
+        ],
+        [
+          1362,
+          1489
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1381,
+          1489
+        ],
+        [
+          1362,
+          1490
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1333,
+          1489
+        ],
+        [
+          1381,
+          1489
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1444,
+          1482
+        ],
+        [
+          1444,
+          1484
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1425,
+          1484
+        ],
+        [
+          1444,
+          1482
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1473,
+          1484
+        ],
+        [
+          1425,
+          1484
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1031,
+          908
+        ],
+        [
+          1031,
+          904
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1031,
+          904
+        ],
+        [
+          939,
+          904
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          939,
+          904
+        ],
+        [
+          939,
+          908
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1031,
+          908
+        ],
+        [
+          939,
+          908
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1296,
+          1482
+        ],
+        [
+          1302,
+          1482
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1302,
+          1482
+        ],
+        [
+          1302,
+          1492
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1302,
+          1492
+        ],
+        [
+          1296,
+          1492
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1296,
+          1482
+        ],
+        [
+          1296,
+          1492
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1506,
+          1482
+        ],
+        [
+          1500,
+          1482
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1500,
+          1482
+        ],
+        [
+          1500,
+          1492
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1500,
+          1492
+        ],
+        [
+          1506,
+          1492
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1506,
+          1482
+        ],
+        [
+          1506,
+          1492
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1031,
+          807
+        ],
+        [
+          1039,
+          807
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1039,
+          807
+        ],
+        [
+          1039,
+          815
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1039,
+          815
+        ],
+        [
+          1035,
+          815
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1035,
+          815
+        ],
+        [
+          1035,
+          811
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1035,
+          811
+        ],
+        [
+          1031,
+          811
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1031,
+          811
+        ],
+        [
+          1031,
+          807
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1031,
+          912
+        ],
+        [
+          1039,
+          912
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1039,
+          912
+        ],
+        [
+          1039,
+          904
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1039,
+          904
+        ],
+        [
+          1035,
+          904
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1035,
+          904
+        ],
+        [
+          1035,
+          908
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1035,
+          908
+        ],
+        [
+          1031,
+          908
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1031,
+          908
+        ],
+        [
+          1031,
+          912
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1209,
+          775
+        ],
+        [
+          1208,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          775
+        ],
+        [
+          1208,
+          777
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          777
+        ],
+        [
+          1208,
+          777
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          777
+        ],
+        [
+          1208,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          775
+        ],
+        [
+          1207,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1207,
+          775
+        ],
+        [
+          1207,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1207,
+          779
+        ],
+        [
+          1206,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1206,
+          779
+        ],
+        [
+          1206,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1206,
+          779
+        ],
+        [
+          1206,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1206,
+          779
+        ],
+        [
+          1206,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1206,
+          779
+        ],
+        [
+          1205,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1205,
+          779
+        ],
+        [
+          1205,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1206,
+          783
+        ],
+        [
+          1207,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1213,
+          775
+        ],
+        [
+          1209,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          776
+        ],
+        [
+          1208,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          775
+        ],
+        [
+          1213,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1213,
+          775
+        ],
+        [
+          1213,
+          773
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1213,
+          773
+        ],
+        [
+          1208,
+          773
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          773
+        ],
+        [
+          1208,
+          776
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          776
+        ],
+        [
+          1208,
+          776
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1203,
+          775
+        ],
+        [
+          1207,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1207,
+          775
+        ],
+        [
+          1207,
+          693
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1207,
+          693
+        ],
+        [
+          1203,
+          693
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1203,
+          693
+        ],
+        [
+          1203,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1325,
+          785
+        ],
+        [
+          1322,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          785
+        ],
+        [
+          1322,
+          713
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          713
+        ],
+        [
+          1325,
+          713
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1325,
+          713
+        ],
+        [
+          1325,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1209,
+          799
+        ],
+        [
+          1209,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1207,
+          783
+        ],
+        [
+          1207,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1207,
+          799
+        ],
+        [
+          1208,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          799
+        ],
+        [
+          1208,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          797
+        ],
+        [
+          1208,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          799
+        ],
+        [
+          1209,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1209,
+          799
+        ],
+        [
+          1209,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1211,
+          799
+        ],
+        [
+          1211,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          797
+        ],
+        [
+          1208,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          799
+        ],
+        [
+          1213,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1213,
+          799
+        ],
+        [
+          1213,
+          801
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1213,
+          801
+        ],
+        [
+          1208,
+          801
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          801
+        ],
+        [
+          1208,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          797
+        ],
+        [
+          1208,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1122,
+          799
+        ],
+        [
+          1122,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1122,
+          775
+        ],
+        [
+          1123,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          775
+        ],
+        [
+          1123,
+          777
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          777
+        ],
+        [
+          1124,
+          777
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1124,
+          777
+        ],
+        [
+          1124,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1124,
+          775
+        ],
+        [
+          1125,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1125,
+          775
+        ],
+        [
+          1125,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1125,
+          779
+        ],
+        [
+          1125,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1125,
+          779
+        ],
+        [
+          1125,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1125,
+          779
+        ],
+        [
+          1125,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1125,
+          779
+        ],
+        [
+          1125,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1125,
+          779
+        ],
+        [
+          1126,
+          779
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1126,
+          779
+        ],
+        [
+          1126,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1126,
+          783
+        ],
+        [
+          1125,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1125,
+          783
+        ],
+        [
+          1125,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1125,
+          799
+        ],
+        [
+          1124,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          799
+        ],
+        [
+          1122,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1122,
+          799
+        ],
+        [
+          1122,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1119,
+          775
+        ],
+        [
+          1122,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1121,
+          799
+        ],
+        [
+          1121,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          776
+        ],
+        [
+          1123,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          775
+        ],
+        [
+          1119,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1119,
+          775
+        ],
+        [
+          1119,
+          773
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1119,
+          773
+        ],
+        [
+          1124,
+          773
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1124,
+          773
+        ],
+        [
+          1124,
+          776
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          776
+        ],
+        [
+          1124,
+          776
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          797
+        ],
+        [
+          1123,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          799
+        ],
+        [
+          1119,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1119,
+          799
+        ],
+        [
+          1119,
+          801
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1119,
+          801
+        ],
+        [
+          1124,
+          801
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1124,
+          801
+        ],
+        [
+          1124,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1123,
+          797
+        ],
+        [
+          1124,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1203,
+          775
+        ],
+        [
+          1207,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1207,
+          775
+        ],
+        [
+          1207,
+          693
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1207,
+          693
+        ],
+        [
+          1203,
+          693
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1203,
+          693
+        ],
+        [
+          1203,
+          775
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1319,
+          799
+        ],
+        [
+          1319,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1319,
+          785
+        ],
+        [
+          1320,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          785
+        ],
+        [
+          1320,
+          787
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          787
+        ],
+        [
+          1321,
+          787
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1321,
+          787
+        ],
+        [
+          1321,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1321,
+          785
+        ],
+        [
+          1322,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          785
+        ],
+        [
+          1322,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          789
+        ],
+        [
+          1322,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          789
+        ],
+        [
+          1322,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          789
+        ],
+        [
+          1322,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          789
+        ],
+        [
+          1322,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          789
+        ],
+        [
+          1323,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1323,
+          789
+        ],
+        [
+          1323,
+          793
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1323,
+          793
+        ],
+        [
+          1322,
+          793
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          793
+        ],
+        [
+          1322,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1322,
+          799
+        ],
+        [
+          1321,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1321,
+          799
+        ],
+        [
+          1321,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1321,
+          797
+        ],
+        [
+          1320,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          797
+        ],
+        [
+          1320,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          799
+        ],
+        [
+          1319,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1319,
+          799
+        ],
+        [
+          1319,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1316,
+          785
+        ],
+        [
+          1319,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1318,
+          799
+        ],
+        [
+          1318,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          786
+        ],
+        [
+          1320,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          785
+        ],
+        [
+          1316,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1316,
+          785
+        ],
+        [
+          1316,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1316,
+          783
+        ],
+        [
+          1321,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1321,
+          783
+        ],
+        [
+          1321,
+          786
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          786
+        ],
+        [
+          1321,
+          786
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          797
+        ],
+        [
+          1320,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          799
+        ],
+        [
+          1316,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1316,
+          799
+        ],
+        [
+          1316,
+          801
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1316,
+          801
+        ],
+        [
+          1321,
+          801
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1321,
+          801
+        ],
+        [
+          1321,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1320,
+          797
+        ],
+        [
+          1321,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1397,
+          799
+        ],
+        [
+          1397,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1397,
+          785
+        ],
+        [
+          1395,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          785
+        ],
+        [
+          1395,
+          787
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          787
+        ],
+        [
+          1395,
+          787
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          787
+        ],
+        [
+          1395,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          785
+        ],
+        [
+          1394,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1394,
+          785
+        ],
+        [
+          1394,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1394,
+          789
+        ],
+        [
+          1393,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1393,
+          789
+        ],
+        [
+          1393,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1393,
+          789
+        ],
+        [
+          1393,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1393,
+          789
+        ],
+        [
+          1393,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1393,
+          789
+        ],
+        [
+          1393,
+          789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1393,
+          789
+        ],
+        [
+          1393,
+          793
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1393,
+          793
+        ],
+        [
+          1394,
+          793
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1394,
+          793
+        ],
+        [
+          1394,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1394,
+          799
+        ],
+        [
+          1395,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          799
+        ],
+        [
+          1395,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          797
+        ],
+        [
+          1395,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          797
+        ],
+        [
+          1395,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          799
+        ],
+        [
+          1397,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1396,
+          799
+        ],
+        [
+          1396,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1400,
+          785
+        ],
+        [
+          1397,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1398,
+          799
+        ],
+        [
+          1398,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          786
+        ],
+        [
+          1395,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          785
+        ],
+        [
+          1400,
+          785
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1400,
+          785
+        ],
+        [
+          1400,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1400,
+          783
+        ],
+        [
+          1395,
+          783
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          783
+        ],
+        [
+          1395,
+          786
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          786
+        ],
+        [
+          1395,
+          786
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          797
+        ],
+        [
+          1395,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          799
+        ],
+        [
+          1400,
+          799
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1400,
+          799
+        ],
+        [
+          1400,
+          801
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1400,
+          801
+        ],
+        [
+          1395,
+          801
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          801
+        ],
+        [
+          1395,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1395,
+          797
+        ],
+        [
+          1395,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1208,
+          797
+        ],
+        [
+          1208,
+          797
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          685
+        ],
+        [
+          1615,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          681
+        ],
+        [
+          1687,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1687,
+          681
+        ],
+        [
+          1687,
+          685
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1687,
+          685
+        ],
+        [
+          1615,
+          685
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1508,
+          655
+        ],
+        [
+          1505,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          655
+        ],
+        [
+          1505,
+          573
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          573
+        ],
+        [
+          1508,
+          573
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1508,
+          573
+        ],
+        [
+          1508,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1590,
+          669
+        ],
+        [
+          1590,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1590,
+          655
+        ],
+        [
+          1588,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          655
+        ],
+        [
+          1588,
+          657
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          657
+        ],
+        [
+          1588,
+          657
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          657
+        ],
+        [
+          1588,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          655
+        ],
+        [
+          1587,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1587,
+          655
+        ],
+        [
+          1587,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1587,
+          659
+        ],
+        [
+          1586,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1586,
+          659
+        ],
+        [
+          1586,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1586,
+          659
+        ],
+        [
+          1586,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1586,
+          659
+        ],
+        [
+          1586,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1586,
+          659
+        ],
+        [
+          1586,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1586,
+          659
+        ],
+        [
+          1586,
+          663
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1586,
+          663
+        ],
+        [
+          1587,
+          663
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1587,
+          663
+        ],
+        [
+          1587,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1587,
+          669
+        ],
+        [
+          1588,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          669
+        ],
+        [
+          1588,
+          667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          667
+        ],
+        [
+          1588,
+          667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          667
+        ],
+        [
+          1588,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          669
+        ],
+        [
+          1590,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1589,
+          669
+        ],
+        [
+          1589,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1593,
+          655
+        ],
+        [
+          1590,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1591,
+          669
+        ],
+        [
+          1591,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          656
+        ],
+        [
+          1588,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          655
+        ],
+        [
+          1593,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1593,
+          655
+        ],
+        [
+          1593,
+          653
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1593,
+          653
+        ],
+        [
+          1588,
+          653
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          653
+        ],
+        [
+          1588,
+          656
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          656
+        ],
+        [
+          1588,
+          656
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          667
+        ],
+        [
+          1588,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          669
+        ],
+        [
+          1593,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1593,
+          669
+        ],
+        [
+          1593,
+          671
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1593,
+          671
+        ],
+        [
+          1588,
+          671
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          671
+        ],
+        [
+          1588,
+          667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1588,
+          667
+        ],
+        [
+          1588,
+          667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1502,
+          669
+        ],
+        [
+          1502,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1502,
+          655
+        ],
+        [
+          1503,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          655
+        ],
+        [
+          1503,
+          657
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          657
+        ],
+        [
+          1504,
+          657
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1504,
+          657
+        ],
+        [
+          1504,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1504,
+          655
+        ],
+        [
+          1505,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          655
+        ],
+        [
+          1505,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          659
+        ],
+        [
+          1505,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          659
+        ],
+        [
+          1505,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          659
+        ],
+        [
+          1505,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          659
+        ],
+        [
+          1505,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          659
+        ],
+        [
+          1506,
+          659
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1506,
+          659
+        ],
+        [
+          1506,
+          663
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1506,
+          663
+        ],
+        [
+          1505,
+          663
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          663
+        ],
+        [
+          1505,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1505,
+          669
+        ],
+        [
+          1504,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1504,
+          669
+        ],
+        [
+          1504,
+          667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1504,
+          667
+        ],
+        [
+          1503,
+          667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          667
+        ],
+        [
+          1503,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          669
+        ],
+        [
+          1502,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1502,
+          669
+        ],
+        [
+          1502,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1499,
+          655
+        ],
+        [
+          1502,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1501,
+          669
+        ],
+        [
+          1501,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          656
+        ],
+        [
+          1503,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          655
+        ],
+        [
+          1499,
+          655
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1499,
+          655
+        ],
+        [
+          1499,
+          653
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1499,
+          653
+        ],
+        [
+          1504,
+          653
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1504,
+          653
+        ],
+        [
+          1504,
+          656
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          656
+        ],
+        [
+          1504,
+          656
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          678
+        ],
+        [
+          1615,
+          678
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          678
+        ],
+        [
+          1615,
+          679
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          679
+        ],
+        [
+          1613,
+          679
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1613,
+          679
+        ],
+        [
+          1613,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1613,
+          680
+        ],
+        [
+          1615,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          680
+        ],
+        [
+          1615,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          681
+        ],
+        [
+          1611,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          681
+        ],
+        [
+          1611,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          681
+        ],
+        [
+          1611,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          681
+        ],
+        [
+          1611,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          681
+        ],
+        [
+          1611,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          681
+        ],
+        [
+          1611,
+          682
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          682
+        ],
+        [
+          1607,
+          682
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1607,
+          682
+        ],
+        [
+          1607,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1607,
+          681
+        ],
+        [
+          1599,
+          681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          681
+        ],
+        [
+          1599,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          680
+        ],
+        [
+          1601,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1601,
+          680
+        ],
+        [
+          1601,
+          679
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1601,
+          679
+        ],
+        [
+          1599,
+          679
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          679
+        ],
+        [
+          1599,
+          678
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          678
+        ],
+        [
+          1615,
+          678
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          675
+        ],
+        [
+          1615,
+          678
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          677
+        ],
+        [
+          1615,
+          677
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1613,
+          679
+        ],
+        [
+          1615,
+          679
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          679
+        ],
+        [
+          1615,
+          675
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          675
+        ],
+        [
+          1617,
+          675
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1617,
+          675
+        ],
+        [
+          1617,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1617,
+          680
+        ],
+        [
+          1613,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1613,
+          679
+        ],
+        [
+          1613,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1600,
+          679
+        ],
+        [
+          1599,
+          679
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          679
+        ],
+        [
+          1599,
+          675
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          675
+        ],
+        [
+          1597,
+          675
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1597,
+          675
+        ],
+        [
+          1597,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1597,
+          680
+        ],
+        [
+          1600,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1600,
+          679
+        ],
+        [
+          1600,
+          680
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          756
+        ],
+        [
+          1615,
+          756
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          756
+        ],
+        [
+          1615,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          754
+        ],
+        [
+          1613,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1613,
+          754
+        ],
+        [
+          1613,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1613,
+          754
+        ],
+        [
+          1615,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          754
+        ],
+        [
+          1615,
+          753
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          753
+        ],
+        [
+          1611,
+          753
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          753
+        ],
+        [
+          1611,
+          752
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          752
+        ],
+        [
+          1611,
+          752
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          752
+        ],
+        [
+          1611,
+          752
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          752
+        ],
+        [
+          1611,
+          752
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          752
+        ],
+        [
+          1611,
+          752
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1611,
+          752
+        ],
+        [
+          1607,
+          752
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1607,
+          752
+        ],
+        [
+          1607,
+          753
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1607,
+          753
+        ],
+        [
+          1599,
+          753
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          753
+        ],
+        [
+          1599,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          754
+        ],
+        [
+          1601,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1601,
+          754
+        ],
+        [
+          1601,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1601,
+          754
+        ],
+        [
+          1599,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          754
+        ],
+        [
+          1599,
+          756
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          755
+        ],
+        [
+          1615,
+          755
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          759
+        ],
+        [
+          1615,
+          756
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          757
+        ],
+        [
+          1615,
+          757
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1613,
+          754
+        ],
+        [
+          1615,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          754
+        ],
+        [
+          1615,
+          759
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          759
+        ],
+        [
+          1617,
+          759
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1617,
+          759
+        ],
+        [
+          1617,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1617,
+          754
+        ],
+        [
+          1613,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1613,
+          754
+        ],
+        [
+          1613,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1600,
+          754
+        ],
+        [
+          1599,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          754
+        ],
+        [
+          1599,
+          759
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          759
+        ],
+        [
+          1597,
+          759
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1597,
+          759
+        ],
+        [
+          1597,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1597,
+          754
+        ],
+        [
+          1600,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1600,
+          754
+        ],
+        [
+          1600,
+          754
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          1037
+        ],
+        [
+          1619,
+          1037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          1037
+        ],
+        [
+          1615,
+          1037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          1037
+        ],
+        [
+          1615,
+          1038
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1721,
+          1074
+        ],
+        [
+          1721,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1069
+        ],
+        [
+          1733,
+          1073
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1073
+        ],
+        [
+          1805,
+          1073
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1805,
+          1073
+        ],
+        [
+          1805,
+          1069
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1805,
+          1069
+        ],
+        [
+          1733,
+          1069
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          960
+        ],
+        [
+          1623,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          956
+        ],
+        [
+          1705,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1705,
+          956
+        ],
+        [
+          1705,
+          960
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1705,
+          960
+        ],
+        [
+          1623,
+          960
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          953
+        ],
+        [
+          1623,
+          953
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          953
+        ],
+        [
+          1623,
+          954
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          954
+        ],
+        [
+          1621,
+          954
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1621,
+          954
+        ],
+        [
+          1621,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1621,
+          955
+        ],
+        [
+          1623,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          955
+        ],
+        [
+          1623,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          956
+        ],
+        [
+          1619,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          956
+        ],
+        [
+          1619,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          956
+        ],
+        [
+          1619,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          956
+        ],
+        [
+          1619,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          956
+        ],
+        [
+          1619,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          956
+        ],
+        [
+          1619,
+          957
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          957
+        ],
+        [
+          1615,
+          957
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          957
+        ],
+        [
+          1615,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          956
+        ],
+        [
+          1599,
+          956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          956
+        ],
+        [
+          1599,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          955
+        ],
+        [
+          1601,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1601,
+          955
+        ],
+        [
+          1601,
+          954
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1601,
+          954
+        ],
+        [
+          1599,
+          954
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          954
+        ],
+        [
+          1599,
+          953
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          953
+        ],
+        [
+          1623,
+          953
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          950
+        ],
+        [
+          1623,
+          953
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          952
+        ],
+        [
+          1623,
+          952
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1621,
+          954
+        ],
+        [
+          1623,
+          954
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          954
+        ],
+        [
+          1623,
+          950
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          950
+        ],
+        [
+          1625,
+          950
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1625,
+          950
+        ],
+        [
+          1625,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1625,
+          955
+        ],
+        [
+          1621,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1621,
+          954
+        ],
+        [
+          1621,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1600,
+          954
+        ],
+        [
+          1599,
+          954
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          954
+        ],
+        [
+          1599,
+          950
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          950
+        ],
+        [
+          1597,
+          950
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1597,
+          950
+        ],
+        [
+          1597,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1597,
+          955
+        ],
+        [
+          1600,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1600,
+          954
+        ],
+        [
+          1600,
+          955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          1041
+        ],
+        [
+          1623,
+          1041
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          1041
+        ],
+        [
+          1623,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          1039
+        ],
+        [
+          1621,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1621,
+          1039
+        ],
+        [
+          1621,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1621,
+          1039
+        ],
+        [
+          1623,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          1039
+        ],
+        [
+          1623,
+          1038
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          1038
+        ],
+        [
+          1619,
+          1038
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          1038
+        ],
+        [
+          1619,
+          1037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          1037
+        ],
+        [
+          1619,
+          1037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          1037
+        ],
+        [
+          1619,
+          1037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1619,
+          1037
+        ],
+        [
+          1619,
+          1037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1615,
+          1038
+        ],
+        [
+          1599,
+          1038
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          1038
+        ],
+        [
+          1599,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          1039
+        ],
+        [
+          1601,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1601,
+          1039
+        ],
+        [
+          1601,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1601,
+          1039
+        ],
+        [
+          1599,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          1039
+        ],
+        [
+          1599,
+          1041
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          1040
+        ],
+        [
+          1623,
+          1040
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          1044
+        ],
+        [
+          1623,
+          1041
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          1042
+        ],
+        [
+          1623,
+          1042
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1621,
+          1039
+        ],
+        [
+          1623,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          1039
+        ],
+        [
+          1623,
+          1044
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1623,
+          1044
+        ],
+        [
+          1625,
+          1044
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1625,
+          1044
+        ],
+        [
+          1625,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1625,
+          1039
+        ],
+        [
+          1621,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1621,
+          1039
+        ],
+        [
+          1621,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1600,
+          1039
+        ],
+        [
+          1599,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          1039
+        ],
+        [
+          1599,
+          1044
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1599,
+          1044
+        ],
+        [
+          1597,
+          1044
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1597,
+          1044
+        ],
+        [
+          1597,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1597,
+          1039
+        ],
+        [
+          1600,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1600,
+          1039
+        ],
+        [
+          1600,
+          1039
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          998
+        ],
+        [
+          1733,
+          998
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          998
+        ],
+        [
+          1733,
+          999
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          999
+        ],
+        [
+          1731,
+          999
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          999
+        ],
+        [
+          1731,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          1000
+        ],
+        [
+          1733,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1000
+        ],
+        [
+          1733,
+          1001
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1001
+        ],
+        [
+          1729,
+          1001
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1001
+        ],
+        [
+          1729,
+          1001
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1001
+        ],
+        [
+          1729,
+          1001
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1001
+        ],
+        [
+          1729,
+          1002
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1002
+        ],
+        [
+          1729,
+          1002
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1002
+        ],
+        [
+          1729,
+          1002
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1002
+        ],
+        [
+          1725,
+          1002
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1725,
+          1002
+        ],
+        [
+          1725,
+          1001
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1725,
+          1001
+        ],
+        [
+          1719,
+          1001
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1001
+        ],
+        [
+          1719,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1000
+        ],
+        [
+          1721,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1721,
+          1000
+        ],
+        [
+          1721,
+          999
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1721,
+          999
+        ],
+        [
+          1719,
+          999
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          999
+        ],
+        [
+          1719,
+          998
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          998
+        ],
+        [
+          1733,
+          998
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          995
+        ],
+        [
+          1733,
+          998
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          997
+        ],
+        [
+          1733,
+          997
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          999
+        ],
+        [
+          1733,
+          999
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          999
+        ],
+        [
+          1733,
+          995
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          995
+        ],
+        [
+          1735,
+          995
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1735,
+          995
+        ],
+        [
+          1735,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1735,
+          1000
+        ],
+        [
+          1731,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          999
+        ],
+        [
+          1731,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1720,
+          999
+        ],
+        [
+          1719,
+          999
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          999
+        ],
+        [
+          1719,
+          995
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          995
+        ],
+        [
+          1717,
+          995
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1717,
+          995
+        ],
+        [
+          1717,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1717,
+          1000
+        ],
+        [
+          1720,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1720,
+          999
+        ],
+        [
+          1720,
+          1000
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1076
+        ],
+        [
+          1733,
+          1076
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1076
+        ],
+        [
+          1733,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1074
+        ],
+        [
+          1731,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          1074
+        ],
+        [
+          1731,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          1074
+        ],
+        [
+          1733,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1074
+        ],
+        [
+          1733,
+          1073
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1073
+        ],
+        [
+          1729,
+          1073
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1073
+        ],
+        [
+          1729,
+          1072
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1072
+        ],
+        [
+          1729,
+          1072
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1072
+        ],
+        [
+          1729,
+          1072
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1072
+        ],
+        [
+          1729,
+          1072
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1072
+        ],
+        [
+          1729,
+          1072
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1729,
+          1072
+        ],
+        [
+          1725,
+          1072
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1725,
+          1072
+        ],
+        [
+          1725,
+          1073
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1725,
+          1073
+        ],
+        [
+          1719,
+          1073
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1073
+        ],
+        [
+          1719,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1074
+        ],
+        [
+          1721,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1721,
+          1074
+        ],
+        [
+          1719,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1074
+        ],
+        [
+          1719,
+          1076
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1075
+        ],
+        [
+          1733,
+          1075
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1079
+        ],
+        [
+          1733,
+          1076
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1077
+        ],
+        [
+          1733,
+          1077
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          1074
+        ],
+        [
+          1733,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1074
+        ],
+        [
+          1733,
+          1079
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1733,
+          1079
+        ],
+        [
+          1735,
+          1079
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1735,
+          1079
+        ],
+        [
+          1735,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1735,
+          1074
+        ],
+        [
+          1731,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1731,
+          1074
+        ],
+        [
+          1731,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1720,
+          1074
+        ],
+        [
+          1719,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1074
+        ],
+        [
+          1719,
+          1079
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1719,
+          1079
+        ],
+        [
+          1717,
+          1079
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1717,
+          1079
+        ],
+        [
+          1717,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1717,
+          1074
+        ],
+        [
+          1720,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1720,
+          1074
+        ],
+        [
+          1720,
+          1074
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          667
+        ],
+        [
+          1503,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          669
+        ],
+        [
+          1499,
+          669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1499,
+          669
+        ],
+        [
+          1499,
+          671
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1499,
+          671
+        ],
+        [
+          1504,
+          671
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1504,
+          671
+        ],
+        [
+          1504,
+          667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1503,
+          667
+        ],
+        [
+          1504,
+          667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1921,
+          897
+        ],
+        [
+          1941,
+          927
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1941,
+          927
+        ],
+        [
+          1921,
+          957
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1941,
+          897
+        ],
+        [
+          1921,
+          897
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1921,
+          957
+        ],
+        [
+          1941,
+          957
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1927,
+          897
+        ],
+        [
+          1927,
+          957
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1934,
+          897
+        ],
+        [
+          1934,
+          957
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1941,
+          957
+        ],
+        [
+          1941,
+          897
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "WallLine1",
+      "points": [
+        [
+          1921,
+          957
+        ],
+        [
+          1921,
+          897
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/01 \u6237\u578bA+\u5e73\u9762\u56fe-2.jpg",
+  "imageData": null,
+  "imageHeight": 1995,
+  "imageWidth": 2821
+}

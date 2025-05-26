@@ -1,0 +1,348 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "SlideRect",
+      "points": [
+        [
+          798,
+          559
+        ],
+        [
+          893,
+          559
+        ],
+        [
+          893,
+          561
+        ],
+        [
+          798,
+          561
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideRect",
+      "points": [
+        [
+          713,
+          561
+        ],
+        [
+          806,
+          561
+        ],
+        [
+          806,
+          564
+        ],
+        [
+          713,
+          564
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideRect",
+      "points": [
+        [
+          827,
+          1289
+        ],
+        [
+          953,
+          1289
+        ],
+        [
+          953,
+          1291
+        ],
+        [
+          827,
+          1291
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideRect",
+      "points": [
+        [
+          713,
+          1291
+        ],
+        [
+          837,
+          1291
+        ],
+        [
+          837,
+          1294
+        ],
+        [
+          713,
+          1294
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideRect",
+      "points": [
+        [
+          660,
+          622
+        ],
+        [
+          662,
+          622
+        ],
+        [
+          662,
+          705
+        ],
+        [
+          660,
+          705
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideRect",
+      "points": [
+        [
+          662,
+          698
+        ],
+        [
+          663,
+          698
+        ],
+        [
+          663,
+          782
+        ],
+        [
+          662,
+          782
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcRect",
+      "points": [
+        [
+          375,
+          896
+        ],
+        [
+          478,
+          896
+        ],
+        [
+          478,
+          901
+        ],
+        [
+          375,
+          901
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcRect",
+      "points": [
+        [
+          1393,
+          1093
+        ],
+        [
+          1471,
+          1093
+        ],
+        [
+          1471,
+          1097
+        ],
+        [
+          1393,
+          1097
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcRect",
+      "points": [
+        [
+          650,
+          1106
+        ],
+        [
+          654,
+          1106
+        ],
+        [
+          654,
+          1184
+        ],
+        [
+          650,
+          1184
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcRect",
+      "points": [
+        [
+          1038,
+          1006
+        ],
+        [
+          1042,
+          1006
+        ],
+        [
+          1042,
+          1094
+        ],
+        [
+          1038,
+          1094
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcRect",
+      "points": [
+        [
+          1223,
+          798
+        ],
+        [
+          1228,
+          798
+        ],
+        [
+          1228,
+          886
+        ],
+        [
+          1223,
+          886
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcRect",
+      "points": [
+        [
+          1268,
+          793
+        ],
+        [
+          1272,
+          793
+        ],
+        [
+          1272,
+          881
+        ],
+        [
+          1268,
+          881
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcRect",
+      "points": [
+        [
+          1288,
+          1006
+        ],
+        [
+          1292,
+          1006
+        ],
+        [
+          1292,
+          1094
+        ],
+        [
+          1288,
+          1094
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/(T3) 12#\u697c105\u6237\u578b\u5e73\u9762\u56fe\uff08\u955c\u50cf\uff09-3.jpg",
+  "imageData": null,
+  "imageHeight": 2000,
+  "imageWidth": 2828
+}

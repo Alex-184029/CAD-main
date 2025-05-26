@@ -1,0 +1,400 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1285,
+          531
+        ],
+        [
+          1360,
+          531
+        ],
+        [
+          1360,
+          535
+        ],
+        [
+          1285,
+          535
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1293,
+          532
+        ],
+        [
+          1352,
+          532
+        ],
+        [
+          1352,
+          533
+        ],
+        [
+          1293,
+          533
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1298,
+          535
+        ],
+        [
+          1373,
+          535
+        ],
+        [
+          1373,
+          539
+        ],
+        [
+          1298,
+          539
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1306,
+          537
+        ],
+        [
+          1365,
+          537
+        ],
+        [
+          1365,
+          538
+        ],
+        [
+          1306,
+          538
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          899,
+          756
+        ],
+        [
+          982,
+          756
+        ],
+        [
+          982,
+          760
+        ],
+        [
+          899,
+          760
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          786,
+          764
+        ],
+        [
+          859,
+          764
+        ],
+        [
+          859,
+          768
+        ],
+        [
+          786,
+          768
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1006,
+          864
+        ],
+        [
+          1006,
+          864
+        ],
+        [
+          1006,
+          947
+        ],
+        [
+          1006,
+          947
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1006,
+          864
+        ],
+        [
+          1010,
+          864
+        ],
+        [
+          1010,
+          947
+        ],
+        [
+          1006,
+          947
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1006,
+          864
+        ],
+        [
+          1010,
+          864
+        ],
+        [
+          1010,
+          947
+        ],
+        [
+          1006,
+          947
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1006,
+          864
+        ],
+        [
+          1010,
+          864
+        ],
+        [
+          1010,
+          947
+        ],
+        [
+          1006,
+          947
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1006,
+          864
+        ],
+        [
+          1010,
+          864
+        ],
+        [
+          1010,
+          947
+        ],
+        [
+          1006,
+          947
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1010,
+          864
+        ],
+        [
+          1010,
+          864
+        ],
+        [
+          1010,
+          947
+        ],
+        [
+          1010,
+          947
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1085,
+          650
+        ],
+        [
+          1090,
+          650
+        ],
+        [
+          1090,
+          734
+        ],
+        [
+          1085,
+          734
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1119,
+          657
+        ],
+        [
+          1124,
+          657
+        ],
+        [
+          1124,
+          731
+        ],
+        [
+          1119,
+          731
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorTmp",
+      "points": [
+        [
+          1477,
+          320
+        ],
+        [
+          1482,
+          320
+        ],
+        [
+          1482,
+          418
+        ],
+        [
+          1477,
+          418
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/01 1-6\u53f7\u4f4f\u5b85\u697c\u6807\u51c6\u5c42A\u6237\u578b\u5e73\u9762\u56fe-2.jpg",
+  "imageData": null,
+  "imageHeight": 1628,
+  "imageWidth": 2301
+}

@@ -1,0 +1,10408 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1169.0
+        ],
+        [
+          1302.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1169.0
+        ],
+        [
+          1307.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1307.0,
+          1169.0
+        ],
+        [
+          1306.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          1169.0
+        ],
+        [
+          1302.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1302.0,
+          1169.0
+        ],
+        [
+          1302.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1302.0,
+          1169.0
+        ],
+        [
+          1302.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1302.0,
+          1158.0
+        ],
+        [
+          1308.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1302.0,
+          1158.0
+        ],
+        [
+          1306.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          1158.0
+        ],
+        [
+          1307.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1307.0,
+          1158.0
+        ],
+        [
+          1308.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1163.0
+        ],
+        [
+          1308.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1163.0
+        ],
+        [
+          1308.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1307.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1307.0,
+          1169.0
+        ],
+        [
+          1306.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1307.0,
+          1169.0
+        ],
+        [
+          1306.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1164.0
+        ],
+        [
+          1306.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1164.0
+        ],
+        [
+          1306.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          1164.0
+        ],
+        [
+          1306.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          1164.0
+        ],
+        [
+          1306.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1163.0
+        ],
+        [
+          1306.0,
+          1163.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1163.0
+        ],
+        [
+          1306.0,
+          1163.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1307.0,
+          1158.0
+        ],
+        [
+          1306.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1307.0,
+          1158.0
+        ],
+        [
+          1306.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          1163.0
+        ],
+        [
+          1306.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          1163.0
+        ],
+        [
+          1306.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1308.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1541.0,
+          1169.0
+        ],
+        [
+          1547.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1541.0,
+          1169.0
+        ],
+        [
+          1542.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1543.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1544.0,
+          1169.0
+        ],
+        [
+          1547.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1547.0,
+          1169.0
+        ],
+        [
+          1547.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1547.0,
+          1169.0
+        ],
+        [
+          1547.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1547.0,
+          1158.0
+        ],
+        [
+          1541.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1547.0,
+          1158.0
+        ],
+        [
+          1544.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1543.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1542.0,
+          1158.0
+        ],
+        [
+          1541.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1541.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1541.0,
+          1163.0
+        ],
+        [
+          1541.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1542.0,
+          1163.0
+        ],
+        [
+          1542.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1541.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1542.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1542.0,
+          1169.0
+        ],
+        [
+          1543.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1543.0,
+          1169.0
+        ],
+        [
+          1544.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1541.0,
+          1164.0
+        ],
+        [
+          1543.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1542.0,
+          1164.0
+        ],
+        [
+          1544.0,
+          1164.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1543.0,
+          1164.0
+        ],
+        [
+          1543.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1544.0,
+          1164.0
+        ],
+        [
+          1544.0,
+          1169.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1541.0,
+          1163.0
+        ],
+        [
+          1543.0,
+          1163.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1542.0,
+          1163.0
+        ],
+        [
+          1544.0,
+          1163.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1542.0,
+          1158.0
+        ],
+        [
+          1543.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1543.0,
+          1158.0
+        ],
+        [
+          1544.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1544.0,
+          1163.0
+        ],
+        [
+          1544.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1543.0,
+          1163.0
+        ],
+        [
+          1543.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1541.0,
+          1158.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1285.0,
+          535.0
+        ],
+        [
+          1360.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1360.0,
+          535.0
+        ],
+        [
+          1360.0,
+          531.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1360.0,
+          531.0
+        ],
+        [
+          1285.0,
+          531.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1285.0,
+          535.0
+        ],
+        [
+          1285.0,
+          531.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1352.0,
+          531.0
+        ],
+        [
+          1352.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1293.0,
+          531.0
+        ],
+        [
+          1293.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1293.0,
+          532.0
+        ],
+        [
+          1352.0,
+          532.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1293.0,
+          533.0
+        ],
+        [
+          1352.0,
+          533.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1293.0,
+          532.0
+        ],
+        [
+          1293.0,
+          530.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1293.0,
+          530.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1293.0,
+          530.0
+        ],
+        [
+          1293.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1293.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1293.0,
+          535.0
+        ],
+        [
+          1293.0,
+          533.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1351.0,
+          532.0
+        ],
+        [
+          1351.0,
+          530.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1351.0,
+          530.0
+        ],
+        [
+          1352.0,
+          530.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1352.0,
+          530.0
+        ],
+        [
+          1352.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1352.0,
+          535.0
+        ],
+        [
+          1351.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1351.0,
+          535.0
+        ],
+        [
+          1351.0,
+          533.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1352.0,
+          531.0
+        ],
+        [
+          1352.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1298.0,
+          539.0
+        ],
+        [
+          1373.0,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1373.0,
+          539.0
+        ],
+        [
+          1373.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1373.0,
+          535.0
+        ],
+        [
+          1298.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1298.0,
+          539.0
+        ],
+        [
+          1298.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1365.0,
+          535.0
+        ],
+        [
+          1365.0,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          535.0
+        ],
+        [
+          1306.0,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          537.0
+        ],
+        [
+          1365.0,
+          537.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          538.0
+        ],
+        [
+          1365.0,
+          538.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          537.0
+        ],
+        [
+          1306.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          535.0
+        ],
+        [
+          1306.0,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1306.0,
+          539.0
+        ],
+        [
+          1306.0,
+          538.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1364.0,
+          537.0
+        ],
+        [
+          1364.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1364.0,
+          535.0
+        ],
+        [
+          1365.0,
+          535.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1365.0,
+          535.0
+        ],
+        [
+          1365.0,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1365.0,
+          539.0
+        ],
+        [
+          1364.0,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1364.0,
+          539.0
+        ],
+        [
+          1364.0,
+          538.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1365.0,
+          535.0
+        ],
+        [
+          1365.0,
+          539.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          864.0
+        ],
+        [
+          1006.0,
+          947.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          947.0
+        ],
+        [
+          1010.0,
+          947.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1010.0,
+          947.0
+        ],
+        [
+          1010.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          864.0
+        ],
+        [
+          1010.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          938.0
+        ],
+        [
+          1006.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          938.0
+        ],
+        [
+          1005.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          938.0
+        ],
+        [
+          1006.0,
+          938.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          931.0
+        ],
+        [
+          1005.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          937.0
+        ],
+        [
+          1005.0,
+          932.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          937.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          932.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          999.0,
+          935.0
+        ],
+        [
+          999.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          935.0
+        ],
+        [
+          999.0,
+          935.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          933.0
+        ],
+        [
+          1001.0,
+          933.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1001.0,
+          933.0
+        ],
+        [
+          1001.0,
+          927.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1001.0,
+          927.0
+        ],
+        [
+          1000.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1010.0,
+          938.0
+        ],
+        [
+          1010.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          938.0
+        ],
+        [
+          1011.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          938.0
+        ],
+        [
+          1010.0,
+          938.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1010.0,
+          931.0
+        ],
+        [
+          1011.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          937.0
+        ],
+        [
+          1011.0,
+          932.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          937.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          932.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1017.0,
+          935.0
+        ],
+        [
+          1017.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          935.0
+        ],
+        [
+          1017.0,
+          935.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          933.0
+        ],
+        [
+          1015.0,
+          933.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1015.0,
+          933.0
+        ],
+        [
+          1015.0,
+          927.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1015.0,
+          927.0
+        ],
+        [
+          1016.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1093.0,
+          854.0
+        ],
+        [
+          1093.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1091.0,
+          864.0
+        ],
+        [
+          1090.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1090.0,
+          864.0
+        ],
+        [
+          1090.0,
+          859.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1088.0,
+          858.0
+        ],
+        [
+          1088.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1088.0,
+          854.0
+        ],
+        [
+          1091.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1088.0,
+          858.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1088.0,
+          858.0
+        ],
+        [
+          1089.0,
+          858.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1089.0,
+          858.0
+        ],
+        [
+          1090.0,
+          859.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          854.0
+        ],
+        [
+          1097.0,
+          852.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          852.0
+        ],
+        [
+          1091.0,
+          852.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1091.0,
+          852.0
+        ],
+        [
+          1091.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1093.0,
+          854.0
+        ],
+        [
+          1097.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          864.0
+        ],
+        [
+          1097.0,
+          865.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          865.0
+        ],
+        [
+          1091.0,
+          865.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1091.0,
+          865.0
+        ],
+        [
+          1091.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1093.0,
+          864.0
+        ],
+        [
+          1097.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1002.0,
+          854.0
+        ],
+        [
+          1002.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1004.0,
+          864.0
+        ],
+        [
+          1006.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          864.0
+        ],
+        [
+          1006.0,
+          859.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          858.0
+        ],
+        [
+          1007.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          854.0
+        ],
+        [
+          1005.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          858.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          858.0
+        ],
+        [
+          1006.0,
+          858.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          858.0
+        ],
+        [
+          1006.0,
+          859.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          999.0,
+          854.0
+        ],
+        [
+          999.0,
+          852.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          999.0,
+          852.0
+        ],
+        [
+          1004.0,
+          852.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          852.0
+        ],
+        [
+          1005.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1002.0,
+          854.0
+        ],
+        [
+          999.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          998.0,
+          864.0
+        ],
+        [
+          998.0,
+          865.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          998.0,
+          865.0
+        ],
+        [
+          1004.0,
+          865.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1004.0,
+          865.0
+        ],
+        [
+          1004.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1002.0,
+          864.0
+        ],
+        [
+          998.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          795.0,
+          764.0
+        ],
+        [
+          802.0,
+          764.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          795.0,
+          763.0
+        ],
+        [
+          802.0,
+          763.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          795.0,
+          763.0
+        ],
+        [
+          795.0,
+          764.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          802.0,
+          764.0
+        ],
+        [
+          802.0,
+          763.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          796.0,
+          763.0
+        ],
+        [
+          801.0,
+          763.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          796.0,
+          763.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          801.0,
+          763.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          796.0,
+          757.0
+        ],
+        [
+          811.0,
+          757.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          797.0,
+          763.0
+        ],
+        [
+          797.0,
+          757.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          799.0,
+          763.0
+        ],
+        [
+          799.0,
+          759.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          809.0,
+          758.0
+        ],
+        [
+          811.0,
+          757.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          798.0,
+          759.0
+        ],
+        [
+          803.0,
+          759.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          803.0,
+          759.0
+        ],
+        [
+          809.0,
+          758.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          795.0,
+          768.0
+        ],
+        [
+          802.0,
+          768.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          795.0,
+          769.0
+        ],
+        [
+          802.0,
+          769.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          795.0,
+          769.0
+        ],
+        [
+          795.0,
+          768.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          802.0,
+          768.0
+        ],
+        [
+          802.0,
+          769.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          796.0,
+          769.0
+        ],
+        [
+          801.0,
+          769.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          796.0,
+          769.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          801.0,
+          769.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          797.0,
+          775.0
+        ],
+        [
+          811.0,
+          775.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          797.0,
+          769.0
+        ],
+        [
+          797.0,
+          775.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          799.0,
+          769.0
+        ],
+        [
+          799.0,
+          773.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          799.0,
+          773.0
+        ],
+        [
+          805.0,
+          773.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          805.0,
+          773.0
+        ],
+        [
+          811.0,
+          774.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          859.0,
+          764.0
+        ],
+        [
+          786.0,
+          764.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          786.0,
+          764.0
+        ],
+        [
+          786.0,
+          768.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          786.0,
+          768.0
+        ],
+        [
+          859.0,
+          768.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          859.0,
+          764.0
+        ],
+        [
+          859.0,
+          768.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          839.0
+        ],
+        [
+          859.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ],
+        [
+          859.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          836.0
+        ],
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          859.0,
+          837.0
+        ],
+        [
+          859.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          837.0
+        ],
+        [
+          872.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ],
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          863.0,
+          837.0
+        ],
+        [
+          863.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ],
+        [
+          863.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          863.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          863.0,
+          837.0
+        ],
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          863.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ],
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          836.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          843.0
+        ],
+        [
+          874.0,
+          843.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          874.0,
+          843.0
+        ],
+        [
+          874.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          874.0,
+          837.0
+        ],
+        [
+          872.0,
+          837.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          839.0
+        ],
+        [
+          872.0,
+          843.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          859.0,
+          844.0
+        ],
+        [
+          857.0,
+          844.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          857.0,
+          844.0
+        ],
+        [
+          857.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          857.0,
+          838.0
+        ],
+        [
+          859.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          859.0,
+          839.0
+        ],
+        [
+          859.0,
+          844.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          762.0
+        ],
+        [
+          859.0,
+          762.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          764.0
+        ],
+        [
+          859.0,
+          764.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          765.0
+        ],
+        [
+          864.0,
+          765.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          859.0,
+          764.0
+        ],
+        [
+          859.0,
+          763.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          764.0
+        ],
+        [
+          872.0,
+          765.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          864.0,
+          764.0
+        ],
+        [
+          864.0,
+          765.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          758.0
+        ],
+        [
+          874.0,
+          758.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          874.0,
+          758.0
+        ],
+        [
+          874.0,
+          764.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          874.0,
+          764.0
+        ],
+        [
+          872.0,
+          764.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          872.0,
+          762.0
+        ],
+        [
+          872.0,
+          758.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          859.0,
+          757.0
+        ],
+        [
+          857.0,
+          757.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          857.0,
+          757.0
+        ],
+        [
+          857.0,
+          763.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          857.0,
+          763.0
+        ],
+        [
+          859.0,
+          763.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          859.0,
+          762.0
+        ],
+        [
+          859.0,
+          757.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          666.0
+        ],
+        [
+          1119.0,
+          673.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          666.0
+        ],
+        [
+          1119.0,
+          673.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          666.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          673.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1118.0,
+          667.0
+        ],
+        [
+          1118.0,
+          672.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1118.0,
+          667.0
+        ],
+        [
+          1119.0,
+          667.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          672.0
+        ],
+        [
+          1118.0,
+          672.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1112.0,
+          668.0
+        ],
+        [
+          1112.0,
+          682.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1118.0,
+          669.0
+        ],
+        [
+          1112.0,
+          669.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1118.0,
+          671.0
+        ],
+        [
+          1114.0,
+          671.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1114.0,
+          680.0
+        ],
+        [
+          1112.0,
+          682.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1114.0,
+          670.0
+        ],
+        [
+          1114.0,
+          675.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1114.0,
+          675.0
+        ],
+        [
+          1114.0,
+          680.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1124.0,
+          666.0
+        ],
+        [
+          1124.0,
+          673.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1124.0,
+          666.0
+        ],
+        [
+          1124.0,
+          673.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1124.0,
+          666.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1124.0,
+          673.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1125.0,
+          667.0
+        ],
+        [
+          1125.0,
+          672.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1125.0,
+          667.0
+        ],
+        [
+          1124.0,
+          667.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1124.0,
+          672.0
+        ],
+        [
+          1125.0,
+          672.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1131.0,
+          669.0
+        ],
+        [
+          1131.0,
+          682.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1125.0,
+          669.0
+        ],
+        [
+          1131.0,
+          669.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1125.0,
+          671.0
+        ],
+        [
+          1129.0,
+          671.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1129.0,
+          671.0
+        ],
+        [
+          1129.0,
+          677.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1129.0,
+          677.0
+        ],
+        [
+          1129.0,
+          682.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          731.0
+        ],
+        [
+          1119.0,
+          657.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          657.0
+        ],
+        [
+          1124.0,
+          657.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1124.0,
+          657.0
+        ],
+        [
+          1124.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          731.0
+        ],
+        [
+          1124.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1195.0,
+          744.0
+        ],
+        [
+          1195.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1193.0,
+          735.0
+        ],
+        [
+          1193.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1191.0,
+          744.0
+        ],
+        [
+          1191.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1193.0,
+          731.0
+        ],
+        [
+          1194.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          744.0
+        ],
+        [
+          1191.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1193.0,
+          735.0
+        ],
+        [
+          1191.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1193.0,
+          735.0
+        ],
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1193.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ],
+        [
+          1192.0,
+          736.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ],
+        [
+          1192.0,
+          736.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          736.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          736.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          736.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          736.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          736.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          736.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1198.0,
+          744.0
+        ],
+        [
+          1198.0,
+          745.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1198.0,
+          745.0
+        ],
+        [
+          1193.0,
+          745.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1192.0,
+          745.0
+        ],
+        [
+          1192.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1195.0,
+          744.0
+        ],
+        [
+          1198.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1200.0,
+          731.0
+        ],
+        [
+          1200.0,
+          729.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1200.0,
+          729.0
+        ],
+        [
+          1194.0,
+          729.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1194.0,
+          729.0
+        ],
+        [
+          1194.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1195.0,
+          731.0
+        ],
+        [
+          1200.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1117.0,
+          744.0
+        ],
+        [
+          1117.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          735.0
+        ],
+        [
+          1119.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1120.0,
+          744.0
+        ],
+        [
+          1120.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          731.0
+        ],
+        [
+          1118.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          744.0
+        ],
+        [
+          1120.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          735.0
+        ],
+        [
+          1120.0,
+          735.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1113.0,
+          744.0
+        ],
+        [
+          1113.0,
+          745.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1114.0,
+          745.0
+        ],
+        [
+          1119.0,
+          745.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1119.0,
+          745.0
+        ],
+        [
+          1119.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1117.0,
+          744.0
+        ],
+        [
+          1113.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1112.0,
+          731.0
+        ],
+        [
+          1112.0,
+          729.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1112.0,
+          729.0
+        ],
+        [
+          1118.0,
+          729.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1118.0,
+          729.0
+        ],
+        [
+          1118.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1117.0,
+          731.0
+        ],
+        [
+          1112.0,
+          731.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1090.0,
+          734.0
+        ],
+        [
+          1089.437585733882,
+          650.0685871056241
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1054.5953360768176,
+          642.1124828532236
+        ],
+        [
+          1059.2592592592594,
+          649.9314128943759
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1085.048010973937,
+          650.6172839506173
+        ],
+        [
+          1086.0,
+          734.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1055.1820728291316,
+          735.1484593837534
+        ],
+        [
+          1061.064425770308,
+          738.2296918767506
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1106.4,
+          659.7
+        ],
+        [
+          1102.5,
+          677.9
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1109.2,
+          662.1
+        ],
+        [
+          1107.0,
+          672.3
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1114.5,
+          669.8
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1107.9,
+          670.7
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1108.0,
+          665.0
+        ],
+        [
+          1119.1,
+          672.1
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1110.8,
+          659.7
+        ],
+        [
+          1106.2,
+          659.8
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1116.6,
+          670.2
+        ],
+        [
+          1116.0,
+          669.3
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          662.0
+        ],
+        [
+          1097.0,
+          675.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1106.4,
+          656.1
+        ],
+        [
+          1102.6,
+          653.4
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1116.7,
+          669.2
+        ],
+        [
+          1095.0,
+          664.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1096.0,
+          675.0
+        ],
+        [
+          1097.0,
+          675.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1095.0,
+          664.0
+        ],
+        [
+          1095.0,
+          670.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1095.0,
+          670.0
+        ],
+        [
+          1096.0,
+          675.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1063.8,
+          662.6
+        ],
+        [
+          1066.6,
+          673.2
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1046.5,
+          662.8
+        ],
+        [
+          1054.9,
+          672.4
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1064.2,
+          659.3
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1057.5,
+          671.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1052.9,
+          664.6
+        ],
+        [
+          1062.0,
+          672.4
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1048.9,
+          664.0
+        ],
+        [
+          1067.4,
+          658.8
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1053.9,
+          672.3
+        ],
+        [
+          1055.1,
+          671.2
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1078.0,
+          662.0
+        ],
+        [
+          1078.0,
+          675.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1048.8,
+          668.5
+        ],
+        [
+          1078.0,
+          662.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1060.0,
+          668.6
+        ],
+        [
+          1080.0,
+          664.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1080.0,
+          675.0
+        ],
+        [
+          1078.0,
+          675.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1080.0,
+          664.0
+        ],
+        [
+          1080.0,
+          670.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1080.0,
+          670.0
+        ],
+        [
+          1080.0,
+          675.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          744.0
+        ],
+        [
+          1005.0,
+          734.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ],
+        [
+          1007.0,
+          734.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1008.0,
+          744.0
+        ],
+        [
+          1008.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          734.0
+        ],
+        [
+          1006.0,
+          734.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          744.0
+        ],
+        [
+          1008.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ],
+        [
+          1008.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ],
+        [
+          1008.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ],
+        [
+          1008.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1008.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1008.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ],
+        [
+          1007.0,
+          739.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ],
+        [
+          1007.0,
+          739.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          739.0
+        ],
+        [
+          1008.0,
+          739.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1008.0,
+          739.0
+        ],
+        [
+          1007.0,
+          739.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1008.0,
+          739.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          739.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          739.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          739.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ],
+        [
+          1008.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1008.0,
+          738.0
+        ],
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1008.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1001.0,
+          744.0
+        ],
+        [
+          1001.0,
+          745.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1001.0,
+          745.0
+        ],
+        [
+          1007.0,
+          745.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          745.0
+        ],
+        [
+          1007.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          744.0
+        ],
+        [
+          1001.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1000.0,
+          734.0
+        ],
+        [
+          1000.0,
+          732.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1000.0,
+          732.0
+        ],
+        [
+          1006.0,
+          732.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          732.0
+        ],
+        [
+          1006.0,
+          734.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          734.0
+        ],
+        [
+          1000.0,
+          734.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1092.0,
+          744.0
+        ],
+        [
+          1103.3878822197057,
+          737.8255945639864
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1090.0,
+          738.0
+        ],
+        [
+          1121.9609286523216,
+          734.9943374858437
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1089.0,
+          744.0
+        ],
+        [
+          1089.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1106.785390713477,
+          706.6817667044168
+        ],
+        [
+          1104.746885617214,
+          702.718006795017
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1090.0,
+          744.0
+        ],
+        [
+          1089.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1115.3924122310307,
+          727.4065685164213
+        ],
+        [
+          1089.0,
+          738.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1096.0,
+          744.0
+        ],
+        [
+          1096.0,
+          745.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1096.0,
+          745.0
+        ],
+        [
+          1090.0,
+          745.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1090.0,
+          745.0
+        ],
+        [
+          1090.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1092.0,
+          744.0
+        ],
+        [
+          1096.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          734.0
+        ],
+        [
+          1097.0,
+          732.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1109.6166477916197,
+          732.7293318233295
+        ],
+        [
+          1113.8069082672707,
+          732.8425821064552
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1106.1058890147226,
+          720.158550396376
+        ],
+        [
+          1104.5203850509627,
+          738.1653454133635
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1105.6528878822198,
+          714.8357870894678
+        ],
+        [
+          1097.0,
+          734.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          982.0,
+          756.0
+        ],
+        [
+          899.0,
+          756.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          899.0,
+          756.0
+        ],
+        [
+          899.0,
+          760.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          899.0,
+          760.0
+        ],
+        [
+          982.0,
+          760.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          982.0,
+          756.0
+        ],
+        [
+          982.0,
+          760.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          908.0,
+          756.0
+        ],
+        [
+          915.0,
+          756.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          908.0,
+          755.0
+        ],
+        [
+          915.0,
+          755.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          908.0,
+          755.0
+        ],
+        [
+          908.0,
+          756.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          915.0,
+          756.0
+        ],
+        [
+          915.0,
+          755.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          909.0,
+          755.0
+        ],
+        [
+          914.0,
+          755.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          909.0,
+          755.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          914.0,
+          755.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          910.0,
+          749.0
+        ],
+        [
+          924.0,
+          749.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          910.0,
+          755.0
+        ],
+        [
+          910.0,
+          749.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          912.0,
+          755.0
+        ],
+        [
+          912.0,
+          751.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          924.0,
+          750.0
+        ],
+        [
+          924.0,
+          749.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          912.0,
+          751.0
+        ],
+        [
+          918.0,
+          751.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          918.0,
+          751.0
+        ],
+        [
+          924.0,
+          750.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          908.0,
+          760.0
+        ],
+        [
+          915.0,
+          760.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          908.0,
+          761.0
+        ],
+        [
+          915.0,
+          761.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          908.0,
+          761.0
+        ],
+        [
+          908.0,
+          760.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          915.0,
+          760.0
+        ],
+        [
+          915.0,
+          761.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          909.0,
+          761.0
+        ],
+        [
+          914.0,
+          761.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          909.0,
+          761.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          914.0,
+          761.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          910.0,
+          767.0
+        ],
+        [
+          924.0,
+          767.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          910.0,
+          761.0
+        ],
+        [
+          910.0,
+          767.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          912.0,
+          761.0
+        ],
+        [
+          912.0,
+          765.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          924.0,
+          766.0
+        ],
+        [
+          924.0,
+          767.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          912.0,
+          765.0
+        ],
+        [
+          918.0,
+          765.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          918.0,
+          765.0
+        ],
+        [
+          924.0,
+          766.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          841.0
+        ],
+        [
+          982.0,
+          841.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ],
+        [
+          982.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          838.0
+        ],
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          982.0,
+          839.0
+        ],
+        [
+          982.0,
+          840.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          839.0
+        ],
+        [
+          992.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ],
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          986.0,
+          839.0
+        ],
+        [
+          986.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ],
+        [
+          986.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          986.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          986.0,
+          839.0
+        ],
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          986.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ],
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          838.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          845.0
+        ],
+        [
+          994.0,
+          845.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          994.0,
+          845.0
+        ],
+        [
+          994.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          994.0,
+          839.0
+        ],
+        [
+          992.0,
+          839.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          841.0
+        ],
+        [
+          992.0,
+          845.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          982.0,
+          846.0
+        ],
+        [
+          980.0,
+          846.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          980.0,
+          846.0
+        ],
+        [
+          980.0,
+          840.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          980.0,
+          840.0
+        ],
+        [
+          982.0,
+          840.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          982.0,
+          841.0
+        ],
+        [
+          982.0,
+          846.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          754.0
+        ],
+        [
+          982.0,
+          754.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          756.0
+        ],
+        [
+          982.0,
+          756.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          757.0
+        ],
+        [
+          987.0,
+          757.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          982.0,
+          756.0
+        ],
+        [
+          982.0,
+          755.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          756.0
+        ],
+        [
+          992.0,
+          757.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          987.0,
+          756.0
+        ],
+        [
+          987.0,
+          757.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          750.0
+        ],
+        [
+          994.0,
+          750.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          994.0,
+          750.0
+        ],
+        [
+          994.0,
+          756.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          994.0,
+          756.0
+        ],
+        [
+          992.0,
+          756.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          992.0,
+          754.0
+        ],
+        [
+          992.0,
+          750.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          982.0,
+          749.0
+        ],
+        [
+          980.0,
+          749.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          980.0,
+          749.0
+        ],
+        [
+          980.0,
+          755.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          980.0,
+          755.0
+        ],
+        [
+          982.0,
+          755.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          982.0,
+          754.0
+        ],
+        [
+          982.0,
+          749.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          864.0
+        ],
+        [
+          1006.0,
+          947.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          947.0
+        ],
+        [
+          1010.0,
+          947.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1010.0,
+          947.0
+        ],
+        [
+          1010.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          864.0
+        ],
+        [
+          1010.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          938.0
+        ],
+        [
+          1006.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          938.0
+        ],
+        [
+          1005.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          938.0
+        ],
+        [
+          1006.0,
+          938.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          931.0
+        ],
+        [
+          1005.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          937.0
+        ],
+        [
+          1005.0,
+          932.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          937.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          932.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          999.0,
+          935.0
+        ],
+        [
+          999.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          935.0
+        ],
+        [
+          999.0,
+          935.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          933.0
+        ],
+        [
+          1001.0,
+          933.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1000.0,
+          922.0
+        ],
+        [
+          999.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1001.0,
+          933.0
+        ],
+        [
+          1001.0,
+          927.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1001.0,
+          927.0
+        ],
+        [
+          1000.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1010.0,
+          938.0
+        ],
+        [
+          1010.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          938.0
+        ],
+        [
+          1011.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          938.0
+        ],
+        [
+          1010.0,
+          938.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1010.0,
+          931.0
+        ],
+        [
+          1011.0,
+          931.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          937.0
+        ],
+        [
+          1011.0,
+          932.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          937.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          932.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1017.0,
+          935.0
+        ],
+        [
+          1017.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          935.0
+        ],
+        [
+          1017.0,
+          935.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1011.0,
+          933.0
+        ],
+        [
+          1015.0,
+          933.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1016.0,
+          922.0
+        ],
+        [
+          1017.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1015.0,
+          933.0
+        ],
+        [
+          1015.0,
+          927.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1015.0,
+          927.0
+        ],
+        [
+          1016.0,
+          922.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1093.0,
+          854.0
+        ],
+        [
+          1093.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1091.0,
+          864.0
+        ],
+        [
+          1090.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1090.0,
+          864.0
+        ],
+        [
+          1090.0,
+          859.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1088.0,
+          858.0
+        ],
+        [
+          1088.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1088.0,
+          854.0
+        ],
+        [
+          1091.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1088.0,
+          858.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1088.0,
+          858.0
+        ],
+        [
+          1089.0,
+          858.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1089.0,
+          858.0
+        ],
+        [
+          1090.0,
+          859.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          854.0
+        ],
+        [
+          1097.0,
+          852.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          852.0
+        ],
+        [
+          1091.0,
+          852.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1091.0,
+          852.0
+        ],
+        [
+          1091.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1093.0,
+          854.0
+        ],
+        [
+          1097.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          864.0
+        ],
+        [
+          1097.0,
+          865.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1097.0,
+          865.0
+        ],
+        [
+          1091.0,
+          865.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1091.0,
+          865.0
+        ],
+        [
+          1091.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1093.0,
+          864.0
+        ],
+        [
+          1097.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1002.0,
+          854.0
+        ],
+        [
+          1002.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1004.0,
+          864.0
+        ],
+        [
+          1006.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          864.0
+        ],
+        [
+          1006.0,
+          859.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          858.0
+        ],
+        [
+          1007.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          854.0
+        ],
+        [
+          1005.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          858.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1007.0,
+          858.0
+        ],
+        [
+          1006.0,
+          858.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1006.0,
+          858.0
+        ],
+        [
+          1006.0,
+          859.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          999.0,
+          854.0
+        ],
+        [
+          999.0,
+          852.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          999.0,
+          852.0
+        ],
+        [
+          1004.0,
+          852.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1005.0,
+          852.0
+        ],
+        [
+          1005.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1002.0,
+          854.0
+        ],
+        [
+          999.0,
+          854.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          998.0,
+          864.0
+        ],
+        [
+          998.0,
+          865.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          998.0,
+          865.0
+        ],
+        [
+          1004.0,
+          865.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1004.0,
+          865.0
+        ],
+        [
+          1004.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1002.0,
+          864.0
+        ],
+        [
+          998.0,
+          864.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1477.0,
+          410.0
+        ],
+        [
+          1477.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1477.0,
+          410.0
+        ],
+        [
+          1477.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1477.0,
+          410.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1477.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1476.0,
+          409.0
+        ],
+        [
+          1476.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1476.0,
+          409.0
+        ],
+        [
+          1477.0,
+          409.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1477.0,
+          403.0
+        ],
+        [
+          1476.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1470.0,
+          407.0
+        ],
+        [
+          1470.0,
+          394.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1476.0,
+          407.0
+        ],
+        [
+          1470.0,
+          407.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1476.0,
+          405.0
+        ],
+        [
+          1472.0,
+          405.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1472.0,
+          394.0
+        ],
+        [
+          1470.0,
+          394.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1472.0,
+          405.0
+        ],
+        [
+          1472.0,
+          399.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1472.0,
+          399.0
+        ],
+        [
+          1472.0,
+          394.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1482.0,
+          410.0
+        ],
+        [
+          1482.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1482.0,
+          410.0
+        ],
+        [
+          1482.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1482.0,
+          410.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1482.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1483.0,
+          409.0
+        ],
+        [
+          1483.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1483.0,
+          409.0
+        ],
+        [
+          1482.0,
+          409.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1482.0,
+          403.0
+        ],
+        [
+          1483.0,
+          403.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1489.0,
+          407.0
+        ],
+        [
+          1489.0,
+          394.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1483.0,
+          407.0
+        ],
+        [
+          1489.0,
+          407.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1483.0,
+          405.0
+        ],
+        [
+          1487.0,
+          405.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1487.0,
+          394.0
+        ],
+        [
+          1489.0,
+          394.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1487.0,
+          405.0
+        ],
+        [
+          1487.0,
+          399.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1487.0,
+          399.0
+        ],
+        [
+          1487.0,
+          394.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1477.0,
+          320.0
+        ],
+        [
+          1477.0,
+          418.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1477.0,
+          418.0
+        ],
+        [
+          1482.0,
+          418.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1482.0,
+          418.0
+        ],
+        [
+          1482.0,
+          320.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1477.0,
+          320.0
+        ],
+        [
+          1482.0,
+          320.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1440.0,
+          543.0
+        ],
+        [
+          1444.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1444.0,
+          543.0
+        ],
+        [
+          1444.0,
+          545.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1444.0,
+          545.0
+        ],
+        [
+          1438.0,
+          545.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1277.0,
+          527.0
+        ],
+        [
+          1280.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1284.0,
+          543.0
+        ],
+        [
+          1284.0,
+          531.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1284.0,
+          531.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1284.0,
+          531.0
+        ],
+        [
+          1284.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1284.0,
+          527.0
+        ],
+        [
+          1283.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1283.0,
+          527.0
+        ],
+        [
+          1283.0,
+          526.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1283.0,
+          526.0
+        ],
+        [
+          1277.0,
+          526.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1277.0,
+          526.0
+        ],
+        [
+          1277.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1277.0,
+          527.0
+        ],
+        [
+          1280.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1280.0,
+          527.0
+        ],
+        [
+          1280.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1280.0,
+          543.0
+        ],
+        [
+          1277.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1277.0,
+          543.0
+        ],
+        [
+          1277.0,
+          545.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1277.0,
+          545.0
+        ],
+        [
+          1283.0,
+          545.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1283.0,
+          545.0
+        ],
+        [
+          1283.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1283.0,
+          543.0
+        ],
+        [
+          1284.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1284.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1284.0,
+          543.0
+        ],
+        [
+          1283.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1444.0,
+          527.0
+        ],
+        [
+          1440.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1437.0,
+          543.0
+        ],
+        [
+          1437.0,
+          531.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1437.0,
+          531.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1437.0,
+          531.0
+        ],
+        [
+          1437.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1437.0,
+          527.0
+        ],
+        [
+          1438.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1438.0,
+          527.0
+        ],
+        [
+          1438.0,
+          526.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1438.0,
+          526.0
+        ],
+        [
+          1444.0,
+          526.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1444.0,
+          526.0
+        ],
+        [
+          1444.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1444.0,
+          527.0
+        ],
+        [
+          1440.0,
+          527.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1440.0,
+          527.0
+        ],
+        [
+          1440.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1440.0,
+          543.0
+        ],
+        [
+          1444.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1444.0,
+          543.0
+        ],
+        [
+          1444.0,
+          545.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1444.0,
+          545.0
+        ],
+        [
+          1438.0,
+          545.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1438.0,
+          545.0
+        ],
+        [
+          1438.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1438.0,
+          543.0
+        ],
+        [
+          1437.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1437.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "DoorLine",
+      "points": [
+        [
+          1437.0,
+          543.0
+        ],
+        [
+          1438.0,
+          543.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "01 1-6号住宅楼标准层A户型平面图-2.jpg",
+  "imageData": null,
+  "imageHeight": 1628,
+  "imageWidth": 2301
+}

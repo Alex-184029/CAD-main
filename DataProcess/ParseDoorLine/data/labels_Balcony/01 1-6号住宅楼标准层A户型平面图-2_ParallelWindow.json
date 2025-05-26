@@ -1,0 +1,114 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "ParallelWindow",
+      "points": [
+        [
+          1122,
+          456
+        ],
+        [
+          1202,
+          456
+        ],
+        [
+          1202,
+          443
+        ],
+        [
+          1122,
+          443
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ParallelWindow",
+      "points": [
+        [
+          662,
+          844
+        ],
+        [
+          674,
+          844
+        ],
+        [
+          674,
+          764
+        ],
+        [
+          662,
+          764
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ParallelWindow",
+      "points": [
+        [
+          1006,
+          947
+        ],
+        [
+          1010,
+          947
+        ],
+        [
+          1010,
+          864
+        ],
+        [
+          1006,
+          864
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ParallelWindow",
+      "points": [
+        [
+          1252,
+          443
+        ],
+        [
+          1265,
+          443
+        ],
+        [
+          1265,
+          383
+        ],
+        [
+          1252,
+          383
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/01 1-6\u53f7\u4f4f\u5b85\u697c\u6807\u51c6\u5c42A\u6237\u578b\u5e73\u9762\u56fe-2_ParallelWindow.jpg",
+  "imageData": null,
+  "imageHeight": 1628,
+  "imageWidth": 2301
+}

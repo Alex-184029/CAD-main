@@ -1,0 +1,190 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1006,
+          864
+        ],
+        [
+          1006,
+          947
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1006,
+          864
+        ],
+        [
+          1006,
+          947
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1010,
+          947
+        ],
+        [
+          1010,
+          864
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1010,
+          947
+        ],
+        [
+          1010,
+          864
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1085,
+          650
+        ],
+        [
+          1086,
+          734
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1090,
+          734
+        ],
+        [
+          1090,
+          650
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1119,
+          731
+        ],
+        [
+          1119,
+          657
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1124,
+          657
+        ],
+        [
+          1124,
+          731
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1477,
+          320
+        ],
+        [
+          1477,
+          418
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "VerticalDoorLine",
+      "points": [
+        [
+          1482,
+          418
+        ],
+        [
+          1482,
+          320
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "line",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/01 1-6\u53f7\u4f4f\u5b85\u697c\u6807\u51c6\u5c42A\u6237\u578b\u5e73\u9762\u56fe-2.jpg",
+  "imageData": null,
+  "imageHeight": 1628,
+  "imageWidth": 2301
+}

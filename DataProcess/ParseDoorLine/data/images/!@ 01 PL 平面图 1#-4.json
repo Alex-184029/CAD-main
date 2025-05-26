@@ -1,0 +1,66 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1718.0,
+          425.0
+        ],
+        [
+          1749.5072463768115,
+          435.07246376811594
+        ],
+        [
+          1865.0,
+          425.0
+        ],
+        [
+          1865.0,
+          429.0
+        ],
+        [
+          1718.0,
+          429.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "SlideDoorArea1",
+      "points": [
+        [
+          1793.0,
+          425.0
+        ],
+        [
+          1865.0,
+          425.0
+        ],
+        [
+          1865.0,
+          429.0
+        ],
+        [
+          1793.0,
+          429.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "!@ 01 PL 平面图 1#-4.jpg",
+  "imageData": null,
+  "imageHeight": 2000,
+  "imageWidth": 2828
+}

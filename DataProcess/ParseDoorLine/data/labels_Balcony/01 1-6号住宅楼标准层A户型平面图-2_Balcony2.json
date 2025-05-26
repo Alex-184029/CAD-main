@@ -1,0 +1,250 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Balcony2",
+      "points": [
+        [
+          1252.0,
+          1292.0
+        ],
+        [
+          1612.0,
+          1292.0
+        ],
+        [
+          1612.0,
+          1287.0
+        ],
+        [
+          1252.0,
+          1287.0
+        ],
+        [
+          1252.0,
+          1292.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony2",
+      "points": [
+        [
+          992.0,
+          1234.0
+        ],
+        [
+          1212.0,
+          1234.0
+        ],
+        [
+          1212.0,
+          1227.0
+        ],
+        [
+          992.0,
+          1227.0
+        ],
+        [
+          992.0,
+          1234.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony2",
+      "points": [
+        [
+          722.0,
+          1234.0
+        ],
+        [
+          982.0,
+          1234.0
+        ],
+        [
+          982.0,
+          1227.0
+        ],
+        [
+          722.0,
+          1227.0
+        ],
+        [
+          722.0,
+          1234.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony2",
+      "points": [
+        [
+          792.0,
+          510.0
+        ],
+        [
+          852.0,
+          510.0
+        ],
+        [
+          852.0,
+          503.0
+        ],
+        [
+          792.0,
+          503.0
+        ],
+        [
+          792.0,
+          510.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony2",
+      "points": [
+        [
+          729.0,
+          1174.0
+        ],
+        [
+          722.0,
+          1174.0
+        ],
+        [
+          722.0,
+          1227.0
+        ],
+        [
+          729.0,
+          1227.0
+        ],
+        [
+          729.0,
+          1174.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony2",
+      "points": [
+        [
+          799.0,
+          643.0
+        ],
+        [
+          799.0,
+          510.0
+        ],
+        [
+          792.0,
+          510.0
+        ],
+        [
+          792.0,
+          643.0
+        ],
+        [
+          799.0,
+          643.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony2",
+      "points": [
+        [
+          1212.0,
+          1174.0
+        ],
+        [
+          1206.0,
+          1174.0
+        ],
+        [
+          1206.0,
+          1227.0
+        ],
+        [
+          1212.0,
+          1227.0
+        ],
+        [
+          1212.0,
+          1174.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Balcony2",
+      "points": [
+        [
+          1257.0,
+          1174.0
+        ],
+        [
+          1252.0,
+          1174.0
+        ],
+        [
+          1252.0,
+          1287.0
+        ],
+        [
+          1257.0,
+          1287.0
+        ],
+        [
+          1257.0,
+          1174.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/01 1-6\u53f7\u4f4f\u5b85\u697c\u6807\u51c6\u5c42A\u6237\u578b\u5e73\u9762\u56fe-2.jpg",
+  "imageData": null,
+  "imageHeight": 1628,
+  "imageWidth": 2301
+}

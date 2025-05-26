@@ -1,0 +1,192 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          375.0,
+          1001.0
+        ],
+        [
+          478.0,
+          1001.0
+        ],
+        [
+          478.0,
+          899.0
+        ],
+        [
+          375.0,
+          899.0
+        ]
+      ],
+      "group_id": null,
+      "description": "375 901 478 1001",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1290.0,
+          1094.0
+        ],
+        [
+          1378.0,
+          1094.0
+        ],
+        [
+          1378.0,
+          1006.0
+        ],
+        [
+          1290.0,
+          1006.0
+        ]
+      ],
+      "group_id": null,
+      "description": "1292 1094 1378 1006",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1040.0,
+          1094.0
+        ],
+        [
+          1128.0,
+          1094.0
+        ],
+        [
+          1128.0,
+          1006.0
+        ],
+        [
+          1040.0,
+          1006.0
+        ]
+      ],
+      "group_id": null,
+      "description": "1042 1094 1128 1006",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1138.0,
+          886.0
+        ],
+        [
+          1225.0,
+          886.0
+        ],
+        [
+          1225.0,
+          798.0
+        ],
+        [
+          1138.0,
+          798.0
+        ]
+      ],
+      "group_id": null,
+      "description": "1223 798 1138 886",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1270.0,
+          881.0
+        ],
+        [
+          1358.0,
+          881.0
+        ],
+        [
+          1358.0,
+          793.0
+        ],
+        [
+          1270.0,
+          793.0
+        ]
+      ],
+      "group_id": null,
+      "description": "1272 793 1358 881",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1393.0,
+          1095.0
+        ],
+        [
+          1471.0,
+          1095.0
+        ],
+        [
+          1471.0,
+          1017.0
+        ],
+        [
+          1393.0,
+          1017.0
+        ]
+      ],
+      "group_id": null,
+      "description": "1471 1093 1393 1017",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          574.0,
+          1184.0
+        ],
+        [
+          652.0,
+          1184.0
+        ],
+        [
+          652.0,
+          1106.0
+        ],
+        [
+          574.0,
+          1106.0
+        ]
+      ],
+      "group_id": null,
+      "description": "650 1184 574 1106",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\images\\(T3) 12#楼105户型平面图（镜像）-3.jpg",
+  "imageData": null,
+  "imageHeight": 2000,
+  "imageWidth": 2828
+}

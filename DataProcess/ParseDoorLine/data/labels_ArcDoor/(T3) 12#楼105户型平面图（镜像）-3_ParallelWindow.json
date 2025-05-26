@@ -1,0 +1,166 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "Window1",
+      "points": [
+        [
+          1318,
+          1521
+        ],
+        [
+          1528,
+          1521
+        ],
+        [
+          1528,
+          1501
+        ],
+        [
+          1318,
+          1501
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Window1",
+      "points": [
+        [
+          568,
+          1361
+        ],
+        [
+          628,
+          1361
+        ],
+        [
+          628,
+          1341
+        ],
+        [
+          568,
+          1341
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Window1",
+      "points": [
+        [
+          1053,
+          1361
+        ],
+        [
+          1233,
+          1361
+        ],
+        [
+          1233,
+          1341
+        ],
+        [
+          1053,
+          1341
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Window1",
+      "points": [
+        [
+          1518,
+          831
+        ],
+        [
+          1578,
+          831
+        ],
+        [
+          1578,
+          811
+        ],
+        [
+          1518,
+          811
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Window1",
+      "points": [
+        [
+          548,
+          511
+        ],
+        [
+          648,
+          511
+        ],
+        [
+          648,
+          491
+        ],
+        [
+          548,
+          491
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Window1",
+      "points": [
+        [
+          998,
+          511
+        ],
+        [
+          1178,
+          511
+        ],
+        [
+          1178,
+          491
+        ],
+        [
+          998,
+          491
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/(T3) 12#\u697c105\u6237\u578b\u5e73\u9762\u56fe\uff08\u955c\u50cf\uff09-3.jpg",
+  "imageData": null,
+  "imageHeight": 2000,
+  "imageWidth": 2828
+}

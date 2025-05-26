@@ -1,0 +1,244 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          375,
+          1001
+        ],
+        [
+          478,
+          1001
+        ],
+        [
+          478,
+          899
+        ],
+        [
+          375,
+          899
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1290,
+          1094
+        ],
+        [
+          1378,
+          1094
+        ],
+        [
+          1378,
+          1006
+        ],
+        [
+          1290,
+          1006
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1040,
+          1094
+        ],
+        [
+          1128,
+          1094
+        ],
+        [
+          1128,
+          1006
+        ],
+        [
+          1040,
+          1006
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1138,
+          886
+        ],
+        [
+          1225,
+          886
+        ],
+        [
+          1225,
+          798
+        ],
+        [
+          1138,
+          798
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1270,
+          881
+        ],
+        [
+          1358,
+          881
+        ],
+        [
+          1358,
+          793
+        ],
+        [
+          1270,
+          793
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1393,
+          1095
+        ],
+        [
+          1471,
+          1095
+        ],
+        [
+          1471,
+          1017
+        ],
+        [
+          1393,
+          1017
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          574,
+          1184
+        ],
+        [
+          652,
+          1184
+        ],
+        [
+          652,
+          1106
+        ],
+        [
+          574,
+          1106
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          1461,
+          1042
+        ],
+        [
+          1520,
+          1042
+        ],
+        [
+          1520,
+          959
+        ],
+        [
+          1461,
+          959
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "ArcDoor1",
+      "points": [
+        [
+          584,
+          1259
+        ],
+        [
+          650,
+          1259
+        ],
+        [
+          650,
+          1193
+        ],
+        [
+          584,
+          1193
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "../images/(T3) 12#\u697c105\u6237\u578b\u5e73\u9762\u56fe\uff08\u955c\u50cf\uff09-3.jpg",
+  "imageData": null,
+  "imageHeight": 2000,
+  "imageWidth": 2828
+}
