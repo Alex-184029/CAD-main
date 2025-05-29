@@ -14,7 +14,7 @@ import json
 
 app = Flask(__name__)
 CORS(app)
-dwgpath = r'C:\Users\Administrator\Desktop\MyCAD\public\dwgs1'
+# dwgpath = r'C:\Users\Administrator\Desktop\MyCAD\public\dwgs1'
 public_path = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public2'
 
 def send_msg(message):
@@ -40,6 +40,27 @@ def readBase64(imgpath):
         base64_img = base64.b64encode(img_data)
         base64_img_str = base64_img.decode('utf-8')
     return base64_img_str
+
+def save_base64_as_jpg(base64_data, output_path):
+    """
+    将 Base64 编码的图片转换为 jpg 格式并保存
+    
+    参数:
+    base64_data (str): 包含 Base64 数据的字符串（可能包含前缀，如 'data:image/png;base64,'）
+    output_path (str): 保存 jpg 文件的路径
+    """
+    # 去除可能存在的前缀（如 'data:image/png;base64,'）
+    if base64_data.startswith('data:'):
+        base64_data = base64_data.split(',', 1)[1]
+    
+    # 解码 Base64 数据
+    image_data = base64.b64decode(base64_data)
+    
+    # 保存为 PNG 文件
+    with open(output_path, 'wb') as f:
+        f.write(image_data)
+    
+    # print(f"jpg 文件已保存至: {output_path}")
 
 # pdf打印图像
 def pdf_to_image2(pdfpath, imgout, labelpath, suffix='.jpg'):
@@ -144,14 +165,70 @@ def parseResult2(inpath, item='ArcDoor'):
         att = 'window_items'
     elif item == 'WallLine':
         att = 'wall_line_items'
+    elif item == 'Text':
+        att = 'text_items'
     else:
         print('Error item type:', item)
         return None
     if not att in data:
         print('Error %s in dict.' % att)
         return None
-    return data[att]
-    
+    return att, data[att]
+
+def parseResultBasic(inpath):
+    basic_atts = ['dwg_name', 'range', 'box']
+    res = dict()
+    with open(inpath, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    for att in basic_atts:
+        if not att in data:
+            print('Error %s in dict.' % att)
+            return None
+        res[att] = data[att]
+    return res
+
+def parseResult3(work_dir, dwgname, items, task_name):
+    data = dict()
+    to_parse = False
+    dwg = os.path.splitext(dwgname)[0]
+    for item in items:
+        logfile = os.path.join(work_dir, dwg + '_' + item + '.json')
+        if not os.path.exists(logfile):
+            to_parse = True
+            break
+    if to_parse:
+        res0 = send_msg(f'{task_name} {dwgname}')
+    if not to_parse or res0 == 'Succeed':
+        # 读取元信息
+        item0 = items[0]
+        logfile = os.path.join(work_dir, dwg + '_' + item0 + '.json')
+        res = parseResult2(logfile, item=item)
+        if res is None:
+            return None
+        data.update(res)
+
+        # 依次读取结果
+        for item in items:
+            logfile = os.path.join(work_dir, dwg + '_' + item + '.json')
+            res = parseResult2(logfile, item=item)
+            if res is None:
+                return None
+            att, value = res
+            data[att] = value
+
+        if to_parse:    # 等待打印完成
+            # 打印存在延迟，需要定期监听并设置timeout，一般会经过30s以上才能监听到图像打印完成
+            pdfpath = os.path.join(work_dir, dwg + '_PlaneLayout.pdf')
+            timeout = 100
+            start_time = time.time()
+            while (time.time() - start_time) < timeout:
+                if os.path.exists(pdfpath):
+                    print(f"经过 %.3f s，监听到 %s 打印完成。" % (time.time() - start_time, pdfpath))
+                    break
+                time.sleep(0.1)  # 每隔0.1秒检查一次
+        return data
+    else:
+        return None
 
 @app.route('/hello', methods=['POST'])
 def hello_world():
@@ -200,49 +277,12 @@ def parse_door():
 
     # 图元解析
     print('图纸 %s 开始解析' % dwgname)
-    data = dict()
-    res = send_msg('Door ' + dwgname)
-    if res == 'Succeed':
-        print('图纸%s解析成功' % dwgname)
-        # 解析成功，返回打印图及解析结果
-        dwg = os.path.splitext(dwgname)[0]
-
-        # 圆弧门
-        logfile = os.path.join(work_dir, dwg + '_ArcDoor.json')
-        res = parseResult2(logfile, item='ArcDoor')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 门线（推拉门）
-        logfile = os.path.join(work_dir, dwg + '_DoorLine.json')
-        res = parseResult2(logfile, item='DoorLine')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 打印存在延迟，需要定期监听并设置timeout，一般会经过30s以上才能监听到图像打印完成
-        pdfpath = os.path.join(work_dir, dwg + '_PlaneLayout.pdf')
-        timeout = 100
-        start_time = time.time()
-        while (time.time() - start_time) < timeout:
-            if os.path.exists(pdfpath):
-                print(f"经过 %.3f s，监听到 %s 打印完成。" % (time.time() - start_time, pdfpath))
-                break
-            time.sleep(0.1)  # 每隔0.1秒检查一次
-
+    items = ['ArcDoor', 'DoorLine']
+    data = parseResult3(work_dir, dwgname, items, 'Door')
+    if not data is None:
         return jsonify({'status': 'success', 'res': data})
+    return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
 
-    elif res == 'Fail':
-        print('图纸%s解析失败' % dwgname)
-        return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
-    else:
-        print('图纸%s解析出现未知Socket信息' % dwgname)
-        return jsonify({'status': 'error', 'error info': 'Got unknown information.'}), 400
 
 @app.route('/parse_window', methods=['POST'])
 def parse_window():
@@ -257,43 +297,14 @@ def parse_window():
 
     # 图元解析
     print('图纸 %s 开始解析' % dwgname)
-    data = dict()
-    res = send_msg('ParallelWindow ' + dwgname)
-    if res == 'Succeed':
-        print('图纸%s解析成功' % dwgname)
-        # 解析成功，返回打印图及解析结果
-        dwg = os.path.splitext(dwgname)[0]
-
-        # 圆弧门
-        logfile = os.path.join(work_dir, dwg + '_ParallelWindow.json')
-        res = parseResult2(logfile, item='ParallelWindow')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 打印存在延迟，需要定期监听并设置timeout，一般会经过30s以上才能监听到图像打印完成
-        pdfpath = os.path.join(work_dir, dwg + '_PlaneLayout.pdf')
-        timeout = 100
-        start_time = time.time()
-        while (time.time() - start_time) < timeout:
-            if os.path.exists(pdfpath):
-                print(f"经过 %.3f s，监听到 %s 打印完成。" % (time.time() - start_time, pdfpath))
-                break
-            time.sleep(0.1)  # 每隔0.1秒检查一次
-
+    items = ['ParallelWindow']
+    data = parseResult3(work_dir, dwgname, items, 'ParallelWindow')
+    if not data is None:
         return jsonify({'status': 'success', 'res': data})
-
-    elif res == 'Fail':
-        print('图纸%s解析失败' % dwgname)
-        return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
-    else:
-        print('图纸%s解析出现未知Socket信息' % dwgname)
-        return jsonify({'status': 'error', 'error info': 'Got unknown information.'}), 400
+    return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
 
 @app.route('/parse_wall', methods=['POST'])
-def parse_door():
+def parse_wall():
     # 接收传入图纸文件并存储
     f = request.files['file']
     dwgname = f.filename
@@ -305,42 +316,14 @@ def parse_door():
 
     # 图元解析
     print('图纸 %s 开始解析' % dwgname)
-    data = dict()
-    res = send_msg('Wall ' + dwgname)
-    if res == 'Succeed':
-        print('图纸%s解析成功' % dwgname)
-        # 解析成功，返回打印图及解析结果
-        dwg = os.path.splitext(dwgname)[0]
-
-        logfile = os.path.join(work_dir, dwg + '_WallLine.json')
-        res = parseResult2(logfile, item='WallLine')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 打印存在延迟，需要定期监听并设置timeout，一般会经过30s以上才能监听到图像打印完成
-        pdfpath = os.path.join(work_dir, dwg + '_PlaneLayout.pdf')
-        timeout = 100
-        start_time = time.time()
-        while (time.time() - start_time) < timeout:
-            if os.path.exists(pdfpath):
-                print(f"经过 %.3f s，监听到 %s 打印完成。" % (time.time() - start_time, pdfpath))
-                break
-            time.sleep(0.1)  # 每隔0.1秒检查一次
-
+    items = ['WallLine']
+    data = parseResult3(work_dir, dwgname, items, 'Wall')
+    if not data is None:
         return jsonify({'status': 'success', 'res': data})
-
-    elif res == 'Fail':
-        print('图纸%s解析失败' % dwgname)
-        return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
-    else:
-        print('图纸%s解析出现未知Socket信息' % dwgname)
-        return jsonify({'status': 'error', 'error info': 'Got unknown information.'}), 400
+    return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
 
 @app.route('/parse_area', methods=['POST'])
-def parse_door():
+def parse_area():
     # 接收传入图纸文件并存储
     f = request.files['file']
     dwgname = f.filename
@@ -348,80 +331,16 @@ def parse_door():
         return jsonify({'status': 'error', 'error info': 'No selected file.'}), 400
     work_name = os.path.splitext(dwgname)[0]
     work_dir = os.path.join(public_path, work_name)
+    os.makedirs(work_dir, exist_ok=True)
     f.save(os.path.join(work_dir, dwgname))
 
     # 图元解析
     print('图纸 %s 开始解析' % dwgname)
-    data = dict()
-    res = send_msg('Area ' + dwgname)
-    if res == 'Succeed':
-        print('图纸%s解析成功' % dwgname)
-        # 解析成功，返回打印图及解析结果
-        dwg = os.path.splitext(dwgname)[0]
-
-        # 圆弧门
-        logfile = os.path.join(work_dir, dwg + '_ArcDoor.json')
-        res = parseResult2(logfile, item='ArcDoor')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 门线（推拉门）
-        logfile = os.path.join(work_dir, dwg + '_DoorLine.json')
-        res = parseResult2(logfile, item='DoorLine')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 阳台
-        logfile = os.path.join(work_dir, dwg + '_Balcony.json')
-        res = parseResult2(logfile, item='Balcony')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 窗
-        logfile = os.path.join(work_dir, dwg + '_ParallelWindow.json')
-        res = parseResult2(logfile, item='ParallelWindow')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 墙
-        logfile = os.path.join(work_dir, dwg + '_WallLine.json')
-        res = parseResult2(logfile, item='WallLine')
-        if res is None:
-            print('res is None')
-            return jsonify({'status': 'error', 'error info': 'Get item list none.'}), 400
-        att, value = res
-        data[att] = value
-
-        # 打印存在延迟，需要定期监听并设置timeout，一般会经过30s以上才能监听到图像打印完成
-        pdfpath = os.path.join(work_dir, dwg + '_PlaneLayout.pdf')
-        timeout = 100
-        start_time = time.time()
-        while (time.time() - start_time) < timeout:
-            if os.path.exists(pdfpath):
-                print(f"经过 %.3f s，监听到 %s 打印完成。" % (time.time() - start_time, pdfpath))
-                break
-            time.sleep(0.1)  # 每隔0.1秒检查一次
-
+    items = ['ArcDoor', 'DoorLine', 'WallLine', 'Balcony', 'ParallelWindow', 'Text']
+    data = parseResult3(work_dir, dwgname, items, 'Area')
+    if not data is None:
         return jsonify({'status': 'success', 'res': data})
-
-    elif res == 'Fail':
-        print('图纸%s解析失败' % dwgname)
-        return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
-    else:
-        print('图纸%s解析出现未知Socket信息' % dwgname)
-        return jsonify({'status': 'error', 'error info': 'Got unknown information.'}), 400
+    return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
 
 
 if __name__ == '__main__':

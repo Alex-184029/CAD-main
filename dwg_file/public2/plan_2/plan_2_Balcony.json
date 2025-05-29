@@ -1,0 +1,17 @@
+{
+  "dwgPath": "E:\\School\\Grad1\\CAD\\MyCAD2\\CAD-main\\dwg_file\\public2\\plan_2\\plan_2.dwg",
+  "outPath": "E:\\School\\Grad1\\CAD\\MyCAD2\\CAD-main\\dwg_file\\public2\\plan_2\\plan_2_Balcony.json",
+  "range": [
+    152392.49687295724,
+    11380.767093073773,
+    172759.61868941432,
+    27619.110149297368
+  ],
+  "box": [
+    17.558821942662064,
+    1136.3778608341918,
+    526.73686641339441,
+    1542.336436489783
+  ],
+  "balcony_items": []
+}
