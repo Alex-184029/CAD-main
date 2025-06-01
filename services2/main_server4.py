@@ -10,6 +10,7 @@ import shutil
 
 from tools.tools1 import parseTimeStr, getUUID, parseResult
 from tools.parse_cad import parse_door, parse_wall, parse_window, parse_area
+from tools.tools_result import parse_result
 
 app = Flask(__name__)
 CORS(app)
@@ -146,24 +147,16 @@ def readBase64(imgpath):
         base64_img_str = base64_img.decode('utf-8')
     return base64_img_str
 
-def getBase64Image(drawing_name, task_type):
-    try:
-        if task_type == 'Door':
-            imgpath = os.path.join(dwg_public, drawing_name[:-4] + '_Origin.jpg')
-            imgstr = readBase64(imgpath)
-            return readBase64(os.path.join(dwg_public, 'blank.jpg')) if imgstr is None else imgstr
-        elif task_type == 'Window':
-            imgpath = os.path.join(dwg_public, drawing_name[:-4] + '_Origin_Window.jpg')
-            imgstr = readBase64(imgpath)
-            return readBase64(os.path.join(dwg_public, 'blank.jpg')) if imgstr is None else imgstr
-        else:
-            # 其它情况返回门吧，门窗同时识别情况
-            imgpath = os.path.join(dwg_public, drawing_name[:-4] + '_Origin.jpg')
-            imgstr = readBase64(imgpath)
-            return readBase64(os.path.join(dwg_public, 'blank.jpg')) if imgstr is None else imgstr
-    except:
-        return readBase64(os.path.join(dwg_public, 'blank.jpg'))
-
+def getBase64Image(task_id, drawing_name, task_type):
+    work_dir = os.path.join(dwg_public, task_id)
+    dwg = os.path.splitext(drawing_name)
+    blank_path = os.path.join(dwg_public, 'blank.jpg')
+    if task_type == 'LegendMatch':     # 还未加入系统的图例匹配功能
+        return readBase64(blank_path)  # 先返回空吧
+    else:
+        img_path = os.path.join(work_dir, dwg + '_PlaneLayout.jpg')
+        imgstr = readBase64(img_path)
+        return readBase64(blank_path) if imgstr is None else imgstr
 
 # 用户管理接口
 @app.route('/register', methods=['POST'])
@@ -429,12 +422,12 @@ def query_task_list3():
 
     # 加入base64图片
     for item in form:
-        item['img_base64'] = getBase64Image(item['drawing_name'], item['task_type'])
+        item['img_base64'] = getBase64Image(item['task_id'], item['drawing_name'], item['task_type'])
 
     return jsonify({'form': form, 'total': total})
 
 
-@app.route('/delete_task', methods=['POST'])      # 删除系统中有加，老师觉得没必要删
+@app.route('/delete_task', methods=['POST'])      # 老师觉得没必要删除任务，未使用
 def delete_task():
     task_id = request.form['task_id']
     task_to_delete = Task.query.get(task_id)
@@ -459,11 +452,8 @@ def get_dwg_file():     # 下载dwg文件到本地
         filename = file.filename
         # 文件保存本地
         file.save(os.path.join(dwg_public, filename))
-
         # add_dwg_file(filename, os.path.join('./dwg_file/', filename))
-
         json_str = {'result': 'success', 'filename': filename}
-
     else:
         json_str = {'result': 'fail'}
 
@@ -473,13 +463,13 @@ def get_dwg_file():     # 下载dwg文件到本地
 def get_image():
     drawing_name = request.form['drawing_name']
     task_type = request.form['task_type']
-    # 要把task_id穿过来，上面两个都可以查
+    # 前端需要把task_id传过来
     task_id = request.form['task_id']
     plane_layout_list = ['Window', 'Door', 'Wall', 'Area']
     try:
-        if any(item in task_type for item in plane_layout_list):
+        # if any(item in task_type for item in plane_layout_list):   # 这里的type为单一类型
+        if task_type in plane_layout_list:
             imgpath = os.path.join(dwg_public, task_id, drawing_name[:-4] + '_PlaneLayout.jpg')
-            # print('imgpath:', imgpath)
             with open(imgpath, 'rb') as img_file:
                 response = make_response(img_file.read())
                 response.headers.set('Content-Type', 'image_PlaneLayout/jpg')
@@ -494,48 +484,17 @@ def get_image():
 def get_item_list():
     dwgname = os.path.splitext(request.form['drawing_name'])[0]
     task_type = request.form['task_type']
-    # 根须用户选择的查看任务类型，读取结果暂存文件并返回，这里要修改
+    task_id = request.form['task_id']
+    work_dir = os.path.join(dwg_public, task_id)
     try:
-        if task_type == 'Door':
-            logfile = os.path.join(dwg_public, (dwgname + '_ArcDoor.txt'))
-            res = parseResult(logfile)
-        elif task_type == 'Window':
-            logfile = os.path.join(dwg_public, (dwgname + '_ParallelWindow.txt'))
-            res = parseResult(logfile)
-        else:
-            print('task_type not supported.')
-            res = None
+        logfile = os.path.join(work_dir, dwgname + '_Res' + task_type + '.json')
+        res = parse_result(logfile, task_type)    # 传json中原始数据，前端决定如何显示
         if res is None:
             print('res is None')
             return jsonify({'error': 'Get item list none.'}), 404
-        # print('box:', res['box'])
-        # print('total:', res['total'])
-        # print('rects:', res['rects'])
         return jsonify(res), 200
     except FileNotFoundError:
         return jsonify({'error': 'Get item list fail.'}), 404
-
-# 这两个服务没必要
-@app.route('/recong_door', methods=['POST'])
-def recong_door():
-    dwgname = request.form['dwgname']
-    print('dwgname:', dwgname)
-    dwgpath = os.path.join(dwg_public, dwgname)
-    print('dwgpath:', dwgpath)
-    # 门算法解析，并且返回图片名（图片名可以与图纸文件名保持一致）
-
-    return jsonify({'message': 'Recong door successful'}), 200
-
-@app.route('/recong_door2', methods=['POST'])
-def recong_door2():
-    dwgname = request.form['dwgname']
-    print('dwgname:', dwgname)
-    imgname = 'tmp.jpg'
-    imgpath = os.path.join(dwg_public, imgname)
-    print('imgpath:', imgpath)
-    base64img = readBase64(imgpath)
-
-    return jsonify({'img_base64': base64img}), 200
 
 def recongDoor(task_id):
     print('Here is recongDoor.')
@@ -544,17 +503,12 @@ def recongDoor(task_id):
         dwgname = target_task.drawing_name
         print('图纸%s开始解析' % dwgname)
         res = parse_door(task_id, dwgname)
-        # res = send_msg('ArcDoor ' + dwgname)
         if res == 'Succeed':
-            print('图纸%s统计完毕' % dwgname)
-            target_task.status = 'sucess'     # 更新任务状态，注意是sucess
-        elif res == 'Fail':
-            print('图纸%s统计完毕' % dwgname)
-            target_task.status = 'fail'
+            print('图纸%s解析成功。' % dwgname)
+            target_task.status = 'sucess'
         else:
-            console += '\n出现未知Socket信息。\n'
+            print('图纸%s解析失败。' % dwgname)
             target_task.status = 'fail'
-
         try:
             db.session.commit()
             return 'success'
@@ -568,16 +522,13 @@ def recongWindow(task_id):
     with app.app_context():
         target_task = Task.query.filter_by(task_id=task_id).first()
         dwgname = target_task.drawing_name
-        print('图纸%s开始统计' % dwgname)
-        res = send_msg('ParallelWindow ' + dwgname)
+        print('图纸%s开始解析' % dwgname)
+        res = parse_window(task_id, dwgname)
         if res == 'Succeed':
-            print('图纸%s统计完毕' % dwgname)
-            target_task.status = 'sucess'     # 更新任务状态，注意是sucess
-        elif res == 'Fail':
-            print('图纸%s统计完毕' % dwgname)
-            target_task.status = 'fail'
+            print('图纸%s解析成功。' % dwgname)
+            target_task.status = 'sucess'
         else:
-            console += '\n出现未知Socket信息。\n'
+            print('图纸%s解析失败。' % dwgname)
             target_task.status = 'fail'
         try:
             db.session.commit()
@@ -588,10 +539,46 @@ def recongWindow(task_id):
             return 'fail'
 
 def recongWall(task_id):
-    pass
+    print('Here is recongWall.')
+    with app.app_context():
+        target_task = Task.query.filter_by(task_id=task_id).first()
+        dwgname = target_task.drawing_name
+        print('图纸%s开始解析' % dwgname)
+        res = parse_wall(task_id, dwgname)
+        if res == 'Succeed':
+            print('图纸%s解析成功。' % dwgname)
+            target_task.status = 'sucess'
+        else:
+            print('图纸%s解析失败。' % dwgname)
+            target_task.status = 'fail'
+        try:
+            db.session.commit()
+            return 'success'
+        except Exception as e:
+            print('error:', e)
+            db.session.rollback()  # 如果出现异常，回滚事务
+            return 'fail'
 
 def recongArea(task_id):
-    pass
+    print('Here is recongArea.')
+    with app.app_context():
+        target_task = Task.query.filter_by(task_id=task_id).first()
+        dwgname = target_task.drawing_name
+        print('图纸%s开始解析' % dwgname)
+        res = parse_area(task_id, dwgname)
+        if res == 'Succeed':
+            print('图纸%s解析成功。' % dwgname)
+            target_task.status = 'sucess'
+        else:
+            print('图纸%s解析失败。' % dwgname)
+            target_task.status = 'fail'
+        try:
+            db.session.commit()
+            return 'success'
+        except Exception as e:
+            print('error:', e)
+            db.session.rollback()  # 如果出现异常，回滚事务
+            return 'fail'
 
 def closeSocket():
     send_msg('Terminate')

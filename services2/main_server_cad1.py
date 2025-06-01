@@ -202,7 +202,7 @@ def parseResult3(work_dir, dwgname, items, task_name):
         # 读取元信息
         item0 = items[0]
         logfile = os.path.join(work_dir, dwg + '_' + item0 + '.json')
-        res = parseResult2(logfile, item=item)
+        res = parseResultBasic(logfile, item=item)
         if res is None:
             return None
         data.update(res)

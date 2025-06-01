@@ -1,10 +1,7 @@
-d = {'apple': 1, 'banana': 2, 'pear': 3}
+a = dict()
+b = dict()
+a['b'] = b
 
-keys = list(d.keys())
-print('keys:', type(keys), keys)
+b['apple'] = 1
 
-a = False
-if a:
-    b = 2
-if not a or b == 2:
-    print('yes')
+print(a, b)
