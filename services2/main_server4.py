@@ -9,6 +9,7 @@ from flask_bcrypt import Bcrypt
 import shutil
 
 from tools.tools1 import parseTimeStr, getUUID, parseResult
+from tools.parse_cad import parse_door, parse_wall, parse_window, parse_area
 
 app = Flask(__name__)
 CORS(app)
@@ -541,8 +542,9 @@ def recongDoor(task_id):
     with app.app_context():
         target_task = Task.query.filter_by(task_id=task_id).first()
         dwgname = target_task.drawing_name
-        print('图纸%s开始统计' % dwgname)
-        res = send_msg('ArcDoor ' + dwgname)
+        print('图纸%s开始解析' % dwgname)
+        res = parse_door(task_id, dwgname)
+        # res = send_msg('ArcDoor ' + dwgname)
         if res == 'Succeed':
             print('图纸%s统计完毕' % dwgname)
             target_task.status = 'sucess'     # 更新任务状态，注意是sucess
