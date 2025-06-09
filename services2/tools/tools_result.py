@@ -24,9 +24,9 @@ def parse_result_door(logfile):
         data = json.load(f)
     data_ans = dict()
     data_ans['range'] = data['range']
-    data_ans['single_arc_doors'] = data['single_arc_doors']
-    data_ans['double_arc_doors'] = data['double_arc_doors']
-    data_ans['slide_doors'] = data['slide_doors']
+    data_ans['single_arc_doors'] = data['doors']['single_arc_doors']
+    data_ans['double_arc_doors'] = data['doors']['double_arc_doors']
+    data_ans['slide_doors'] = data['doors']['slide_doors']
     return data_ans
 
 def parse_result_window(logfile):

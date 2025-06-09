@@ -240,13 +240,22 @@ def do_map_legends(legends, box, imgWidth=1600, imgHeight=1280, extend=1):
         legends[i]['items'] = items_new
 
 def do_map_data(data: dict, box: list, imgWidth: float, imgHeight: float):
+    print('step1')
     atts = list(data.keys())
     for att in atts:
         if 'items' in att:
-            data[att] = do_map_data_item(data[att], box, imgWidth, imgHeight)
+            print('step2 ', att)
+            do_map_data_item(data[att], box, imgWidth, imgHeight)
+            if not data[att] is None and len(data[att]) > 0:
+                print('Convert index 0:', data[att][0])
+            else:
+                print('Convert %s is none.' % att)
+                print(data[att])
+
     # return data        # dict类型可以直接传参修改，无需返回
 
 def do_map_data_item(items: dict, box: list, imgWidth=1600, imgHeight=1280):
+    print('step3')
     if items is None or len(items) == 0 or box is None or len(box) != 4:
         return []
     imgCenterX = imgWidth / 2
@@ -274,7 +283,7 @@ def do_map_data_item(items: dict, box: list, imgWidth=1600, imgHeight=1280):
                 yy2 = imgHeight - round(imgCenterY + (y2 - rangeCenterY) * scale)
                 if xx1 < 0 or xx1 > imgWidth or xx2 < 0 or xx2 > imgWidth or yy1 < 0 or yy1 > imgHeight or yy2 < 0 or yy2 > imgHeight:
                     continue
-                item_ans[att] = [xx1, yy2, xx2, yy1, yy2]
+                item_ans[att] = [xx1, min(yy1, yy2), xx2, max(yy1, yy2)]
             elif att == 'point':
                 x1, y1, x2, y2 = item[att]
                 xx1 = round(imgCenterX + (x1 - rangeCenterX) * scale)
@@ -283,7 +292,7 @@ def do_map_data_item(items: dict, box: list, imgWidth=1600, imgHeight=1280):
                 yy2 = imgHeight - round(imgCenterY + (y2 - rangeCenterY) * scale)
                 if xx1 < 0 or xx1 > imgWidth or xx2 < 0 or xx2 > imgWidth or yy1 < 0 or yy1 > imgHeight or yy2 < 0 or yy2 > imgHeight:
                     continue
-                item_ans[att] = [xx1, yy2, xx2, yy1, yy2]
+                item_ans[att] = [xx1, yy1, xx2, yy2]
             elif att == 'x':
                 x1 = item[att]
                 xx1 = round(imgCenterX + (x1 - rangeCenterX) * scale)

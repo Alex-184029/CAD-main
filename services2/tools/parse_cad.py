@@ -5,13 +5,14 @@ import json
 import sys
 sys.path.append('../')
 
-from main_server4 import dwg_public
-from tools1 import readBase64, writeBase64, imgShape, do_map_data
-from tools_door import parse_door_tool
-from tools_wall import parse_wall_tool
+from tools.tools1 import writeBase64, imgShape, do_map_data
+from tools.tools_door import parse_door_tool2, parse_door_tool3
+from tools.tools_wall import parse_wall_tool
 
 parse_cad_url = 'http://127.0.0.1:5005'        # 本地
 # parse_cad_url = 'http://192.168.131.128:5005'  # 虚拟机
+
+dwg_public = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public3\dwgs2'
 
 def post_url_json(url, dwg_path):
     if not os.path.exists(dwg_path):
@@ -58,6 +59,7 @@ def parse_door(task_id, dwgname):
         return None
     print('before convert:', data['arc_items'][0])
     do_map_data(data, box, w, h)
+    # print('after convert:', data)
     print('after convert:', data['arc_items'][0])
 
     # 属性校验
@@ -75,7 +77,7 @@ def parse_door(task_id, dwgname):
         arc_doors.append(item['rect'] + item['point'])
 
     # 解析门并分类
-    single_arc_doors, double_arc_doors, slide_doors = parse_door_tool(lines, arc_doors)
+    single_arc_doors, double_arc_doors, slide_doors = parse_door_tool2(lines, arc_doors)
 
     # 结果保存
     data_res = dict()
@@ -204,4 +206,105 @@ def parse_wall(task_id, dwgname):
 
 def parse_area(task_id, dwgname):
     print('Here is parse_area.')
-    # to do ...
+    url_json = parse_cad_url + '/parse_area'
+    url_image = parse_cad_url + '/get_plane_layout_img'
+    work_dir = os.path.join(dwg_public, task_id)
+    dwg_path = os.path.join(work_dir, dwgname)
+    if not os.path.join(dwg_path):
+        print('parse_area, dwg_path not exist:', dwg_path)
+        return None
+
+    # 调用服务，提取cad解析信息
+    data = post_url_json(url_json, os.path.join(work_dir, dwgname))
+    # 图像暂存
+    dwg = os.path.splitext(dwgname)[0]
+    img_path = os.path.join(work_dir, dwg + '_PlaneLayout.jpg')
+    if not os.path.exists(img_path):
+        img_plane_layout = post_url_image(url_image, dwgname)
+        writeBase64(img_plane_layout, img_path)
+    
+    # 坐标转换
+    box = data['range']
+    w, h = imgShape(img_path)
+    if w is None or h is None:
+        print('Error in parse_door: get imgShape error.')
+        return None
+    do_map_data(data, box, w, h)
+
+    # 属性校验
+    atts = list(data.keys())
+    items_list = ['arc_items', 'door_line_items', 'window_items', 'wall_line_items', 'balcony_items', 'text_items']
+    if not all(item in atts for item in items_list):
+        print('Error in parse_area, att does not exist.')
+        return None
+    
+    # 提取并解析门
+    lines = []
+    for item in data['door_line_items']:
+        lines.append(item['point'])
+    arc_doors = []
+    for item in data['arc_items']:
+        arc_doors.append(item['rect'] + item['point'])
+    single_arc_doors, double_arc_doors, slide_doors, closed_arc_doors = parse_door_tool3(lines, arc_doors)
+
+    # 提取并解析墙
+    for item in data['wall_line_items']:
+        lines.append(item['point'])
+    walls = parse_wall_tool(lines)
+
+    # 提取并解析窗
+    rects_window = []
+    for item in data['window_items']:
+        rects_window.append(item['rect'])
+
+    # 提取并解析阳台
+    rects_balcony = []
+    for item in data['balcony_items']:
+        rects_balcony.append(item['rect'])
+
+    # 提取并解析文本
+    texts = []
+    for item in data['text_items']:
+        texts.append(item)
+
+    # 中间结果暂存
+    data_template = dict()
+    data_template['task_id'] = task_id
+    data_template['dwg_name'] = dwgname
+    data_template['range'] = data['range']
+    data_template['box'] = data['box']
+    # 门保存，后续还需保存处理后的门
+    data_door = data_template.copy()
+    doors_dict = dict()
+    data_door['doors'] = doors_dict
+    doors_dict['single_arc_doors'] = single_arc_doors
+    doors_dict['double_arc_doors'] = double_arc_doors
+    doors_dict['slide_doors'] = slide_doors
+    out_path = os.path.join(work_dir, dwg + '_ResDoor.json')
+    with open(out_path, 'w', encoding='utf-8') as f:
+        json.dump(data_door, f, indent=2, ensure_ascii=False)
+    # 窗保存
+    data_window = data_template.copy()
+    data_window['windows'] = rects_window
+    out_path = os.path.join(work_dir, dwg + '_ResWindow.json')
+    with open(out_path, 'w', encoding='utf-8') as f:
+        json.dump(data_window, f, indent=2, ensure_ascii=False)
+    # 阳台保存
+    data_balcony = data_template.copy()
+    data_balcony['balconys'] = rects_balcony
+    out_path = os.path.join(work_dir, dwg + '_ResBalcony.json')
+    with open(out_path, 'w', encoding='utf-8') as f:
+        json.dump(data_balcony, f, indent=2, ensure_ascii=False)
+    # 墙保存
+    data_wall = data_template.copy()
+    data_wall['walls'] = walls
+    out_path = os.path.join(work_dir, dwg + '_ResWall.json')
+    with open(out_path, 'w', encoding='utf-8') as f:
+        json.dump(data_wall, f, indent=2, ensure_ascii=False)
+    # ***** 后续还需处理保存：筛选处理后的文本、门框处理后的门
+
+    # 门框处理
+
+
+    
+    return 'Succeed'

@@ -15,7 +15,7 @@ import json
 app = Flask(__name__)
 CORS(app)
 # dwgpath = r'C:\Users\Administrator\Desktop\MyCAD\public\dwgs1'
-public_path = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public2'
+public_path = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public3\dwgs1'
 
 def send_msg(message):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -202,7 +202,7 @@ def parseResult3(work_dir, dwgname, items, task_name):
         # 读取元信息
         item0 = items[0]
         logfile = os.path.join(work_dir, dwg + '_' + item0 + '.json')
-        res = parseResultBasic(logfile, item=item)
+        res = parseResultBasic(logfile)
         if res is None:
             return None
         data.update(res)
@@ -273,6 +273,7 @@ def parse_door():
         return jsonify({'status': 'error', 'error info': 'No selected file.'}), 400
     work_name = os.path.splitext(dwgname)[0]
     work_dir = os.path.join(public_path, work_name)
+    os.makedirs(work_dir, exist_ok=True)
     f.save(os.path.join(work_dir, dwgname))
 
     # 图元解析

@@ -35,7 +35,7 @@ def testRequest():
 
 def post_url2(url="http://127.0.0.1:5005/parse_area"):
     # 替换为你自己的测试文件路径，例如：test.dwg
-    file_path = r"E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\plans\plan_2.dwg"
+    file_path = r"E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\plans\(T3) 12#楼105户型平面图（镜像）.dwg"
 
     # 打开文件并构造上传请求
     with open(file_path, "rb") as f:

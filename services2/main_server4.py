@@ -9,7 +9,7 @@ from flask_bcrypt import Bcrypt
 import shutil
 
 from tools.tools1 import parseTimeStr, getUUID, parseResult
-from tools.parse_cad import parse_door, parse_wall, parse_window, parse_area
+from tools.parse_cad import parse_door, parse_wall, parse_window, parse_area, dwg_public
 from tools.tools_result import parse_result
 
 app = Flask(__name__)
@@ -40,8 +40,6 @@ celery.conf.update(app.config)
 # 不存在则创建，可能没啥用
 # with app.app_context():
 #     db.create_all()
-
-dwg_public = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public\dwgs'
 
 class User(db.Model):
     __tablename__ = 'user'
@@ -149,7 +147,7 @@ def readBase64(imgpath):
 
 def getBase64Image(task_id, drawing_name, task_type):
     work_dir = os.path.join(dwg_public, task_id)
-    dwg = os.path.splitext(drawing_name)
+    dwg = os.path.splitext(drawing_name)[0]
     blank_path = os.path.join(dwg_public, 'blank.jpg')
     if task_type == 'LegendMatch':     # 还未加入系统的图例匹配功能
         return readBase64(blank_path)  # 先返回空吧

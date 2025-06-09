@@ -212,6 +212,7 @@ def combine_with_arc_doors2(rects, arc_doors):
 
     def do_combine2(rect1, rect_arc2, thred=5):     # origin is 10
         x11, y11, x12, y12, type1 = rect1           # 门框坐标，横纵类型（0横1纵）
+        # print('rect_arc2:', rect_arc2)
         x21, y21, x22, y22 = rect_arc2[:4]          # 圆弧轮廓
         xx1, yy1, xx2, yy2 = rect_arc2[4:]          # 圆弧两端点坐标
         if max(x11, x21) - min(x12, x22) > thred:
@@ -369,15 +370,39 @@ def merge_arc_rectangles(rectangles):    # 合并圆弧门，单开/双开
 
 def parse_door_tool(lines: list, arc_doors: list):
     rects = find_rectangles(lines)
+    # 将rects与圆弧框进行对照，平开门关门
+    rects_slide, rects_arc = combine_with_arc_doors2(rects, arc_doors)
+    slide_doors = rects_to_slide_doors(rects_slide) # 推拉门
+
+    return rects_arc, slide_doors
+
+def parse_door_tool2(lines: list, arc_doors: list):
+    rects = find_rectangles(lines)
+    # 将rects与圆弧框进行对照
+    rects_slide, _ = combine_with_arc_doors2(rects, arc_doors)
+    # print('split rects num:', len(rects_slide), len(rects_arc))
+    slide_doors = rects_to_slide_doors(rects_slide) # 推拉门
+    # print('slide doors num:', len(slide_doors))
+
+    arc_rects = [rect[:4] for rect in arc_doors]
+    # 单开、双开门区分
+    double_arc_doors, single_arc_doors = merge_arc_rectangles(arc_rects)
+
+    return single_arc_doors, double_arc_doors, slide_doors
+
+def parse_door_tool3(lines: list, arc_doors: list):
+    rects = find_rectangles(lines)
     # 将rects与圆弧框进行对照
     rects_slide, rects_arc = combine_with_arc_doors2(rects, arc_doors)
     # print('split rects num:', len(rects_slide), len(rects_arc))
     slide_doors = rects_to_slide_doors(rects_slide) # 推拉门
     # print('slide doors num:', len(slide_doors))
-    # 单开、双开门区分
-    double_arc_doors, single_arc_doors = merge_arc_rectangles(rects_arc)
 
-    return single_arc_doors, double_arc_doors, slide_doors
+    arc_rects = [rect[:4] for rect in arc_doors]
+    # 单开、双开门区分
+    double_arc_doors, single_arc_doors = merge_arc_rectangles(arc_rects)
+
+    return single_arc_doors, double_arc_doors, slide_doors, rects_arc
 
 
 # 示例用法
