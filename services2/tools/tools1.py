@@ -240,11 +240,9 @@ def do_map_legends(legends, box, imgWidth=1600, imgHeight=1280, extend=1):
         legends[i]['items'] = items_new
 
 def do_map_data(data: dict, box: list, imgWidth: float, imgHeight: float):
-    print('step1')
     atts = list(data.keys())
     for att in atts:
         if 'items' in att:
-            print('step2 ', att)
             do_map_data_item(data[att], box, imgWidth, imgHeight)
             if not data[att] is None and len(data[att]) > 0:
                 print('Convert index 0:', data[att][0])

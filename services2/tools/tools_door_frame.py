@@ -1,6 +1,22 @@
 from shapely.geometry import Polygon
 from shapely.affinity import translate
 
+def rect_to_polygon(rect):
+    """将单个轴对齐矩形转换为Polygon"""
+    x1, y1, x2, y2 = rect
+    return Polygon([(x1, y1), (x2, y1), (x2, y2), (x1, y2)])
+
+def polygon_to_rect(polygon):
+    """将单个Polygon转换回轴对齐矩形"""
+    minx, miny, maxx, maxy = polygon.bounds
+    return [minx, miny, maxx, maxy]
+
+def rects_to_polygons(rects):
+    return [rect_to_polygon(rect) for rect in rects]
+
+def polygons_to_rects(polygons):
+    return [polygon_to_rect(poly) for poly in polygons]
+
 def get_min_extension(door, walls, direction, max_extend):
     """
     计算门扇在指定方向上的最小延申距离，使其与墙体贴合
@@ -114,8 +130,10 @@ def round_polygon_coordinates(polygon):
     rounded_polygon = Polygon(rounded_coords)
     return rounded_polygon
 
-def handle_door_frame(poly_ArcDoor, poly_SlideDoor, poly_WallArea):
+def handle_door_frame(rect_ArcDoor, rect_SlideDoor, poly_WallArea):
+    poly_ArcDoor, poly_SlideDoor = rects_to_polygons(rect_ArcDoor), rects_to_polygons(rect_SlideDoor)
     poly_ArcDoor = [round_polygon_coordinates(poly) for poly in poly_ArcDoor]     # 四舍五入为整数，以防万一，正常传入的都是整数
+    poly_SlideDoor = [round_polygon_coordinates(poly) for poly in poly_SlideDoor]     # 四舍五入为整数，以防万一，正常传入的都是整数
 
     poly_ArcDoorNew = []
     for poly in poly_ArcDoor:

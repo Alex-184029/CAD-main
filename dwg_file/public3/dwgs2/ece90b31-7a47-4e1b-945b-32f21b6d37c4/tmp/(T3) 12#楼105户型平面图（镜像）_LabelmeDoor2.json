@@ -1,0 +1,220 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "imagePath": "E:\\School\\Grad1\\CAD\\MyCAD2\\CAD-main\\dwg_file\\public3\\dwgs2\\ece90b31-7a47-4e1b-945b-32f21b6d37c4\\(T3) 12#楼105户型平面图（镜像）_PlaneLayout.jpg",
+  "imageData": null,
+  "imageHeight": 2000,
+  "imageWidth": 2828,
+  "shapes": [
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          788.0,
+          896.0
+        ],
+        [
+          793.0,
+          896.0
+        ],
+        [
+          793.0,
+          1001.0
+        ],
+        [
+          788.0,
+          1001.0
+        ],
+        [
+          788.0,
+          896.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1699.0,
+          1017.0
+        ],
+        [
+          1703.0,
+          1017.0
+        ],
+        [
+          1703.0,
+          1097.0
+        ],
+        [
+          1699.0,
+          1097.0
+        ],
+        [
+          1699.0,
+          1017.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          884.0,
+          1102.0
+        ],
+        [
+          964.0,
+          1102.0
+        ],
+        [
+          964.0,
+          1106.0
+        ],
+        [
+          884.0,
+          1106.0
+        ],
+        [
+          884.0,
+          1102.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1348.0,
+          1001.0
+        ],
+        [
+          1438.0,
+          1001.0
+        ],
+        [
+          1438.0,
+          1006.0
+        ],
+        [
+          1348.0,
+          1006.0
+        ],
+        [
+          1348.0,
+          1001.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1448.0,
+          886.0
+        ],
+        [
+          1538.0,
+          886.0
+        ],
+        [
+          1538.0,
+          890.0
+        ],
+        [
+          1448.0,
+          890.0
+        ],
+        [
+          1448.0,
+          886.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1578.0,
+          881.0
+        ],
+        [
+          1668.0,
+          881.0
+        ],
+        [
+          1668.0,
+          886.0
+        ],
+        [
+          1578.0,
+          886.0
+        ],
+        [
+          1578.0,
+          881.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1598.0,
+          1001.0
+        ],
+        [
+          1688.0,
+          1001.0
+        ],
+        [
+          1688.0,
+          1006.0
+        ],
+        [
+          1598.0,
+          1006.0
+        ],
+        [
+          1598.0,
+          1001.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    }
+  ]
+}

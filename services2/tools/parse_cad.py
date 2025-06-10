@@ -1,6 +1,7 @@
 import requests
 import os
 import json
+from shapely.geometry import Polygon
 
 import sys
 sys.path.append('../')
@@ -8,6 +9,8 @@ sys.path.append('../')
 from tools.tools1 import writeBase64, imgShape, do_map_data
 from tools.tools_door import parse_door_tool2, parse_door_tool3
 from tools.tools_wall import parse_wall_tool
+from tools.tools_door_frame import handle_door_frame, rects_to_polygons
+from tools.tools_room_partition import handle_room_partition
 
 parse_cad_url = 'http://127.0.0.1:5005'        # 本地
 # parse_cad_url = 'http://192.168.131.128:5005'  # 虚拟机
@@ -32,6 +35,88 @@ def post_url_image(url, dwg_name):
     res = requests.post(url, data=data)
     return res.json()['img']
 
+def save_to_labelme_room(image_path, rooms, output_json):
+    imgWidth, imgHeight = imgShape(image_path)
+
+    data = {
+        "version": "5.5.0",
+        "flags": {},
+        "imagePath": image_path,
+        "imageData": None,
+        "imageHeight": imgHeight,
+        "imageWidth": imgWidth
+    }
+
+    shapes = []
+    for room in rooms:
+        shape = {
+            "label": '-'.join(room['function']),
+            "points": list(map(list, room['poly'].exterior.coords)),
+            "shape_type": "polygon",
+            "group_id": None,
+            "description": '',
+            "flags": {},
+            "mask": None
+        }
+        shapes.append(shape)
+    data['shapes'] = shapes
+    with open(output_json, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+def save_to_labelme_poly(image_path, polygons, output_json):
+    imgWidth, imgHeight = imgShape(image_path)
+
+    data = {
+        "version": "5.5.0",
+        "flags": {},
+        "imagePath": image_path,
+        "imageData": None,
+        "imageHeight": imgHeight,
+        "imageWidth": imgWidth
+    }
+    shapes = []
+    for poly in polygons:
+        shape = {
+            "label": "Polygon",
+            "points": list(map(list, poly.exterior.coords)),
+            "shape_type": "polygon",
+            "group_id": None,
+            "description": '',
+            "flags": {},
+            "mask": None
+        }
+        shapes.append(shape)
+    data['shapes'] = shapes
+    with open(output_json, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+def save_to_labelme_line(image_path, lines, output_json):
+    imgWidth, imgHeight = imgShape(image_path)
+    data = {
+        "version": "5.5.0",
+        "flags": {},
+        "imagePath": image_path,
+        "imageData": None,
+        "imageHeight": imgHeight,
+        "imageWidth": imgWidth
+    }
+    
+    shapes = []
+    for line in lines:
+        shape = {
+            'label': 'Line', 
+            'points': [[line[0], line[1]], [line[2], line[3]]],
+            "group_id": None,
+            "description": "",
+            "shape_type": "line",
+            "flags": {},
+            "mask": None
+        }
+        shapes.append(shape)
+    data['shapes'] = shapes
+    with open(output_json, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    
 def parse_door(task_id, dwgname):
     print('Here is parse_door.')
     url_json = parse_cad_url + '/parse_door'
@@ -95,7 +180,6 @@ def parse_door(task_id, dwgname):
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(data_res, f, indent=2, ensure_ascii=False)
     return 'Succeed'
-    
 
 def parse_window(task_id, dwgname):
     print('Here is parse_window.')
@@ -248,6 +332,7 @@ def parse_area(task_id, dwgname):
     single_arc_doors, double_arc_doors, slide_doors, closed_arc_doors = parse_door_tool3(lines, arc_doors)
 
     # 提取并解析墙
+    lines = []
     for item in data['wall_line_items']:
         lines.append(item['point'])
     walls = parse_wall_tool(lines)
@@ -301,10 +386,53 @@ def parse_area(task_id, dwgname):
     out_path = os.path.join(work_dir, dwg + '_ResWall.json')
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(data_wall, f, indent=2, ensure_ascii=False)
-    # ***** 后续还需处理保存：筛选处理后的文本、门框处理后的门
 
     # 门框处理
+    poly_walls = [Polygon(wall) for wall in walls]
+    poly_arc_doors, poly_slide_doors = handle_door_frame(closed_arc_doors, slide_doors, poly_walls)
+    # 矩形转多边形
+    poly_windows = rects_to_polygons(rects_window)
+    poly_balconys = rects_to_polygons(rects_balcony)
+    polygons = poly_arc_doors + poly_slide_doors + poly_windows + poly_balconys + poly_walls
+    # labelme格式可视化多边形
+    labelme_path = os.path.join(work_dir, dwg + '_LabelmePolygon.json')
+    save_to_labelme_poly(img_path, polygons, labelme_path)
 
+    tmp_dir = os.path.join(work_dir, 'tmp')
+    os.makedirs(tmp_dir, exist_ok=True)
+    labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeDoor1.json')
+    save_to_labelme_poly(img_path, poly_arc_doors + poly_slide_doors, labelme_path)
+    poly_doors = rects_to_polygons(closed_arc_doors + slide_doors)
+    labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeDoor2.json')
+    save_to_labelme_poly(img_path, poly_doors, labelme_path)
+    labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeWall.json')
+    save_to_labelme_poly(img_path, poly_walls, labelme_path)
+    labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeWallLine.json')
+    save_to_labelme_line(img_path, lines, labelme_path) 
 
+    # # 区域提取与标签分配
+    # rooms = handle_room_partition(polygons, texts)
+
+    # # 房间数据保存，临时可视化
+    # data_room = data_template.copy()
+    # data_room['rooms'] = rooms
+    # out_path = os.path.join(work_dir, dwg + '_ResArea.json')
+    # with open(out_path, 'w', encoding='utf-8') as f:
+    #     json.dump(data_room, f, indent=2, ensure_ascii=False)
+
+    # # labelme格式可视化
+    # labelme_path = os.path.join(work_dir, dwg + '_LabelmeArea.json')
+    # save_to_labelme_room(img_path, rooms, labelme_path)
     
     return 'Succeed'
+
+
+def test():
+    task_id = 'ece90b31-7a47-4e1b-945b-32f21b6d37c4'
+    dwgname = '(T3) 12#楼105户型平面图（镜像）.dwg'
+    res = parse_area(task_id, dwgname)
+    print('test res:', res)
+
+
+if __name__ == '__main__':
+    test()

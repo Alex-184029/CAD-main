@@ -46,5 +46,10 @@ def parse_result_wall(logfile):
     return data_ans
 
 def parse_result_area(logfile):
-    pass
+    with open(logfile, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    data_ans = dict()
+    data_ans['range'] = data['range']
+    data_ans['rooms'] = data['rooms']
+    return data_ans
 

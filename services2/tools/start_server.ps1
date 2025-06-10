@@ -32,6 +32,14 @@ $windows = @(
         )
     },
     @{
+        Title = "text_classify"
+        Path = "E:\School\Grad1\CAD\DeepLearn\TextClassify\Chinese-Text-Classification-Pytorch"
+        Commands = @(
+            "conda activate cad_py38",
+            "python server1.py"
+        )
+    },
+    @{
         Title = "npm"
         Path = "E:\School\Grad1\CAD\MyCAD2\vue-element-admin-v3\vue-element-admin"
         Commands = @(
