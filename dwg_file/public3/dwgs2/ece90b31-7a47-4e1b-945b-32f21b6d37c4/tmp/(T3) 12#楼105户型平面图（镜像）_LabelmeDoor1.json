@@ -215,6 +215,96 @@
       "description": "",
       "flags": {},
       "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1023.0,
+          558.0
+        ],
+        [
+          1203.0,
+          558.0
+        ],
+        [
+          1203.0,
+          564.0
+        ],
+        [
+          1023.0,
+          564.0
+        ],
+        [
+          1023.0,
+          558.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          968.0,
+          622.0
+        ],
+        [
+          973.0,
+          622.0
+        ],
+        [
+          973.0,
+          782.0
+        ],
+        [
+          968.0,
+          782.0
+        ],
+        [
+          968.0,
+          622.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1023.0,
+          1287.0
+        ],
+        [
+          1263.0,
+          1287.0
+        ],
+        [
+          1263.0,
+          1294.0
+        ],
+        [
+          1023.0,
+          1294.0
+        ],
+        [
+          1023.0,
+          1287.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
     }
   ]
 }

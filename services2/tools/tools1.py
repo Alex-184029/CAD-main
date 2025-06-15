@@ -303,6 +303,8 @@ def do_map_data_item(items: dict, box: list, imgWidth=1600, imgHeight=1280):
                 if yy1 < 0 or yy1 > imgHeight:
                     continue
                 item_ans[att] = yy1
+            elif att == 'text':
+                item_ans[att] = item[att]
         items[i] = item_ans
 
 

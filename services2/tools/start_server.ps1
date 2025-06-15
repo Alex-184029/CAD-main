@@ -35,7 +35,7 @@ $windows = @(
         Title = "text_classify"
         Path = "E:\School\Grad1\CAD\DeepLearn\TextClassify\Chinese-Text-Classification-Pytorch"
         Commands = @(
-            "conda activate cad_py38",
+            "conda activate car_py38",
             "python server1.py"
         )
     },

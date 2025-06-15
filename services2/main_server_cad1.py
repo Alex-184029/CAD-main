@@ -188,6 +188,7 @@ def parseResultBasic(inpath):
     return res
 
 def parseResult3(work_dir, dwgname, items, task_name):
+    print('here is parseResult3, task_name: %s, dwgname: %s' % (task_name, dwgname))
     data = dict()
     to_parse = False
     dwg = os.path.splitext(dwgname)[0]

@@ -204,7 +204,7 @@ def main():
     print('Write json to:', output_json)
 
 def classify_room(text):
-    url = 'http://127.0.0.1:5050/classify_room2'
+    url = 'http://127.0.0.1:5006/classify_room2'
     data = {'text': text}
     headers = {'Content-Type': 'application/json'}
     response = requests.post(url, data=json.dumps(data), headers=headers)

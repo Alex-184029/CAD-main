@@ -123,16 +123,18 @@ def handle_room_partition(labeled_polygons, labels):
     unlabeled_polygons = filter_unlabeled_regions(constrained_polygons, labeled_polygons)
     room_types = list(room_type.keys()) + ['default']
     rooms = []
+    # print('labels 0:', labels[0])
     for i, poly in enumerate(unlabeled_polygons):
         room = {}
-        room['poly'] = list(map(list, room['poly'].exterior.coords))
+        room['poly'] = list(map(list, poly.exterior.coords))
         room['id'] = i + 1
         room['area'] = poly.area / 1e4        # 单位平方米
         room['perimeter'] = poly.length / 1e2 # 单位米
         room['function'] = []
         room['labels'] = []   # 可能为空
         for label in labels:
-            if poly.contains(Point(label['x'], label['y'])):
+            # print('label:', label)
+            if 'x' in label and 'y' in label and poly.contains(Point(label['x'], label['y'])):
                 funcs = classify_room(label['text'])
                 if len(funcs) > 0:
                     funcs = [room_types[func] for func in funcs]
