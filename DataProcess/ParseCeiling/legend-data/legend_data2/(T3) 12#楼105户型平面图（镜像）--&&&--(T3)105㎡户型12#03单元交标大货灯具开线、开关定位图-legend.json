@@ -1,0 +1,1416 @@
+{
+  "dwgName": "(T3) 12#楼105户型平面图（镜像）.dwg",
+  "vpText": "天花布置图",
+  "range": [
+    2321.7184111259648,
+    -47390.2398907329,
+    27271.718412247741,
+    -26390.239890732795
+  ],
+  "box": [
+    34855.8248348255,
+    12374.333364205115,
+    35354.824834847939,
+    12794.333364205115
+  ],
+  "legend_item": [
+    {
+      "Type": "Text",
+      "Text": "注：1、如装饰设计定位的面板数量不能满足原设计规",
+      "Rect": [
+        35246.540985026018,
+        12420.721482937646,
+        35294.9378565344,
+        12423.10472316111
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-0"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35249.393580894131,
+        12429.232835534576,
+        35261.809886973715,
+        12429.232835534576
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "RC",
+      "line_id": "2-1"
+    },
+    {
+      "Type": "Text",
+      "Text": "图例",
+      "Rect": [
+        35251.915937305945,
+        12492.72127419619,
+        35259.456925015424,
+        12496.138284252049
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "RC",
+      "line_id": "2-10"
+    },
+    {
+      "Type": "Block",
+      "Text": "A$C7E671F70",
+      "Rect": [
+        35252.896946999354,
+        12442.787577561008,
+        35258.897007117368,
+        12448.787637679021
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "WALL",
+      "line_id": "2-4"
+    },
+    {
+      "Type": "Block",
+      "Text": "A$C698E6D63",
+      "Rect": [
+        35252.944663072594,
+        12433.820289894929,
+        35258.944663072594,
+        12439.820289895004
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "RC",
+      "line_id": "2-3"
+    },
+    {
+      "Type": "Text",
+      "Text": "范，则由水电设计单位酌情增加。",
+      "Rect": [
+        35253.70688605505,
+        12417.140001450764,
+        35284.598506166782,
+        12419.523241674227
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-0"
+    },
+    {
+      "Type": "Block",
+      "Text": "rtukk",
+      "Rect": [
+        35253.90570950113,
+        12453.175305622228,
+        35258.26026950113,
+        12457.529865622228
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "RC-LIGHT",
+      "line_id": "2-5"
+    },
+    {
+      "Type": "Block",
+      "Text": "ktsd",
+      "Rect": [
+        35254.120836386217,
+        12477.557817298952,
+        35256.320836386214,
+        12480.312803122406
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "RC-LIGHT",
+      "line_id": "2-8"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35254.120836386232,
+        12486.285824766532,
+        35256.320836386221,
+        12486.285824766532
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "0",
+      "line_id": "2-9"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35254.120836386232,
+        12471.238256432382,
+        35256.320836386221,
+        12471.238256432382
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "0",
+      "line_id": "2-7"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35254.120836386232,
+        12463.6102489648,
+        35256.320836386221,
+        12463.6102489648
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "0",
+      "line_id": "2-6"
+    },
+    {
+      "Type": "Hatch",
+      "Text": "SOLID",
+      "Rect": [
+        35254.820836386214,
+        12470.838256432382,
+        35255.620836386217,
+        12471.638256432381
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "0",
+      "line_id": "2-7"
+    },
+    {
+      "Type": "Hatch",
+      "Text": "SOLID",
+      "Rect": [
+        35254.820836386214,
+        12463.2102489648,
+        35255.620836386217,
+        12464.0102489648
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "0",
+      "line_id": "2-6"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35255.220836386216,
+        12485.185824766531,
+        35255.220836386216,
+        12487.618953047449
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "0",
+      "line_id": "2-9"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35255.220836386216,
+        12470.138256432381,
+        35255.220836386216,
+        12472.5713847133
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "0",
+      "line_id": "2-7"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35255.220836386216,
+        12462.5102489648,
+        35255.220836386216,
+        12464.943377245718
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "0",
+      "line_id": "2-6"
+    },
+    {
+      "Type": "Text",
+      "Text": "R2",
+      "Rect": [
+        35256.882852263137,
+        12478.10906015933,
+        35259.255124568765,
+        12479.442896994273
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "LDPi--CHARTTEXT",
+      "line_id": "2-8"
+    },
+    {
+      "Type": "Text",
+      "Text": "R1",
+      "Rect": [
+        35257.04000204771,
+        12485.600878022598,
+        35259.412274353337,
+        12486.934714857542
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "LDPi--CHARTTEXT",
+      "line_id": "2-9"
+    },
+    {
+      "Type": "Text",
+      "Text": "R3",
+      "Rect": [
+        35257.04000204771,
+        12470.541529879445,
+        35259.412274353337,
+        12471.898926332398
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "LDPi--CHARTTEXT",
+      "line_id": "2-7"
+    },
+    {
+      "Type": "Text",
+      "Text": "R4",
+      "Rect": [
+        35257.04000204771,
+        12462.92802063833,
+        35259.412274353337,
+        12464.25642063835
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "LDPi--CHARTTEXT",
+      "line_id": "2-6"
+    },
+    {
+      "Type": "Text",
+      "Text": "嵌入式可调角度射灯",
+      "Rect": [
+        35270.460144510464,
+        12477.388416340433,
+        35290.820811326208,
+        12480.017452094635
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-8"
+    },
+    {
+      "Type": "Text",
+      "Text": "LED灯带（天花藏光）",
+      "Rect": [
+        35270.771327573384,
+        12427.63533973166,
+        35292.263142545562,
+        12430.242282748433
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-1"
+    },
+    {
+      "Type": "Text",
+      "Text": "嵌入式LED筒灯",
+      "Rect": [
+        35271.021449309977,
+        12485.027470176728,
+        35285.726375343569,
+        12487.645459562216
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-9"
+    },
+    {
+      "Type": "Text",
+      "Text": "雷达感应筒灯",
+      "Rect": [
+        35273.014644994459,
+        12462.302617088673,
+        35286.588422871624,
+        12464.920606474161
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-6"
+    },
+    {
+      "Type": "Text",
+      "Text": "300*300mm灯盘",
+      "Rect": [
+        35273.095095968849,
+        12444.324064928183,
+        35287.800022002441,
+        12446.919961576241
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-4"
+    },
+    {
+      "Type": "Text",
+      "Text": "说 明",
+      "Rect": [
+        35274.331227325063,
+        12492.69181721295,
+        35283.757461961912,
+        12496.167741235289
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "RC",
+      "line_id": "2-10"
+    },
+    {
+      "Type": "Text",
+      "Text": "普通灯泡",
+      "Rect": [
+        35275.267560104832,
+        12470.147692674525,
+        35284.316745356271,
+        12472.765682060013
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-7"
+    },
+    {
+      "Type": "Text",
+      "Text": "排气扇",
+      "Rect": [
+        35276.396347212722,
+        12435.375396025036,
+        35283.1832361513,
+        12437.960246304379
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-3"
+    },
+    {
+      "Type": "Text",
+      "Text": "吸顶灯",
+      "Rect": [
+        35276.825479201878,
+        12453.894508119718,
+        35283.612368140457,
+        12456.468312030345
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "2-5"
+    },
+    {
+      "Type": "Text",
+      "Text": "C",
+      "Rect": [
+        35296.195925813554,
+        12415.244713453569,
+        35297.395925813536,
+        12417.644713453534
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "天花开线",
+      "line_id": "1-2"
+    },
+    {
+      "Type": "Block",
+      "Text": "wetyy",
+      "Rect": [
+        35296.984623122415,
+        12465.252692353864,
+        35301.186240927294,
+        12467.381846796539
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-11"
+    },
+    {
+      "Type": "Text",
+      "Text": "L",
+      "Rect": [
+        35297.027381767693,
+        12413.604758426523,
+        35298.227381767676,
+        12416.004758426488
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "天花开线",
+      "line_id": "1-2"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.122422465945,
+        12435.494867374753,
+        35297.562590518035,
+        12435.960354603234
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-6"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.122422465945,
+        12435.960354603234,
+        35298.271773645065,
+        12437.047189297566
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-6"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.137695694779,
+        12428.873722435033,
+        35297.577863746868,
+        12429.339209663514
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-5"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.137695694779,
+        12421.160601475702,
+        35297.577863746868,
+        12421.626088704183
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.137695694779,
+        12429.339209663514,
+        35298.2870468739,
+        12430.426044357846
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-5"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.137695694779,
+        12421.626088704183,
+        35298.2870468739,
+        12422.712923398514
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.468057000369,
+        12429.186114445834,
+        35297.908225052473,
+        12429.651601674326
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-5"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.468057000369,
+        12421.472993486503,
+        35297.908225052473,
+        12421.938480714995
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Hatch",
+      "Text": "SOLID",
+      "Rect": [
+        35297.603874322136,
+        12442.467916973123,
+        35298.790254322237,
+        12443.654296973224
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-7"
+    },
+    {
+      "Type": "Block",
+      "Text": "RTWRR",
+      "Rect": [
+        35297.603874322136,
+        12449.275494674112,
+        35300.425457177327,
+        12452.270016357044
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-9"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.763073068985,
+        12405.787532949553,
+        35297.763073068985,
+        12407.787532949553
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-1"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.763073068985,
+        12405.787532949553,
+        35299.763073068985,
+        12405.787532949553
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-1"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.763073068985,
+        12407.787532949553,
+        35299.763073068985,
+        12407.787532949553
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-1"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35297.79841830596,
+        12421.785385497315,
+        35298.238586358064,
+        12422.250872725806
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Hatch",
+      "Text": "SOLID",
+      "Rect": [
+        35297.863073068984,
+        12405.8415922206,
+        35299.663073068987,
+        12407.6415922206
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-1"
+    },
+    {
+      "Type": "Block",
+      "Text": "dk",
+      "Rect": [
+        35297.937292010509,
+        12457.169030273695,
+        35300.427306185105,
+        12459.419419573098
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-10"
+    },
+    {
+      "Type": "Hatch",
+      "Text": "SOLID",
+      "Rect": [
+        35298.109590338689,
+        12436.861562306365,
+        35299.295970338717,
+        12438.0479423064
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-6"
+    },
+    {
+      "Type": "Hatch",
+      "Text": "SOLID",
+      "Rect": [
+        35298.124863567522,
+        12430.240417366645,
+        35299.31124356755,
+        12431.426797366681
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-5"
+    },
+    {
+      "Type": "Hatch",
+      "Text": "SOLID",
+      "Rect": [
+        35298.124863567522,
+        12422.527296407314,
+        35299.31124356755,
+        12423.713676407349
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Text",
+      "Text": "/居中",
+      "Rect": [
+        35298.182890115611,
+        12414.555674981677,
+        35301.859121624009,
+        12416.243007802914
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-2"
+    },
+    {
+      "Type": "Text",
+      "Text": "所有末端面板密缝并排安装(示意）:",
+      "Rect": [
+        35298.432140151534,
+        12492.427852356232,
+        35331.873085984756,
+        12494.846524280814
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35298.541360537492,
+        12443.544154064339,
+        35299.887504213846,
+        12445.462438656055
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-7"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35298.7558964397,
+        12407.641590092333,
+        35298.761115806454,
+        12410.041584416953
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-1"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.133787032355,
+        12437.760717818463,
+        35300.283138215411,
+        12438.847552508625
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-6"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.149060261188,
+        12431.139572878743,
+        35300.298411444244,
+        12432.226407568905
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-5"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.149060261188,
+        12423.426451919411,
+        35300.298411444244,
+        12424.513286609574
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.197520780959,
+        12423.888502587948,
+        35299.637688833063,
+        12424.35398981644
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.466878481311,
+        12444.474343501193,
+        35300.012215821655,
+        12444.863037659135
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-7"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.52788208655,
+        12431.914015558092,
+        35299.968050138654,
+        12432.379502786584
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-5"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.52788208655,
+        12424.20089459876,
+        35299.968050138654,
+        12424.666381827252
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.677191347575,
+        12444.782471122357,
+        35300.210705446982,
+        12445.162738157596
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-7"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.763073068985,
+        12405.787532949553,
+        35299.763073068985,
+        12407.787532949553
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-1"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.842970163663,
+        12438.847552508243,
+        35300.283138215767,
+        12439.313039736735
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-6"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.8582433925,
+        12432.226407568523,
+        35300.2984114446,
+        12432.691894797015
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-5"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.8582433925,
+        12424.513286609192,
+        35300.2984114446,
+        12424.978773837684
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35299.887504213846,
+        12445.114540852897,
+        35300.425457177327,
+        12445.462438656055
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-7"
+    },
+    {
+      "Type": "Text",
+      "Text": "表示中心线。",
+      "Rect": [
+        35303.065891117512,
+        12413.560300914216,
+        35316.639668994678,
+        12416.156197562274
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-2"
+    },
+    {
+      "Type": "Text",
+      "Text": "全屋照明一键开关面板底均离地1.30m。",
+      "Rect": [
+        35303.06589111752,
+        12405.670948962093,
+        35342.656076592575,
+        12408.299984716296
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-1"
+    },
+    {
+      "Type": "Text",
+      "Text": "普通单联单控开关面板底均离地1.30m。",
+      "Rect": [
+        35303.125810498022,
+        12456.785852349931,
+        35342.715995973078,
+        12459.414888104133
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-10"
+    },
+    {
+      "Type": "Text",
+      "Text": "普通双联单控开关面板底均离地1.30m。",
+      "Rect": [
+        35303.125810498022,
+        12449.897657266814,
+        35342.715995973078,
+        12452.526693021016
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-9"
+    },
+    {
+      "Type": "Text",
+      "Text": "普通三联单控开关面板底均离地1.30m。",
+      "Rect": [
+        35303.125810498022,
+        12443.090079565825,
+        35342.715995973078,
+        12445.719115320027
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-7"
+    },
+    {
+      "Type": "Text",
+      "Text": "可视对讲机门禁，面板离地高1.30m",
+      "Rect": [
+        35303.280216466192,
+        12465.257009974324,
+        35338.345809315528,
+        12467.886045728526
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-11"
+    },
+    {
+      "Type": "Text",
+      "Text": "主卧室床头单联双控开关面板底离地0.7m。",
+      "Rect": [
+        35303.311930950033,
+        12436.4635326996,
+        35346.295560894381,
+        12439.092568453802
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-6"
+    },
+    {
+      "Type": "Text",
+      "Text": "三联双控开关面板底离地高1.30m。",
+      "Rect": [
+        35303.468383362779,
+        12421.799250422455,
+        35338.533976212115,
+        12424.428286176657
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-4"
+    },
+    {
+      "Type": "Text",
+      "Text": "双联双控开关面板底离地高1.30m,主卧室床头面板离地0.7m。",
+      "Rect": [
+        35303.468383362779,
+        12429.47923227564,
+        35355.388083742924,
+        12432.141407135989
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-5"
+    },
+    {
+      "Type": "Block",
+      "Text": "D-D",
+      "Rect": [
+        35303.71626925638,
+        12482.053153757588,
+        35311.327771977354,
+        12483.667797314294
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35305.965957833519,
+        12482.052674723212,
+        35318.596763786845,
+        12482.052674723212
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Block",
+      "Text": "630",
+      "Rect": [
+        35316.8028774869,
+        12482.052582028706,
+        35320.608628847389,
+        12485.858333389193
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35316.802877559661,
+        12482.052590069521,
+        35316.802877559661,
+        12485.85833742157
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35316.802877559661,
+        12485.85833742157,
+        35324.414380280185,
+        12485.85833742157
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35316.802877559661,
+        12482.052590069521,
+        35324.414380280185,
+        12482.052590069521
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Block",
+      "Text": "$equip$00001963",
+      "Rect": [
+        35318.042869426426,
+        12474.183973053159,
+        35322.119664069745,
+        12478.703267458661
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Block",
+      "Text": "630",
+      "Rect": [
+        35320.608628847156,
+        12482.052586036916,
+        35324.414380207636,
+        12485.858337397403
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Block",
+      "Text": "$equip$00001963",
+      "Rect": [
+        35320.773357580176,
+        12474.183973053159,
+        35324.850152223495,
+        12478.703267458661
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35324.414380280185,
+        12482.052590069521,
+        35324.414380280185,
+        12485.85833742157
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35324.414380280185,
+        12482.052582053093,
+        35324.414380280185,
+        12485.858333413351
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35324.414380280185,
+        12485.858333413351,
+        35328.220131640453,
+        12485.858333413351
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35324.414380280185,
+        12482.052582053093,
+        35328.220131640453,
+        12482.052582053093
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35324.883969706432,
+        12474.170405575351,
+        35326.632201441564,
+        12476.867011042272
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35325.099415525037,
+        12482.73761729794,
+        35325.099415525037,
+        12485.1732981685
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35325.099415525037,
+        12485.1732981685,
+        35327.535096395615,
+        12485.1732981685
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35325.099415525037,
+        12482.73761729794,
+        35327.535096395615,
+        12482.73761729794
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35326.632201441564,
+        12474.170405575351,
+        35327.430544982533,
+        12474.687978327831
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35326.9438705873,
+        12482.509272216332,
+        35326.9438705873,
+        12482.632042652682
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35326.9438705873,
+        12482.509272216332,
+        35327.239483491445,
+        12482.509272216332
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35326.9438705873,
+        12482.632042652682,
+        35327.239483491445,
+        12482.632042652682
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35327.239483491445,
+        12482.509272216332,
+        35327.239483491445,
+        12482.632042652682
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35327.239483491445,
+        12482.509272216332,
+        35327.239483491445,
+        12482.632042652682
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35327.239483491445,
+        12482.509272216332,
+        35327.535096395615,
+        12482.509272216332
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35327.239483491445,
+        12482.632042652682,
+        35327.535096395615,
+        12482.632042652682
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35327.535096395615,
+        12482.509272216332,
+        35327.535096395615,
+        12482.632042652682
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35327.535096395615,
+        12482.73761729794,
+        35327.535096395615,
+        12485.1732981685
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Line",
+      "Text": "",
+      "Rect": [
+        35328.220131640453,
+        12482.052582053093,
+        35328.220131640453,
+        12485.858333413351
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Block",
+      "Text": "wetyy",
+      "Rect": [
+        35332.024490021118,
+        12475.626667191262,
+        35338.026801170949,
+        12478.668316395084
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    },
+    {
+      "Type": "Text",
+      "Text": "可视对讲",
+      "Rect": [
+        35333.85116668007,
+        12483.704119892831,
+        35338.375759305789,
+        12485.00206821686
+      ],
+      "BlockName": "43fgvcvcbrt5rtyvgbnvbnyt6tt",
+      "LayerName": "EQUIP-照明",
+      "line_id": "1-13"
+    }
+  ],
+  "expand_box": [
+    34805.8248348255,
+    12324.333364205115,
+    35404.824834847939,
+    12794.333364205115
+  ],
+  "yd": 7.3083201990725062
+}

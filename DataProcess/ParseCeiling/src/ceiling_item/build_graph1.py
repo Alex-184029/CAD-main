@@ -636,7 +636,7 @@ def get_legend_dict(lines):
                         key_id, value_id = i, j
                     else:
                         key_id, value_id = j, i
-                    print('key_id: %d, key_type: %s, key_text: %s' % (key_id, line[key_id]['Type'], line[key_id]['Text']))
+                    # print('key_id: %d, key_type: %s, key_text: %s' % (key_id, line[key_id]['Type'], line[key_id]['Text']))
                     key_text = line[key_id]['Text']
                     if not key_text in legend_dicts:
                         legend_dicts[key_text] = []
@@ -790,6 +790,139 @@ def test():
         3.图例图元的包含关系处理
     '''
 
+def match_legends(json_legend, json_ceiling):
+    # json_out = r'C:\Users\DELL\Desktop\test3\outs\plan_2-out1.json'
+    res = get_ceiling_item(json_legend, 'legend_item')
+    if res is None:
+        print('Get legend none in get_ceiling_item.')
+        return
+    nodes, _ = res
+    nodes, label_items = filter_legend_text(nodes)
+    if nodes is None or len(nodes) == 0 or label_items is None or len(label_items) == 0:
+        print('Error data:', nodes, label_items)
+        return
+    nodes = sort_nodes(nodes)
+    # print('nodes:', len(nodes), nodes[0])
+    # print('labels:', len(label_items), label_items[0])
+
+    yd = get_json_attribute(json_legend, 'yd')
+    box = get_json_attribute(json_legend, 'range')
+    if yd is None or box is None:
+        print('Get att None.')
+        return
+    # print('yd:', yd)
+
+    # -- 构建图并计算连通分量
+    G = build_digraph(nodes, get_weight, thred=yd)    # 构建图
+    components = find_connected_components(G)         # 查找连通分量
+
+    # 图例空间填充周围线去除
+    components = remove_hatch_line(components, nodes)
+
+    # 输出结果
+    # print("图的节点属性:", G.nodes(data=True))
+    # print("连通分量（索引和Type）:")
+    # for indices, types in components:
+    #     print(f"节点索引: {indices}, Types: {types}")
+
+    nodes = filter_components2(nodes, components)     # 连通分量组合为图例元素
+    nodes += label_items
+
+    # -- 构建图例表格行
+    lines = get_legend_lines(nodes)
+    # print('lines num:', len(lines))
+    # print('lines name:', list(lines.keys()))
+
+    # -- 构建图例对
+    legend_dict = get_legend_dict(lines)
+    # print('legend dict num:', len(legend_dict))
+    # for legend in legend_dict:
+    #     print('key: %s, value: %s' % (legend, legend_dict[legend]))
+
+    # -- 子图匹配
+    # 获取天花图元有向图
+    nodes_ceiling, G_ceiling = build_ceiling_item_graph(json_ceiling)
+    match_dict = dict()    # 匹配结果存储
+    for legend_label in list(legend_dict.keys()):
+        rects, G_subs = [], []    # 输出矩形框、待匹配子图列表
+        node_num = 0              # 子图结点数量
+        for item in legend_dict[legend_label]:
+            if not item['Type'] == 'Merge':
+                G_sub = build_subgraph_from_single_node(item)
+                G_subs.append(G_sub)
+                node_num = max(node_num, 1)
+            else:
+                G_sub = extract_subgraph_from_component(G, item['Indices'])
+                # G_sub = extract_subgraph(G, item['Indices'])    # 另一个子图匹配方法
+                # 生成常见旋转子图
+                G_subs += create_rotate_digraph(G_sub)
+                node_num = max(node_num, len(item['Indices']))
+        # print('Label: %s, G_subs num origin: %d' % (legend_label, len(G_subs)))
+        G_subs = deduplicate_digraphs(G_subs)      # 有向图列表去重
+        # print('Label: %s, G_subs num deduplicate: %d' % (legend_label, len(G_subs)))
+        # num = len(G_subs)
+        for i, G_sub in enumerate(G_subs):
+            # print('%d / %d' % (i + 1, num))
+            match_res = find_directed_subgraphs(G_ceiling, G_sub)
+            for indices in match_res:
+                rects.append(get_indices_rect(nodes_ceiling, indices))
+        # print('Label: %s, get rects num: %d' % (legend_label, len(rects)))
+        if len(rects) > 0:
+            match_dict[legend_label] = {'node_num': node_num, 'rects': rects}
+    
+    num_rects = 0
+    for label in match_dict:
+        num_rects += len(match_dict[label]['rects'])
+    print('legend num: %d, rects num: %d' % (len(match_dict), num_rects))
+
+    # 去除被包含的匹配结果
+    match_dict = remove_included_rects(match_dict)
+
+    num_rects = 0
+    for label in match_dict:
+        num_rects += len(match_dict[label]['rects'])
+    print('legend num: %d, rects num: %d' % (len(match_dict), num_rects))
+    return match_dict
+        
+    # -- 结果可视化为labelme标注文件
+    # im = imgRead(img_path)
+    # h, w, _ = im.shape
+    # for label in list(match_dict.keys()):
+    #     match_dict[label]['rects'] = do_map_rects(match_dict[label]['rects'], box, w, h)
+    # dict_to_json(match_dict, json_out, img_path)
+    # print('----- finish -----')
+
+def get_vps_name(input_dir):
+    jsons = os.listdir(input_dir)
+    vps = []
+    # print('num:', len(jsons))
+    for j in jsons:
+        if j.endswith('-model.json') and '--&&&--' in j:
+            vp = j[:-11].split('--&&&--')[1]
+            # print('vp:', vp)
+            vps.append(vp)
+    return vps
+
+def match_legends_batch(input_dir, dwg_name):
+    vps = get_vps_name(input_dir)
+    if len(vps) == 0: 
+        print('Vps is empty.')
+        return
+    match_data = dict()
+    num = len(vps)
+    if '.' in dwg_name:
+        dwg_name = os.path.splitext(dwg_name)[0]
+    for i, vp_name in enumerate(vps):
+        print('%d / %d, %s' % (i + 1, num, vp_name))
+        json_legend = os.path.join(input_dir, dwg_name + '--&&&--' + vp_name + '-legend.json')
+        json_model = os.path.join(input_dir, dwg_name + '--&&&--' + vp_name + '-model.json')
+        match_dict = match_legends(json_legend, json_model)
+        match_data[vp_name] = match_dict
+    legend_data = dict()
+    legend_data['dwg_name'] = dwg_name
+    legend_data['match_data'] = match_data
+    with open(os.path.join(input_dir, dwg_name + '-legend-match.json'), 'w', encoding='utf-8') as f:
+        json.dump(legend_data, f, indent=2, ensure_ascii=False)
 
 def test2():
     # json_path = r'C:\Users\DELL\Desktop\test2\tmp21.json'
@@ -899,9 +1032,11 @@ def test2():
     dict_to_json(match_dict, json_out, img_path)
     print('----- finish -----')
 
-def test21():
-    pass
+def test3():
+    input_dir = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\DataProcess\ParseCeiling\legend-data\legend_data1'
+    dwg_name = '(T3) 12#楼105户型平面图（镜像）.dwg'
+    match_legends_batch(input_dir, dwg_name)
 
 
 if __name__ == '__main__':
-    test2()
+    test3()
