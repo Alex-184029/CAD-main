@@ -10,7 +10,7 @@ import shutil
 
 from tools.tools1 import parseTimeStr, getUUID, parseResult
 from tools.parse_cad import parse_door, parse_wall, parse_window, parse_area, dwg_public
-from tools.tools_result import parse_result
+from tools.tools_result import parse_result, parse_bill
 
 app = Flask(__name__)
 CORS(app)
@@ -457,6 +457,19 @@ def get_dwg_file():     # 下载dwg文件到本地
 
     return jsonify(json_str)
 
+@app.route('/get-image-bill', methods=['POST'])
+def get_image_bill():
+    drawing_name = request.form['drawing_name']
+    task_id = request.form['task_id']
+    try:
+        imgpath = os.path.join(dwg_public, task_id, drawing_name[:-4] + '_PlaneLayout.jpg')
+        with open(imgpath, 'rb') as img_file:
+            response = make_response(img_file.read())
+            response.headers.set('Content-Type', 'image_PlaneLayout/jpg')
+            return response
+    except FileNotFoundError:
+        return jsonify({'error': 'File not found.'}), 404
+
 @app.route('/get-image', methods=['POST'])
 def get_image():
     drawing_name = request.form['drawing_name']
@@ -491,8 +504,23 @@ def get_item_list():
             print('res is None')
             return jsonify({'error': 'Get item list none.'}), 404
         return jsonify(res), 200
-    except FileNotFoundError:
+    except:
         return jsonify({'error': 'Get item list fail.'}), 404
+
+@app.route('/get-bill', methods=['POST'])
+def get_bill():
+    # dwgname = os.path.splitext(request.form['drawing_name'])[0]
+    task_id = request.form['task_id']
+    work_dir = os.path.join(dwg_public, task_id)
+    try:
+        logfile = os.path.join(work_dir, 'bill.json')
+        res = parse_bill(logfile)
+        if res is None:
+            print('res is None')
+            return jsonify({'error': 'Get bill none.'}), 404
+        return jsonify(res), 200
+    except:
+        return jsonify({'error': 'Get bill fail.'}), 404
 
 def recongDoor(task_id):
     print('Here is recongDoor.')

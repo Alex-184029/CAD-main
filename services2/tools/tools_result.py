@@ -53,3 +53,8 @@ def parse_result_area(logfile):
     data_ans['rooms'] = data['rooms']
     return data_ans
 
+def parse_bill(logfile):
+    with open(logfile, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return data['bill'] if 'bill' in data else None
+

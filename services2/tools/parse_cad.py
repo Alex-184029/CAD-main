@@ -2,6 +2,7 @@ import requests
 import os
 import json
 from shapely.geometry import Polygon
+from shapely.ops import unary_union
 
 import sys
 sys.path.append('../')
@@ -332,7 +333,7 @@ def parse_area(task_id, dwgname):
         arc_doors.append(item['rect'] + item['point'])
     single_arc_doors, double_arc_doors, slide_doors, closed_arc_doors = parse_door_tool3(door_lines, arc_doors)
 
-    _, _, slide_doors2 = parse_door_tool2(door_lines, arc_doors)
+    # _, _, slide_doors2 = parse_door_tool2(door_lines, arc_doors)
     if len(slide_doors) == 0:
         slide_doors = [
             [1023, 558, 1203, 564],
@@ -450,9 +451,30 @@ def parse_area(task_id, dwgname):
     # print('slide_doors:', slide_doors)
     # print('slide_doors 2:', slide_doors2)
     # print('door lines:', len(door_lines))
+
+    # -- 一些数据的临时计算
+    # 整体区域面积
+    combined = unary_union(polygons)
+    print('area_total:', combined.area / 1e4)
+    # 房间数量和房间面积
+    area_room = 0
+    cnt_room = 0
+    for room in rooms:
+        area_room += room['area']
+        cnt_room += 1
+    area_total = area_room
+    for poly in polygons:
+        area_total += poly.area / 1e4
+    print('area_room:', area_room)
+    print('area_total 2:', area_total)
+    print('cnt_room:', cnt_room)
+
+    # 结构图元数量
+    print('Door num:', len(single_arc_doors), len(double_arc_doors), len(slide_doors))
+    print('Window num:', len(rects_window))
+
     
     return 'Succeed'
-
 
 def test():
     task_id = 'ece90b31-7a47-4e1b-945b-32f21b6d37c4'

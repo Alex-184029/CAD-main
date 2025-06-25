@@ -63,7 +63,7 @@ def save_base64_as_jpg(base64_data, output_path):
     # print(f"jpg 文件已保存至: {output_path}")
 
 # pdf打印图像
-def pdf_to_image2(pdfpath, imgout, labelpath, suffix='.jpg'):
+def pdf_to_image2(pdfpath, imgout, labelpath):
 
     # 调用转换库
     def pdf_to_jpg_with_zoom(pdf_path, output_path, page_number=0, zoom_x=2.0, zoom_y=2.0):
@@ -344,6 +344,22 @@ def parse_area():
         return jsonify({'status': 'success', 'res': data})
     return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
 
+def test():
+    pdf_path = r'C:\Users\DELL\Desktop\test3\legend-data-test1\legend_data\pdfs'
+    label_path = r'C:\Users\DELL\Desktop\test3\legend-data-test1\legend_data'
+    img_path = r'C:\Users\DELL\Desktop\test3\legend-data-test1\legend_data\imgs'
+    os.makedirs(img_path, exist_ok=True)
+    labels = os.listdir(label_path)
+    labels = [label for label in labels if label.endswith('.json')]
+    pdfs = os.listdir(pdf_path)
+    for pdf in pdfs:
+        pdf_name = os.path.splitext(pdf)[0]
+        for label in labels:
+            if pdf_name in label:
+                pdf_to_image2(os.path.join(pdf_path, pdf), os.path.join(img_path, pdf_name + '.jpg'), os.path.join(label_path, label))
+                break
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5005)
+    # test()
