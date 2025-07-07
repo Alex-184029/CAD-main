@@ -2,6 +2,19 @@ import json
 import os
 import shutil
 import re
+import requests
+
+def classify_legend(text):
+    url = 'http://127.0.0.1:5006/classify_legend'
+    data = {'text': text}
+    headers = {'Content-Type': 'application/json'}
+    response = requests.post(url, data=json.dumps(data), headers=headers)
+    
+    if response.status_code == 200:
+        result = response.json()
+        return result
+    else:
+        return []
 
 def clear_file(file_path):
     """
@@ -179,6 +192,7 @@ def classify_text(match_data, text):
     if len(ans) == 0:
         ans.append('others')
     return ans
+
 def match_legend_label():
     label_data_path = r'E:\School\Grad1\CAD\Datasets\DwgFiles\LegendData\dataset-labels\txt\data1.txt'
     match_data_path = '../data/classify/classify_match.json'
@@ -234,17 +248,17 @@ def get_default():
     print('----- finish -----')
 
 def select_item():
-    origin_path = '../data/dataset/dataset1/default.txt'
-    out_path1 = '../data/dataset/dataset1/常见电器.txt'
-    out_path2 = '../data/dataset/dataset1/配电设备.txt'
-    out_path_origin = '../data/dataset/dataset1/default2.txt'
+    origin_path = '../data/dataset/dataset1/通风设备.txt'
+    out_path1 = '../data/dataset/dataset1/暖通管道.txt'
+    out_path2 = '../data/dataset/dataset1/常见电器.txt'
+    out_path_origin = '../data/dataset/dataset1/通风设备2.txt'
 
     with open(origin_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     del_index = []
     item_del = []
-    item_select1 = ['显示屏', '电控锁', '读卡器']
-    item_select2 = ['配线箱']
+    item_select1 = ['风口', '孔洞', '风口', '气管']
+    item_select2 = ['面板']
     line_select1 = []
     line_select2 = []
     for i, line in enumerate(lines):
@@ -271,6 +285,20 @@ def select_item():
     with open(out_path2, 'a', encoding='utf-8') as f:
         for line in line_select2:
             f.write(line)
+
+def select_diff_label():
+    label_path = '../data/dataset/dataset1/default.txt'
+    target_cate = os.path.splitext(os.path.basename(label_path))
+    print('target_cate:', target_cate)
+    with open(label_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    for line in lines:
+        line = line.strip()
+        res = classify_legend(line)
+        cate = res['cate'] if 'cate' in res else ''
+        if cate != target_cate:
+            print('text: %s, error_target: %s' % (line, cate))
+
 
 def test1():
     json_path = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public3\dwgs2\ece90b31-7a47-4e1b-945b-32f21b6d37c4\legend_data\(T3) 12#楼105户型平面图（镜像）--&&&--(T3)105㎡户型12#03单元交标大货天花布置图-legend.json'

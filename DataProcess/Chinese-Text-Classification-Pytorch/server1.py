@@ -5,6 +5,7 @@ from importlib import import_module
 import argparse
 from flask import Flask, request, jsonify
 import jieba
+from infer_legend import infer_legend
 
 room_type = {
     'living': ['客厅', '起居室', '家庭厅'],
@@ -83,6 +84,17 @@ def classify_room2():
         'res': list(ids)
     }
     print('Input text: %s, result id: %s' % (text, ids))
+    return jsonify(res)
+
+@app.route('/classify_legend', methods=['POST'])
+def classify_legend():
+    text = request.get_json()['text']
+    subject, cate = infer_legend(text)
+    print('id: %d, subject: %s, cate: %s' % (id, subject, cate))
+    res = {
+        'subject': subject,
+        'cate': cate
+    }
     return jsonify(res)
 
 
