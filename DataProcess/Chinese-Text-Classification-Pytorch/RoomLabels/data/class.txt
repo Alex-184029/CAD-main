@@ -1,0 +1,13 @@
+living
+bolcany
+bed
+wash
+kitchen
+canteen
+rest
+study
+hall
+play
+court
+others
+default
