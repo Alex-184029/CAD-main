@@ -1,0 +1,480 @@
+011 完成面
+008-完成面
+011完成面
+Z-装饰构件
+完成面
+P-完成面
+完成面
+Z-装饰构件
+FF-Finish Size
+FF-Complete Surface
+SURFACE
+建-墙-完成面
+P-平面完成面
+SURFACE
+1-平面图-一层平面图-南入户-DK2-3#$0$建-墙-完成面
+A-户型A(南入)-平面1$0$0A-S-WALL-FINI
+FF-Finish Size
+FF-Complete Surface
+A-户型A-平面BZC$0$0A-S-WALL-FINI
+A-户型B-平面BZC$0$0A-S-WALL-FINI
+建-墙-完成面
+P-平面完成面
+A-户型A-平面BZC$0$0A-S-WALL-FINI
+A-户型B-平面BZC$0$0A-S-WALL-FINI
+A-户型A-平面BZC$0$SURFACE
+A-户型B-平面BZC$0$SURFACE
+A-核心筒-平面BZC$0$SURFACE
+A-核心筒-平面BZC$0$0A-S-WALL-SURFACE
+A-户型A(沿河)-平面BZC$0$SURFACE
+A-户型A(沿河)-平面BZC$0$0A-S-WALL-SURFACE
+A-户型B-平面BZC$0$0A-S-WALL-SURFACE
+A-户型A(沿河)-平面BZC$0$0A-S-WALL-FINI
+建-墙-完成面
+P-平面完成面
+SURFACE
+A-户型A-平面BZC$0$0A-S-WALL-FINI
+A-户型B-平面BZC$0$0A-S-WALL-FINI
+WC【完成面】
+FF-Finish Size
+FF-Complete surface
+FF-ART【装饰】
+A-户型A(沿河)-平面BZC$0$0A-S-WALL-FINI
+SURFACE
+建-墙-完成面
+P-平面完成面
+A-户型B-平面BZC$0$0A-S-WALL-FINI
+A-户型A-平面BZC$0$0A-S-WALL-FINI
+SURFACE
+032完成面
+002 完成面
+020完成面
+SURFACE
+SURFACE
+.P-装饰轮廓
+AX-B-P01-COMP-wall$0$$2$$1$$0$AX-B-B01_new$0$A-Detl-Fine
+A-墙身装饰
+.P-装饰轮廓
+AX-02.03.06.15.16-COMP-G'(6#)$0$A-Detl-Fine
+AX-02.03.06.15.16-COMP-G'(6#)$0$.P-装饰轮廓
+AX-02.03.06.15.16-COMP-F''(2.3#边)$0$A-Detl-Fine
+AX-02.03.06.15.16-COMP-F''(2.3#边)$0$.P-装饰轮廓
+2-FF-WALLFINISH
+AX-0606-PB-50$0$A-Detl-Fine
+AX-0606-PB-50-SY$0$A-Detl-Fine
+AX-0606-COMP-P01-50$0$A-Detl-Fine
+Ax-0601-Word-P01-50$0$A-Detl-Fine
+AC-0606-P(平面图）_t3|AX-0606-PB-50$0$A-Detl-Fine
+AC-0606-P(平面图）_t3|AX-0606-FUR-PB-50$0$2-FF-WALLFINISH
+AC-0601-P  (平面图)_t3|Ax-0601-Word-P01-50$0$A-Detl-Fine
+AC-0601-P  (平面图)_t3|Ax-A-Furn-T-SS$0$2-FF-WALLFINISH
+Ax-A-Furn-T-SS$0$2-FF-WALLFINISH
+Ax-A-XT-P01$0$A-Detl-Fine
+002 完成面
+SURFACE
+W-完成面
+B4.装修完成面
+B9.完成面定位
+FF-完成面
+FF-完成面1
+E4-完成面-0.3
+DS-FINISH
+RC-FIN
+AX-01-D01-20$0$AX-COMP-86-S01-RF$0$A-Detl-Fine
+__附着_A30-1，2，3屋顶剖面_SEN24HBY_设计区$0$AX-01-D01-20$0$AX-COMP-86-S01-RF$0$A-Detl-Fine
+RC-FIN
+DS-FINISH
+DS-FINISH
+RC-FIN
+SURFACE
+SURFACE
+SURFACE
+IED-完成面
+SURFACE
+!PboPL-WallFin
+0- 装饰完成面
+B4.装修完成面
+B9.完成面定位
+4-RC天花装饰灯
+1-FF平面完成面
+011 完成面
+01-完成面
+011 完成面
+01-完成面
+011 完成面
+01-完成面
+011 完成面
+01-完成面
+SURFACE
+装饰填充
+A-完成面
+装饰填充
+A-完成面
+DT-大样完成面
+A- 完成面
+装饰填充
+A-完成面
+DT-大样完成面
+P装饰墙
+A- 完成面
+装饰填充
+A-完成面
+装饰填充
+A- 完成面
+A-完成面
+DT-大样完成面
+装饰填充
+A- 完成面
+A-完成面
+DT-大样完成面
+装饰填充
+A-完成面
+DT-大样完成面
+装饰填充
+A-完成面
+DT-大样完成面
+A-完成面
+A- 完成面
+装饰填充
+SURFACE
+WALL-FIN
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+SURFACE
+装饰抹灰层
+装饰柱
+BS-完成面
+BS-完成面
+BS-半高墙体完成面
+BS-完成面
+BS-完成面
+SURFACE
+装饰抹灰层
+装饰柱
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+BS-完成面
+011 完成面
+01-完成面
+008-完成面
+008-完成面01
+RC-FIN
+0-完成面
+002完成面
+0-装饰完成面
+4#6#-col-2F~31F$0$SURFACE
+011 完成面
+01-完成面
+I-NEW-FNSH_新增完成面
+4-Floor Fin 地材
+1#，2#，3#，5#，6#楼平面图$0$__附着_A10-H1户型_SEN23LLA_设计区$0$P-完成面
+__附着_A10-H1户型_SEN23LLA_设计区$0$P-完成面
+FIN
+FIN
+008-完成面
+RC-FIN
+008-完成面
+011 完成面
+RC-FIN
+011 完成面
+01-完成面
+RC-FIN
+011 完成面
+01-完成面
+RC-FIN
+011 完成面
+01-完成面
+RC-FIN
+011 完成面
+RC-FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+DS-FINISH
+RC-FIN
+A-墙体完成面
+.P-装饰轮廓
+!PboPL-WallFin
+0- 装饰完成面
+W墙体完成面DS-FINISH
+A-墙体完成面
+A-SURFACE
+RC-FIN
+装饰填充
+A-完成面
+装饰填充
+A-完成面
+A-完成面
+A- 完成面
+装饰填充
+B-施作完成面
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+BS-完成面
+SURFACE
+装饰抹灰层
+002完成面
+P08-完成面
+装饰填充
+A-完成面
+装饰填充
+A-完成面
+DS-4BS-墙体完成面
+FF-墙面装饰
+EL-天地墙完成面
+A-楼面-装饰
+SURFACE
+装饰
+DS-4BS-墙体完成面
+FF-墙面装饰
+EL-天地墙完成面
+叠拼平面参照修改$0$装饰
+BS-完成面
+IHY-surface
+00-ref-a2$0$CP-WALL-FIN
+E-surface
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+装饰填充
+A-完成面
+装饰填充
+A-完成面
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+BS-完成面
+BS-半高墙体完成面
+!PboPL-WallFin
+0- 装饰完成面
+装饰填充
+A- 完成面
+A-完成面
+装饰填充
+A- 完成面
+A-完成面
+FIN
+FIN
+FIN
+FIN
+FIN
+FIN
+W墙体完成面DS-FINISH
+A-墙体完成面
+A-SURFACE
+RC-FIN
+装饰填充
+A- 完成面
+A-完成面
+装饰填充
+A-完成面
+00-REF-A2$0$CP-WALL-FIN
+IHY-surface
+FIN
+FIN
+FIN
+FIN
+!PboPL-WallFin
+$0$SURFACE
+A-001-北区塔楼结构B2$0$$0$SURFACE
+0- 装饰完成面
+装饰填充
+A-完成面
+装饰填充
+!PboPL-WallFin
+$0$SURFACE
+A-001-北区塔楼结构B2$0$$0$SURFACE
+0- 装饰完成面
+装饰填充
+A-完成面
+!PboPL-WallFin
+$0$SURFACE
+A-001-北区塔楼结构B2$0$$0$SURFACE
+0- 装饰完成面
+FIN
+FIN
+!PboPL-WallFin
+$0$SURFACE
+A-001-北区塔楼结构B2$0$$0$SURFACE
+0- 装饰完成面
+032完成面
+002 完成面
+020完成面
+25、26楼标准层家具$0$032完成面
+032完成面
+002 完成面
+020完成面
+IHY-surface
+5#高层平面图|IHY-surface
+CP-WALL-FIN
+A-墙体完成面
+L07立面完成面
+P平-到顶完成面
+标准层户型平面图$0$Rail-装饰面
+SURFACE
+S_SURFACE
+户型参照标准层$0$0A-S-WALL-SURFACE
+A05外墙表皮2层$0$0A-S-WALL-FINI
+A05外墙表皮标准层$0$0A-S-WALL-FINI
+WC【完成面】
+A-墙身装饰
+1-1剖面图标准层$0$0A-S-WALL-FINI
+1-1剖面图标准层$0$0A-S-WALL-SURFACE
+1-1剖面图标准层$0$$0$0A-S-WALL-SURFACE
+1-1剖面图标准层$0$$0$$2$0A-S-WALL-FINI
+2-2剖面图标准层$0$0A-S-WALL-FINI
+2-2剖面图标准层$0$0A-S-WALL-SURFACE
+墙身大样图二$0$墙身1-南立面（无太阳能板）阳台-1$0$0A-S-WALL-SURFACE
+墙身大样图二$0$墙身一（产业化）-4 6 8 10$0$SURFACE
+墙身大样图三$0$墙身1-南立面（无太阳能板）阳台-1$0$0A-S-WALL-SURFACE
+墙身大样图三$0$墙身一（产业化）-4 6 8 10$0$SURFACE
+墙身大样图三$0$0A-S-WALL-SURFACE
+23#一层平面图$0$SURFACE
+二层平面图$0$SURFACE
+二层平面图$0$23#一层平面图$0$SURFACE
+SURFACE
+S_SURFACE
+户型参照标准层$0$0A-S-WALL-SURFACE
+A05外墙表皮2层$0$0A-S-WALL-FINI
+A05外墙表皮标准层$0$0A-S-WALL-FINI
+WC【完成面】
+A-墙身装饰
+1-1剖面图标准层$0$0A-S-WALL-FINI
+1-1剖面图标准层$0$0A-S-WALL-SURFACE
+1-1剖面图标准层$0$$0$0A-S-WALL-SURFACE
+1-1剖面图标准层$0$$0$$2$0A-S-WALL-FINI
+2-2剖面图标准层$0$0A-S-WALL-FINI
+2-2剖面图标准层$0$0A-S-WALL-SURFACE
+墙身大样图二$0$墙身1-南立面（无太阳能板）阳台-1$0$0A-S-WALL-SURFACE
+墙身大样图二$0$墙身一（产业化）-4 6 8 10$0$SURFACE
+墙身大样图三$0$墙身1-南立面（无太阳能板）阳台-1$0$0A-S-WALL-SURFACE
+墙身大样图三$0$墙身一（产业化）-4 6 8 10$0$SURFACE
+墙身大样图三$0$0A-S-WALL-SURFACE
+23#一层平面图$0$SURFACE
+二层平面图$0$SURFACE
+二层平面图$0$23#一层平面图$0$SURFACE
+finsh
+A-墙体完成面
+L~1Z$0$0-装饰构件
+改L(6m)~1D$0$0-装饰构件
+改L(6m)~1Z$0$A-墙体完成面
+改L(6m)~1Z$0$0-装饰构件
+改L(6m)~1D$0$A-墙体完成面
+改BL5(6m)~2D$0$0-装饰构件
+L5-报消防图$0$L(6m)~1D$0$A-墙体完成面
+L5-报消防图$0$L(6m)~1Z$0$A-墙体完成面
+L5-报消防图$0$L(6m)~1D$0$0-装饰构件
+L5-报消防图$0$L(6m)~1Z$0$0-装饰构件
+改L(6m)~2D$0$0-装饰构件
+A-墙体完成面
+L~1Z$0$0-装饰构件
+改L(6m)~1D$0$0-装饰构件
+改L(6m)~1Z$0$A-墙体完成面
+改L(6m)~1Z$0$0-装饰构件
+改L(6m)~1D$0$A-墙体完成面
+改BL5(6m)~2D$0$0-装饰构件
+L5-报消防图$0$L(6m)~1D$0$A-墙体完成面
+L5-报消防图$0$L(6m)~1Z$0$A-墙体完成面
+L5-报消防图$0$L(6m)~1D$0$0-装饰构件
+L5-报消防图$0$L(6m)~1Z$0$0-装饰构件
+改L(6m)~2D$0$0-装饰构件
+A-墙体完成面
+L~1Z$0$0-装饰构件
+改L(6m)~1Z$0$0-装饰构件
+改BL5(6m)~2D$0$0-装饰构件
+L5-报消防图$0$L(6m)~1D$0$A-墙体完成面
+L5-报消防图$0$L(6m)~1Z$0$A-墙体完成面
+L5-报消防图$0$L(6m)~1D$0$0-装饰构件
+L5-报消防图$0$L(6m)~1Z$0$0-装饰构件
+改L(6m)~2Z$0$0-装饰构件
+A-墙体完成面
+L~1Z$0$0-装饰构件
+改L(6m)~1Z$0$0-装饰构件
+L5-报消防图$0$L(6m)~1D$0$A-墙体完成面
+L5-报消防图$0$L(6m)~1Z$0$A-墙体完成面
+L5-报消防图$0$L(6m)~1D$0$0-装饰构件
+L5-报消防图$0$L(6m)~1Z$0$0-装饰构件
+改L(6m)~2Z$0$0-装饰构件
+002完成面
+002完成面
+P-WALL FIN
+SURFACE
+P-DOOR FIN
+民族装饰格栅
+民族装饰格栅
+民族风格装饰
+P-WALL FIN
+P-DOOR FIN
+A_FINISH
+A-墙体完成面
+L~2Z$0$0-装饰构件
+0-装饰构件
+L~1Z$0$0-装饰构件
+改L~2Z$0$0-装饰构件
+改L~1Z$0$0-装饰构件
+A-墙体完成面
+L~2Z$0$0-装饰构件
+0-装饰构件
+L~1Z$0$0-装饰构件
+改L~2Z$0$0-装饰构件
+改L~1Z$0$0-装饰构件
+A-墙体完成面
+L~2Z$0$0-装饰构件
+0-装饰构件
+L~1Z$0$0-装饰构件
+改L~2Z$0$0-装饰构件
+改L~1Z$0$0-装饰构件
+A-墙体完成面
+L~2Z$0$0-装饰构件
+0-装饰构件
+L~1Z$0$0-装饰构件
+改L~2Z$0$0-装饰构件
+改L~1Z$0$0-装饰构件
+A-墙体完成面
+L~2Z$0$0-装饰构件
+改L~2D$0$0-装饰构件
+改L~1D$0$0-装饰构件
+A-墙体完成面
+L~2Z$0$0-装饰构件
+改L~2D$0$0-装饰构件
+改L~1D$0$0-装饰构件
+A-墙体完成面
+L~2Z$0$0-装饰构件
+改L~2D$0$0-装饰构件
+改L~1D$0$0-装饰构件
+A-墙体完成面
+L~2Z$0$0-装饰构件
+改L~2D$0$0-装饰构件
+改L~1D$0$0-装饰构件
+A-墙体完成面
+A-墙体完成面2
+完成面

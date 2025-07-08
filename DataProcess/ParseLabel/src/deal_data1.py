@@ -5,7 +5,7 @@ import re
 import requests
 
 def classify_legend(text):
-    url = 'http://127.0.0.1:5006/classify_legend'
+    url = 'http://10.112.227.114:5006/classify_legend'
     data = {'text': text}
     headers = {'Content-Type': 'application/json'}
     response = requests.post(url, data=json.dumps(data), headers=headers)
@@ -112,6 +112,21 @@ def get_legend_label(json_path, out_path, err_path):
         for text in legend_label_err:
             f.write(text + '\n')
     # print('json %s, valid num: %d, err num: %d' % (os.path.splitext(json_path)[0], len(legend_label), len(legend_label_err)))
+
+def get_layer_label():
+    input_dir = r'E:\School\Grad1\CAD\Datasets\DwgFiles\LegendData\dataset-layers\txt'
+    out_path = '../data/classify_layer/data/layer_label.txt'
+    txts = os.listdir(input_dir)
+
+    labels = []
+    for txt in txts:
+        with open(os.path.join(input_dir, txt), 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        labels += lines
+
+    with open(out_path, 'w', encoding='utf-8') as f:
+        for label in labels:
+            f.write(label)
 
 
 def copy_data():
@@ -248,17 +263,17 @@ def get_default():
     print('----- finish -----')
 
 def select_item():
-    origin_path = '../data/dataset/dataset1/通风设备.txt'
-    out_path1 = '../data/dataset/dataset1/暖通管道.txt'
-    out_path2 = '../data/dataset/dataset1/常见电器.txt'
-    out_path_origin = '../data/dataset/dataset1/通风设备2.txt'
+    origin_path = '../data/dataset/dataset1/default.txt'
+    out_path1 = '../data/dataset/dataset1/开关插座.txt'
+    out_path2 = '../data/dataset/dataset1/消防安全.txt'
+    out_path_origin = '../data/dataset/dataset1/default2.txt'
 
     with open(origin_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     del_index = []
     item_del = []
-    item_select1 = ['风口', '孔洞', '风口', '气管']
-    item_select2 = ['面板']
+    item_select1 = ['面板', '控制模块']
+    item_select2 = ['警报']
     line_select1 = []
     line_select2 = []
     for i, line in enumerate(lines):
@@ -288,16 +303,83 @@ def select_item():
 
 def select_diff_label():
     label_path = '../data/dataset/dataset1/default.txt'
-    target_cate = os.path.splitext(os.path.basename(label_path))
+    target_cate = os.path.splitext(os.path.basename(label_path))[0]
     print('target_cate:', target_cate)
     with open(label_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
+    total, error = len(lines), 0
     for line in lines:
         line = line.strip()
         res = classify_legend(line)
         cate = res['cate'] if 'cate' in res else ''
         if cate != target_cate:
             print('text: %s, error_target: %s' % (line, cate))
+            error += 1
+    print('total: %d, error: %d' % (total, error))
+
+def get_layer_classify():
+    classify_txt = '../data/classify_layer/json/classify.txt'
+    cate_json = '../data/classify_layer/json/classify_catelog.json'
+    match_json = '../data/classify_layer/json/classify_match.json'
+
+    classify_dict = dict()
+    match_dict = dict()
+    with open(classify_txt, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    for line in lines:
+        line = line.strip()
+        key, value = line.split('：')
+        if '、' in value:
+            value_list = value.split('、')
+            classify_dict[key] = value_list
+            for v in value_list:
+                match_dict[v] = ''
+        else:
+            classify_dict[key] = [value]
+            match_dict[value] = ''
+
+    with open(cate_json, 'w', encoding='utf-8') as f:
+        json.dump(classify_dict, f, ensure_ascii=False, indent=4)
+    with open(match_json, 'w', encoding='utf-8') as f:
+        json.dump(match_dict, f, ensure_ascii=False, indent=4)
+    print('----- finish -----')
+
+def get_layer_data():
+    match_json = '../data/classify_layer/json/classify_match.json'
+    label_path = '../data/classify_layer/data/layer_label.txt'
+    out_dir = '../data/classify_layer/data/dataset1'
+    os.makedirs(out_dir, exist_ok=True)
+    with open(match_json, 'r', encoding='utf-8') as f:
+        match_data = json.load(f)
+    keys = list(match_data.keys())
+    cate_dict = dict()
+    re_dict = dict()
+    for key in keys:
+        cate_dict[key] = []
+        re_dict[key] = re.compile(match_data[key], re.IGNORECASE | re.DOTALL)
+
+    with open(label_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    for line in lines:
+        line = line.strip()
+        for key in keys:
+            if bool(re_dict[key].search(line)):
+                cate_dict[key].append(line)
+                break
+    
+    for key in keys:
+        with open(os.path.join(out_dir, key + '.txt'), 'w', encoding='utf-8') as f:
+            for line in cate_dict[key]:
+                f.write(line + '\n')
+    print('----- finish -----')
+
+
+def print_match():
+    match_json = '../data/classify/classify_match.json'
+    with open(match_json, 'r', encoding='utf-8') as f:
+        match_data = json.load(f)
+    for key, value in match_data.items():
+        print('%s: (?=.*(%s))' % (key, '|'.join(value)))
 
 
 def test1():
@@ -315,5 +397,10 @@ def test1():
 if __name__ == '__main__':
     # read_classify_txt()
     # match_legend_label()
-    select_item()
+    # select_item()
     # get_default()
+    # select_diff_label()
+    # get_layer_label()
+    # get_layer_classify()
+    # print_match()
+    get_layer_data()

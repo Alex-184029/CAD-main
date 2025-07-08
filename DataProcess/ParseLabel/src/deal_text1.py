@@ -191,8 +191,8 @@ def readLabels2():
 
 
 def createDataset():
-    labelpath = '../data/dataset/dataset1'
-    outpath = r'E:\School\Grad1\CAD\DeepLearn\TextClassify\Chinese-Text-Classification-Pytorch\LegendLabels\data'
+    labelpath = '../data/classify_layer/data/dataset1'
+    outpath = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\DataProcess\Chinese-Text-Classification-Pytorch\LayerLabels\data'
     os.makedirs(outpath, exist_ok=True)
     cates = os.listdir(labelpath)
     cates = [os.path.splitext(cate)[0] for cate in cates if cate != 'default.txt']
@@ -204,10 +204,11 @@ def createDataset():
         for label in labels:
             dataset_list.append(label.strip() + '\t' + str(i))
     n = len(cates)
-    with open(os.path.join(labelpath, 'default.txt'), 'r', encoding='utf-8') as f:
-        labels = f.readlines()      # 考虑是否要选择读取数量
-    for label in labels:
-        dataset_list.append(label.strip() + '\t' + str(n))
+    if 'default.txt' in os.listdir(labelpath):
+        with open(os.path.join(labelpath, 'default.txt'), 'r', encoding='utf-8') as f:
+            labels = f.readlines()      # 考虑是否要选择读取数量
+        for label in labels:
+            dataset_list.append(label.strip() + '\t' + str(n))
 
     # 复制一份扩充数据集
     dataset_list += dataset_list
