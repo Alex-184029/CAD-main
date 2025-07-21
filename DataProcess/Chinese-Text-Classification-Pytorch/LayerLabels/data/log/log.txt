@@ -1,0 +1,283 @@
+rnn_att
+
+Iter:   4000,  Train Loss:  0.13,  Train Acc: 94.53%,  Val Loss:   0.1,  Val Acc: 96.60%,  Time: 0:00:27 
+Iter:   4100,  Train Loss: 0.048,  Train Acc: 97.66%,  Val Loss:  0.11,  Val Acc: 96.56%,  Time: 0:00:28 
+No optimization for a long time, auto-stopping...
+Test Loss:  0.08,  Test Acc: 97.31%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+          其它     0.9525    0.9937    0.9727      1897
+      其它建筑结构     0.8594    0.9167    0.8871        60
+        图框布局     0.9750    1.0000    0.9873        39
+          墙柱     0.9696    0.9585    0.9640       699
+       家具与洁具     0.9903    0.9670    0.9785       212
+        常见电器     1.0000    1.0000    1.0000        10
+        建筑材料     1.0000    1.0000    1.0000         6
+        开关插座     1.0000    0.9853    0.9926        68
+        排水管道     0.9892    0.9821    0.9856       279
+        暖通管道     1.0000    0.9036    0.9494        83
+     标注与文字说明     0.9963    0.9608    0.9782       842
+        消防安全     1.0000    1.0000    1.0000        85
+        照明设备     1.0000    1.0000    1.0000       147
+          装饰     1.0000    0.9886    0.9943        88
+        轴线索引     0.9806    0.9833    0.9819       359
+        辅助图层     1.0000    0.9762    0.9880        42
+        通风设备     0.9787    0.9892    0.9840        93
+        配电设备     1.0000    0.8958    0.9451        48
+        门窗相关     0.9851    0.9213    0.9522       432
+        阀门附件     1.0000    1.0000    1.0000         7
+
+    accuracy                         0.9731      5496
+   macro avg     0.9838    0.9711    0.9770      5496
+weighted avg     0.9737    0.9731    0.9730      5496
+
+Confusion Matrix...
+[[1885    2    0    0    0    0    0    0    1    0    2    0    0    0
+     3    0    1    0    3    0]
+ [   4   55    0    0    0    0    0    0    1    0    0    0    0    0
+     0    0    0    0    0    0]
+ [   0    0   39    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0    0    0    0]
+ [  21    3    0  670    0    0    0    0    0    0    1    0    0    0
+     1    0    0    0    3    0]
+ [   5    2    0    0  205    0    0    0    0    0    0    0    0    0
+     0    0    0    0    0    0]
+ [   0    0    0    0    0   10    0    0    0    0    0    0    0    0
+     0    0    0    0    0    0]
+ [   0    0    0    0    0    0    6    0    0    0    0    0    0    0
+     0    0    0    0    0    0]
+ [   0    0    0    0    1    0    0   67    0    0    0    0    0    0
+     0    0    0    0    0    0]
+ [   4    0    0    1    0    0    0    0  274    0    0    0    0    0
+     0    0    0    0    0    0]
+ [   5    0    0    3    0    0    0    0    0   75    0    0    0    0
+     0    0    0    0    0    0]
+ [  13    0    1   15    0    0    0    0    1    0  809    0    0    0
+     3    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0   85    0    0
+     0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0  147    0
+     0    0    0    0    0    0]
+ [   1    0    0    0    0    0    0    0    0    0    0    0    0   87
+     0    0    0    0    0    0]
+ [   4    0    0    2    0    0    0    0    0    0    0    0    0    0
+   353    0    0    0    0    0]
+ [   1    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0   41    0    0    0    0]
+ [   1    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0   92    0    0    0]
+ [   5    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0   43    0    0]
+ [  30    2    0    0    1    0    0    0    0    0    0    0    0    0
+     0    0    1    0  398    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0    0    0    7]]
+Time usage: 0:00:00
+
+
+rcnn
+
+Iter:   3000,  Train Loss:  0.13,  Train Acc: 95.31%,  Val Loss:   0.1,  Val Acc: 96.52%,  Time: 0:00:26 *
+Test Loss: 0.082,  Test Acc: 97.02%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+          其它     0.9619    0.9858    0.9737      1897
+      其它建筑结构     0.9636    0.8833    0.9217        60
+        图框布局     0.9750    1.0000    0.9873        39
+          墙柱     0.9538    0.9456    0.9497       699
+       家具与洁具     0.9810    0.9717    0.9763       212
+        常见电器     1.0000    1.0000    1.0000        10
+        建筑材料     1.0000    1.0000    1.0000         6
+        开关插座     1.0000    0.9853    0.9926        68
+        排水管道     0.9892    0.9821    0.9856       279
+        暖通管道     0.9872    0.9277    0.9565        83
+     标注与文字说明     0.9890    0.9644    0.9765       842
+        消防安全     1.0000    1.0000    1.0000        85
+        照明设备     1.0000    1.0000    1.0000       147
+          装饰     0.9457    0.9886    0.9667        88
+        轴线索引     0.9415    0.9861    0.9633       359
+        辅助图层     1.0000    0.9762    0.9880        42
+        通风设备     0.9787    0.9892    0.9840        93
+        配电设备     1.0000    0.9792    0.9895        48
+        门窗相关     0.9778    0.9190    0.9475       432
+        阀门附件     1.0000    1.0000    1.0000         7
+
+    accuracy                         0.9702      5496
+   macro avg     0.9822    0.9742    0.9779      5496
+weighted avg     0.9705    0.9702    0.9701      5496
+
+Confusion Matrix...
+[[1870    0    0   14    0    0    0    0    2    0    1    0    0    1
+     4    0    1    0    4    0]
+ [   4   53    0    0    1    0    0    0    0    0    0    0    0    0
+     2    0    0    0    0    0]
+ [   0    0   39    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0    0    0    0]
+ [  20    1    0  661    1    0    0    0    0    0    7    0    0    0
+     8    0    0    0    1    0]
+ [   2    1    0    0  206    0    0    0    0    0    0    0    0    2
+     0    0    0    0    1    0]
+ [   0    0    0    0    0   10    0    0    0    0    0    0    0    0
+     0    0    0    0    0    0]
+ [   0    0    0    0    0    0    6    0    0    0    0    0    0    0
+     0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0   67    0    0    0    0    0    1
+     0    0    0    0    0    0]
+ [   3    0    0    1    0    0    0    0  274    0    0    0    0    0
+     0    0    0    0    1    0]
+ [   3    0    0    1    0    0    0    0    0   77    0    0    0    0
+     1    0    0    0    1    0]
+ [  10    0    1   12    0    0    0    0    1    1  812    0    0    0
+     4    0    0    0    1    0]
+ [   0    0    0    0    0    0    0    0    0    0    0   85    0    0
+     0    0    0    0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0  147    0
+     0    0    0    0    0    0]
+ [   1    0    0    0    0    0    0    0    0    0    0    0    0   87
+     0    0    0    0    0    0]
+ [   3    0    0    1    0    0    0    0    0    0    1    0    0    0
+   354    0    0    0    0    0]
+ [   1    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0   41    0    0    0    0]
+ [   1    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0   92    0    0    0]
+ [   1    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0   47    0    0]
+ [  25    0    0    3    2    0    0    0    0    0    0    0    0    1
+     3    0    1    0  397    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0    0    0    7]]
+Time usage: 0:00:00
+
+
+text: A-3#-PLAN-B1$0$$0$A-6#-PLAN-B1$0$G-ANNO-DIMS, target: 标注与文字说明, error_target: 其它
+text: S20-结构参照_板_3座A户型三层模板图_SEN14FZ6_设计区$0$DIM_截面, target: 标注与文字说明, error_target: 其它
+text: __附着_A09-地下二层组合平面图_SEN24HDF_设计区$0$$2$AX-4-B-COMP-FJ$0$A-Wall, target: 墙柱, error_target: 其它
+text: __附着_A09-1楼地下二层核心筒_SEN24HDF_设计区$0$AE-WALL, target: 墙柱, error_target: 其它建筑结构
+text: __附着_A10-1-P01-HXT_SEN24HBY_设计区$0$AE-WIND, target: 门窗相关, error_target: 其它
+text: S-19~22层-竖板及全现浇墙体BZC (南入单拼)$0$0S-W-HATCH, target: 墙柱, error_target: 轴线索引
+text: __附着_A10-5，10地下二层核心筒参照_SEN24HDF_设计区$0$$0$AE-ELEV-4-RAIL, target: 墙柱, error_target: 其它
+text: 1-平面图-一层平面图-南入户-DK2-3#$0$标准层平面$0$一层平面$0$T4-首层平面$0$建-洁具, target: 家具与洁具, error_target: 其它建筑结构
+text: A02-07-G-MAIN-仅13栋楼梯_设计区$0$A02-G-MAIN-E户型报建_设计区$0$A_EQPM_SMAL(空调室内外机), target: 其它建筑结构, error_target: 排水 管道
+text: KP12.00 Level 23 Keyplan$0$IFF-FURN-DETAIL, target: 家具与洁具, error_target: 其它
+text: A02-G-MAIN-洋房2号户型_设计区$0$A02-G-MAIN-B户型报建_设计区$0$A_FLOR(边缘), target: 其它, error_target: 通风设备
+text: __附着_A10-5，10地下二层核心筒参照_SEN24HDF_设计区$0$$0$新块1$0$WINDOW_TEXT, target: 标注与文字说明, error_target: 其它
+text: CAAAC-JTH-BZC$1$A-GC-JTH3-5HU-PLAN$0$A-DOOR, target: 门窗相关, error_target: 其它
+text: 二期二层平面图（架空车库顶板）$0$一期地下室一层平时$0$A-FLOR-OVHD, target: 其它, error_target: 门窗相关
+text: __附着_A09-地下二层组合平面图_SEN24HDF_设计区$0$15号楼地下平面$0$AE-WALL, target: 墙柱, error_target: 其它
+text: AC-0606-P(平面图）_t3|AX-0606-COMP-G-2-50$0$A-Wind, target: 门窗相关, error_target: 其它
+text: 烟窗11111111111111111111111111, target: 门窗相关, error_target: 其它
+text: AC-0601-P  (平面图)_t3|Ax-A-1-T-SS$0$A-Blcn, target: 其它, error_target: 门窗相关
+text: __附着_S13-colu_SEN24HD7_设计区$0$S_STAR_TEXT, target: 标注与文字说明, error_target: 墙柱
+text: AX-02.03.45-COMP-SY-P01$0$二期商业 一层平面住宅块$0$A-WALL-FNSH, target: 墙柱, error_target: 其它
+text: 墙身大样图二$0$墙身21-北立面 楼梯间-(R造型)$0$0A-A-TEXT, target: 标注与文字说明, error_target: 墙柱
+text: 标准层平面$0$二层平面$0$二层平面$0$T4-二层平面$0$建-阳台, target: 墙柱, error_target: 其它建筑结构
+text: __附着_A10-2，3核心筒平面一层_SEN24HBY_设计区$0$AE-WIND, target: 门窗相关, error_target: 其它
+text: S20-结构参照_梁_23座A户型标准层下模板图_SEN14FZ6_设计区$0$BEAM, target: 墙柱, error_target: 标注与文字说明
+text: 墙身大样图三$0$墙身1-南立面（无太阳能板）阳台-RF$0$0A-A-TEXT, target: 标注与文字说明, error_target: 墙柱
+
+text: __覆盖_W20-0_SEN24HDA$0$W-FRPT-HYDT-PIPE, target: 排水管道, error_target: 其它
+text: S20-结构参照_板_3座A户型三层模板图_SEN14FZ6_设计区$0$BEAM, target: 墙柱, error_target: 其它
+text: __附着_A09-12楼地下二层核心筒_SEN24HDF_设计区$0$__附着_A10-12-P02-HXT_SEN24HBY_设计区$0$AE-STAR, target: 其它建筑结构, error_target: 其它
+text: __附着_A10-6-P04-HXT_SEN24HDA_设计区$0$AE-WIND, target: 门窗相关, error_target: 其它
+text: AC-0606-P(平面图）_t3|AX-0606-COMP-G-2-50$0$A-Wind-Iden, target: 门窗相关, error_target: 其它
+text: __附着_A09-地下二层组合平面图_SEN24HDF_设计区$0$风机基础, target: 通风设备, error_target: 其它
+text: S20-07-PLAN-3F~10F_设计区$0$G_BEAM_TEXT（梁截面文字）, target: 标注与文字说明, error_target: 轴线索引
+text: __附着_A70-柱网_SEN24HDF_设计区$0$AD-NOTE-HOLE, target: 暖通管道, error_target: 墙柱
+text: __覆盖_W20-0_SEN24HDA$0$W-FRPT-HYDT-PIPE, target: 排水管道, error_target: 其它
+text: AX-02.03.06.15.16-COMP-G'(6#)$0$.PF-地漏, target: 排水管道, error_target: 其它
+text: SX-03-WALL-1F$0$SX-02-WALL-BZC1$0$TEXT, target: 标注与文字说明, error_target: 墙柱
+text: AC-0606-P(平面图）_t3|AX-0606-COMP-G-2-50$0$A-Wall-Prtn, target: 墙柱, error_target: 其它
+text: AX-02.03.06.15.16-COMP-F''(2.3#边)$0$.L-配电箱, target: 配电设备, error_target: 其它
+text: AC-0601-P  (平面图)_t3|Ax-0601-comp-P01$0$Ax-E-comp-P01$0$A-Wall-Patt, target: 墙柱, error_target: 其它
+text: __附着_S13-colu_SEN24HD7_设计区$0$S_HOLE_TEXT, target: 标注与文字说明, error_target: 墙柱
+text: CAAAC-JTH-BZC$1$A-GC-JTH3-5HU-PLAN$0$A-DOOR, target: 门窗相关, error_target: 其它
+text: A-EQPM-ELEC, target: 配电设备, error_target: 其它
+text: __附着_A09-地下二层组合平面图_SEN24HDF_设计区$0$15号楼地下平面$0$PUB_TEXT, target: 标注与文字说明, error_target: 其它
+text: __覆盖_W20-0_SEN24HDA$0$__附着_A10-地上标准层轴网_SEN24HDA_设计区$0$AD-AXIS-DIMS, target: 标注与文字说明, error_target: 其它
+text: AC-0606-P(平面图）_t3|AX-0606-COMP-G-1-50$0$A-Wall-Hole, target: 暖通管道, error_target: 其它
+text: AC-0606-P(平面图）_t3|AX-0606-COMP-G-2-50$0$飘窗线, target: 轴线索引, error_target: 其它
+text: Ax-0601-comp-P01$0$Ax-A-comp-P01$0$WINDOW, target: 门窗相关, error_target: 其它
+text: __附着_A10-1-P01-HXT_SEN24HBY_设计区$0$AE-DOOR-INSD, target: 门窗相关, error_target: 其它
+text: Ax-0603-Word-P01-50$0$Ax-0504-Word-P01-50$0$A-Spac-Iden-Auto, target: 其它, error_target: 标注与文字说明
+text: __附着_A70-柱网_SEN24HDF_设计区$0$XD-AXIS-AXIS, target: 轴线索引, error_target: 墙柱
+text: SX-03-WALL-2F$0$SX-02-WALL-BZC1$0$TEXT, target: 标注与文字说明, error_target: 墙柱
+text: 1#，2#，3#，5#，6#楼平面图$0$__附着_A10-H1户型_SEN23LLA_设计区$0$__附着_A10-12标准层房间名称面积_SEN23KJN_设计区$0$AE-HOLE, target: 暖通管道, error_target: 其它
+text: __附着_S13-colu_SEN24HD7_设计区$0$S_BEAM_WALL_TEXT, target: 标注与文字说明, error_target: 墙柱
+text: __附着_A10-2，3核心筒平面标准层_SEN24HBY_设计区$0$AE-WIND, target: 门窗相关, error_target: 其它
+
+text: !PboEM-Elec, target: 配电设备, error_target: 其它
+text: AC-0606-P(平面图）_t3|AX-0606-PB-50$0$DIM_SYMB, target: 标注与文字说明, error_target: 其它
+text: 1-平面图-一层平面图-南入户-DK2-3#$0$一层平面$0$T4-首层平面$0$建-门窗, target: 门窗相关, error_target: 其它建筑结构
+text: 1#，2#，3#，5#，6#楼平面图$0$__附着_A10-H1户型_SEN23LLA_设计区$0$WINDOW_TEXT, target: 标注与文字说明, error_target: 其它
+text: __附着_S-plan_SEN24HD6_设计区$0$S_BEAM_TEXT, target: 标注与文字说明, error_target: 墙柱
+text: AC-0601-P  (平面图)_t3|Ax-0601-PB-50$0$$0$A-Wind-Iden, target: 门窗相关, error_target: 其它
+text: AC-0601-P  (平面图)_t3|SX-A-GZ-PB$0$SX-GZZ-DY$0$S-COLU-DDET, target: 墙柱, error_target: 其它
+text: SX-03-WALL-B01$0$SX-02-WALL-BZC1$0$TEXT, target: 标注与文字说明, error_target: 墙柱
+text: A02-G-MAIN-洋房5号户型_设计区$0$A02-G-MAIN-B户型报建_设计区$0$A_DOOR(门), target: 门窗相关, error_target: 通风设备
+text: !PboEM-Elec, target: 配电设备, error_target: 其它
+text: AC-0606-P(平面图）_t3|AX-0606-FUR-PB-50$0$2-FF-WALLFINISH, target: 装饰, error_target: 其它
+text: 1-平面图-一层平面图-南入户-DK2-3#$0$一层平面$0$T4-首层平面$0$$0$建-符号-门编号, target: 门窗相关, error_target: 其它建筑结构
+text: __附着_A09-地下轴网_SEN24HD6_设计区$0$AD-DIMS-OTSD, target: 标注与文字说明, error_target: 轴线索引
+text: 99-参照A2图框|Ax-TK-20190252(11)-TQ$0$X-Text-Vers-In, target: 标注与文字说明, error_target: 图框布局
+text: AC-0601-P  (平面图)_t3|Ax-A-HXT-T$0$A-Wind, target: 门窗相关, error_target: 其它
+text: __附着_S13-colu_SEN24HD7_设计区$0$S_COLU_CAP_TEXT, target: 标注与文字说明, error_target: 墙柱
+text: !PboEM-Elec, target: 配电设备, error_target: 其它
+text: __附着_A10-2，3核心筒平面一层_SEN24HBY_设计区$0$AE-DOOR-INSD, target: 门窗相关, error_target: 其它
+text: __附着_A10-1-P01-HXT_SEN24HBY_设计区$0$北廊$0$WINDOW_TEXT, target: 标注与文字说明, error_target: 其它
+text: AC-0601-P  (平面图)_t3|Ax-A-XT-T$0$A-Wall-Fnsh, target: 墙柱, error_target: 其它
+text: AC-0601-P  (平面图)_t3|Ax-06A-word-PB$0$A-Wind-Iden, target: 门窗相关, error_target: 其它
+
+text: __附着_A10-H1户型_SEN23LLA_设计区$0$AE-WIND, target: 门窗相关, error_target: 其它
+text: __附着_A60-平面图注_SEN24HBZ_设计区$0$AE-HOLE, target: 暖通管道, error_target: 其它
+text: AC-0601-P  (平面图)_t3|Ax-A-1-T-SS$0$A-Wall-Patt, target: 墙柱, error_target: 门窗相关
+text: __附着_A30-1，2，3屋顶剖面_SEN24HBY_设计区$0$_TCH_BOUNDARY, target: 辅助图层, error_target: 其它
+text: __附着_A10-185-P02_SEN24HBY_设计区$0$AE-HOLE, target: 暖通管道, error_target: 其它
+text: AC-0601-P  (平面图)_t3|Ax-0601-PB-50$0$$0$A-Wind, target: 门窗相关, error_target: 其它
+text: AC-0601-P  (平面图)_t3|Ax-0601-comp-P01$0$A-Wind, target: 门窗相关, error_target: 其它
+text: Ax-0601-comp-P01$0$Ax-0601-comp-P01$0$A-Wind, target: 门窗相关, error_target: 其它
+text: CAAAC-JTH-BZC$1$A-GC-JTH2$0$2$0$A-HRAL, target: 墙柱, error_target: 其它
+text: __附着_S13-colu_SEN24HD7_设计区$0$S_DETL_AXIS_DIMS, target: 标注与文字说明, error_target: 墙柱
+text: __附着_A09-地下二层组合平面图_SEN24HDF_设计区$0$20190828西安旭辉浐灞户型_t6(1)$0$砼梁, target: 墙柱, error_target: 其它
+text: __附着_A10-6-P01-XJ_SEN24HDA_设计区$0$AE-WIND, target: 门窗相关, error_target: 其它
+text: CAAAC-JTH-BZC$1$A-GC-JTH3-5HU-PLAN$0$A-WIND0, target: 门窗相关, error_target: 其它
+text: __附着_A09-地下二层组合平面图_SEN24HDF_设计区$0$20190828西安旭辉浐灞户型_t6(1)$0$STAIR, target: 其它建筑结构, error_target: 其它
+text: 0-索号, target: 其它, error_target: 轴线索引
+text: AC-0601-P  (平面图)_t3|Ax-A-Furn-T-SS$0$5-EM-SOCKET, target: 开关插座, error_target: 家具与洁具
+text: AC-0601-P  (平面图)_t3|Ax-0601-P01-50$0$DIM_LEAD, target: 标注与文字说明, error_target: 其它
+text: AC-0601-P  (平面图)_t3|Ax-A-Furn-T-SS$0$2-FF-DOOR, target: 门窗相关, error_target: 家具与洁具
+text: S20-结构参照_板_3座A户型三层模板图_SEN14FZ6_设计区$0$AXIS_次轴线, target: 轴线索引, error_target: 其它
+text: __附着_A70-柱网_SEN24HDF_设计区$0$AD-NUMB-HOLE, target: 暖通管道, error_target: 墙柱
+text: 墙身大样图二$0$墙身21-北立面 楼梯间-(R造型)$0$$0$$0$墙身详图四$0$防水层, target: 排水管道, error_target: 墙柱
+text: AC-0606-P(平面图）_t3|AX-0606-COMP-G-1-50$0$A-Wall, target: 墙柱, error_target: 其它
+text: __附着_S13-colu_SEN24HD7_设计区$0$S_BEAM_SECD_TEXT_HORZ, target: 标注与文字说明, error_target: 墙柱
+text: AC-0601-P  (平面图)_t3|Ax-0601-P01-50$0$A-Wall-Patt, target: 墙柱, error_target: 其它
+text: AC-0606-P(平面图）_t3|SX-0606-GZ-PB$0$S-COLU-COGZ, target: 墙柱, error_target: 其它
+text: __附着_A09-1楼地下一层核心筒_SEN24HDF_设计区$0$AE-EQPM, target: 其它, error_target: 其它建筑结构
+text: __附着_S13-colu_SEN24HD7_设计区$0$S_DETL_AXIS, target: 轴线索引, error_target: 墙柱
+text: 1#，2#，3#，5#，6#楼平面图$0$__附着_A10-H1户型_SEN23LLA_设计区$0$AE-PIPE, target: 排水管道, error_target: 其它
+text: 墙身大样图三$0$墙身1-南立面（无太阳能板）阳台-RF$0$0A-A-TEXT, target: 标注与文字说明, error_target: 墙柱
+text: AX-02.03.06.15.16-COMP-F''(2.3#边)$0$I-Furn, target: 家具与洁具, error_target: 其它
+text: A02-07-MAIN-3F~10F_设计区$0$A_FLOR_FTMT_MOVE(可移动式家具), target: 家具与洁具, error_target: 其它
+text: 墙身大样图三$0$墙身21-北立面 楼梯间-(R造型)$0$0A-A-TEXT, target: 标注与文字说明, error_target: 墙柱
+text: A02-07-G-MAIN-13栋节能遮阳_设计区1$0$A_TEXT_NOTE(文字说明), target: 标注与文字说明, error_target: 其它
+text: __附着_A09-地下二层组合平面图_SEN24HDF_设计区$0$AD-AXIS-AXIS, target: 轴线索引, error_target: 其它
+text: __附着_A10-12-P01-HXT_SEN24HBY_设计区$0$AE-WALL, target: 墙柱, error_target: 其它
+text: AC-0606-P(平面图）_t3|SX-0606-GZ-PB$0$0-1构造柱, target: 墙柱, error_target: 其它
+text: AC-0606-P(平面图）_t3|AX-0606-FUR-PB-50$0$2-FF-FURN-DETAIL, target: 家具与洁具, error_target: 其它
+text: 1-平面图-一层平面图-南入户-DK2-3#$0$一层平面$0$T4-首层平面$0$建-楼梯-扶手栏杆, target: 墙柱, error_target: 其它建筑结构
+
+text: __覆盖_W20-0_SEN24HD7$0$W-FRPT-HYDT-DIMS, target: 标注与文字说明, error_target: 排水管道
+text: AC-0601-P  (平面图)_t3|Ax-0601-P01-50$0$A-Wind-Iden, target: 门窗相关, error_target: 其它
+text: __附着_A70-主楼楼位_SEN24HDF_设计区$0$3T_WOOD, target: 墙柱, error_target: 其它
+text: A-单拼住宅（南入、二部楼梯）-平面索引（1F）$0$0A-A-TEXT, target: 标注与文字说明, error_target: 轴线索引
+text: 二期二层平面图（架空车库顶板）$0$一期地下室一层平时$0$A-FLOR-OVHD, target: 其它, error_target: 门窗相关
+text: AC-0606-P(平面图）_t3|AX-0606-COMP-G-1-50$0$A-Wall-Fnsh, target: 墙柱, error_target: 其它
+text: AIR, target: 其它, error_target: 其它建筑结构
+text: __附着_A60-平面图注_SEN24HBZ_设计区$0$$0$AE-HOLE, target: 暖通管道, error_target: 其它
+text: 二期一层轴号300比例$0$一期地下轴号300比例$0$AUDIT_D_181209204955-2, target: 其它, error_target: 轴线索引
+text: __附着_A30-1，2，3屋顶剖面_SEN24HBY_设计区$0$AX-LT13-立面-标准层$0$A-Wind-Iden, target: 门窗相关, error_target: 其它
+text: 标准层平面$0$二层平面$0$二层平面$0$T4-二层平面$0$建-洁具, target: 家具与洁具, error_target: 其它建筑结构
+text: AC-0601-P  (平面图)_t3|SX-A-GZ-PB$0$S-TEXT-LINE, target: 标注与文字说明, error_target: 其它
