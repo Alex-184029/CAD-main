@@ -1,0 +1,56 @@
+{
+    "dwg_name": "plan_1",
+    "vp_index": 1,
+    "facade_index": {
+        "1": {
+            "position": [],
+            "facade": [
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "18",
+                    "direction": "N"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "19",
+                    "direction": "E"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "20",
+                    "direction": "S"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "21",
+                    "direction": "W"
+                }
+            ]
+        },
+        "2": {
+            "position": [],
+            "facade": [
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "18",
+                    "direction": "N"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "19",
+                    "direction": "E"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "20",
+                    "direction": "S"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "21",
+                    "direction": "W"
+                }
+            ]
+        }
+    }
+}
