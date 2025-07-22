@@ -1,0 +1,130 @@
+RC	Reinforced Concrete 钢筋混凝土
+COL	Column	柱子
+BEAM	Beam	梁
+SLAB	Slab	楼板
+WALL	Wall	墙体
+FND	Foundation	基础
+ST	Steel	钢结构
+PC	Precast Concrete	预制混凝土
+CFT	Concrete Filled Tube	钢管混凝土
+LINTEL	Lintel	过梁
+COLU    Column  柱子
+
+DW	Drywall	轻质隔墙
+CW	Curtain Wall	幕墙
+GL	Glass	玻璃
+CLG	Ceiling	天花
+FLR	Floor	地面
+ROOF	Roof	屋顶
+BAL	Balcony	阳台
+STAIR	Stair	楼梯
+ELEV	Elevator	电梯
+ESC	Escalator	自动扶梯
+
+D	Door	门
+WD	Wood Door	木门
+FD	Fire Door	防火门
+SD	Sliding Door	推拉门
+W	Window	窗
+AW	Awning Window	上悬窗
+CW	Casement Window	平开窗
+FW	Fixed Window	固定窗
+FR	Frame	门窗框
+TR	Trim	门窗套
+FURN    Furniture   家具
+
+VP	Vent Pipe	通气管
+WP	Water Pipe	给水管
+DWP	Drain Water Pipe	排水管
+SWP	Sewer Pipe	污水管
+FWP	Fire Water Pipe	消防水管
+HV	Hot Water	热水管
+CV	Cold Water	冷水管
+FD	Floor Drain	地漏
+
+EL	Electrical	电气
+LP	Lighting Panel	照明配电箱
+SP	Socket Panel	插座配电箱
+SW	Switch	开关
+LT	Light	灯具
+EM	Emergency	应急照明
+FD	Fire Detection	火灾探测器
+PA	Public Address	广播系统
+
+AHU	Air Handling Unit	空调机组
+FCU	Fan Coil Unit	风机盘管
+VAV	Variable Air Volume	变风量系统
+DX	Direct Expansion	直膨式空调
+CHW	Chilled Water	冷冻水
+HWS	Hot Water Supply	热水供应
+EXH	Exhaust	排风
+OA	Outside Air	新风
+
+DIM	Dimension	尺寸标注
+TYP	Typical	典型（通用）
+REF	Reference	参照
+NTS	Not To Scale	不按比例
+ELEV	Elevation	立面图
+SEC	Section	剖面图
+DET	Detail	大样图
+GRID	Grid	轴网
+CL	Center Line	中心线
+B.O.W.	Bottom of Wall	墙底标高
+AXIS	Axis	轴线
+
+CONC	Concrete	混凝土
+GYP	Gypsum	石膏板
+PLY	Plywood	胶合板
+AL	Aluminum	铝材
+SS	Stainless Steel	不锈钢
+GFRC	Glass Fiber Reinforced Concrete	玻璃纤维混凝土
+HDPE	High-Density Polyethylene	高密度聚乙烯
+
+BIM	Building Information Modeling	建筑信息模型
+CAD	Computer-Aided Design	计算机辅助设计
+FFL	Finished Floor Level	完成面标高
+SFL	Structural Floor Level	结构标高
+RCP	Reflected Ceiling Plan	天花反射图
+ID	Interior Design	室内设计
+LD	Landscape Design	景观设计
+
+Arch	Architecture	建筑（总称）	Arch Plan（建筑平面图）
+Plan	Plan	平面图	Floor Plan（楼层平面图）
+Elev	Elevation	立面图	Front Elev（正立面图）
+Sect	Section	剖面图	Cross Sect（横断面图）
+Sht	Sheet	图纸、图幅	Sheet 1（第 1 张图）
+Dim	Dimension	尺寸标注	Dim Line（尺寸线）
+Grid	Grid	轴网	Grid Line（轴线）
+Hatch	Hatch	填充（图案）	Wall Hatch（墙体填充）
+Fin	Finish	饰面、完成面	Floor Fin（地面饰面）
+W	Wall	墙体	Ext W（外墙）
+D	Door	门	Fire D（防火门）
+Wdw	Window	窗	Fix Wdw（固定窗）
+Balc	Balcony	阳台	Balc Rail（阳台栏杆）
+Stair	Staircase	楼梯	Stair 1（1 号楼梯）
+Corr	Corridor	走廊	Main Corr（主走廊）
+Rm	Room	房间	Rm 101（101 房间）
+
+Struc	Structure	结构（总称）	Struc Plan（结构平面图）
+Beam	Beam	梁	Main Beam（主梁）
+Col	Column	柱	RC Col（钢筋混凝土柱）
+Slab	Slab	楼板	Floor Slab（楼板）
+Lintel	Lintel	过梁	Door Lintel（门过梁）
+Fdn	Foundation	基础	Strip Fdn（条形基础）
+Rein	Reinforcement	钢筋	Rein Bar（钢筋）
+RC	Reinforced Concrete	钢筋混凝土	RC Wall（钢筋混凝土墙）
+Steel	Steel	钢材、钢结构	Steel Frame（钢框架）
+Conc	Concrete	混凝土	Conc Grade（混凝土强度等级）
+Masonry	Masonry	砌体	Masonry Wall（砌体墙）
+Joist	Joist	托梁	Floor Joist（楼盖托梁）
+footing	Footing	基础垫层	Isolated Footing（独立基础）
+
+Elec	Electrical	电气（总称）	Elec Plan（电气平面图）
+Pow	Power	动力（电源）	Pow Panel（动力配电箱）
+Light	Lighting	照明	Light Fixture（照明灯具）
+Socket	Socket	插座	Power Socket（电源插座）
+Switch	Switch	开关	Light Switch（照明开关）
+Panel	Panel	配电箱、面板	Distribution Panel（配电屏）
+Cable	Cable	电缆	Power Cable（电力电缆）
+ELV	Extra Low Voltage	弱电	ELV System（弱电系统）
+Telecom	Telecommunication	通信	Telecom Socket（通信插座）
