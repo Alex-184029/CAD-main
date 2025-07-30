@@ -107,7 +107,8 @@ def save_to_labelme2(json_origin, rooms, output_json):
         json.dump(data, f, indent=2)
 
 def classify_room(text):
-    url = 'http://127.0.0.1:5006/classify_room2'
+    # url = 'http://127.0.0.1:5006/classify_room2'
+    url = 'http://10.112.227.114:5006/classify_room2'
     data = {'text': text}
     headers = {'Content-Type': 'application/json'}
     response = requests.post(url, data=json.dumps(data), headers=headers)

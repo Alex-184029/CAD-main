@@ -332,15 +332,32 @@ def parse_area(task_id, dwgname):
     for item in data['arc_items']:
         arc_doors.append(item['rect'] + item['point'])
     single_arc_doors, double_arc_doors, slide_doors, closed_arc_doors = parse_door_tool3(door_lines, arc_doors)
+    single_arc_doors = [door[:4] for door in single_arc_doors]
+    double_arc_doors = [door[:4] for door in double_arc_doors]
+    closed_arc_doors = [door[:4] for door in closed_arc_doors]
+    slide_doors = [door[:4] for door in slide_doors]
 
     # _, _, slide_doors2 = parse_door_tool2(door_lines, arc_doors)
-    if len(slide_doors) == 0:
-        slide_doors = [
-            [1023, 558, 1203, 564],
-            # [1023, 551, 1068, 564],
-            [968, 622, 973, 782],
-            [1023, 1287, 1263, 1294]
-        ]
+
+    # add for T3 slide_doors
+    # if len(slide_doors) == 0:
+    #     slide_doors = [
+    #         [1023, 558, 1203, 564],
+    #         # [1023, 551, 1068, 564],
+    #         [968, 622, 973, 782],
+    #         [1023, 1287, 1263, 1294]
+    #     ]
+
+    # add for plan_2 closed_arc_doors
+    closed_arc_doors = [
+        [584, 732, 656, 735],
+        [860, 732, 950, 736],
+        [982, 732, 1057, 734],
+        [840, 763, 844, 849],
+        [870, 878, 960, 882],
+        [1494, 739, 1596, 741],
+        [1560, 912, 1564, 997]
+    ]
 
     # 提取并解析墙
     lines = []
@@ -357,12 +374,19 @@ def parse_area(task_id, dwgname):
     rects_balcony = []
     for item in data['balcony_items']:
         rects_balcony.append(item['rect'])
+    # add for T3 balcony
+    # if len(rects_balcony) == 0:
+    #     rects_balcony = [
+    #         [978, 431, 1248, 446],
+    #         [1608, 551, 1758, 571],
+    #         [978, 1436, 1348, 1450],
+    #         [1332, 1361, 1348, 1436]
+    #     ]
+
+    # add for plan_2
     if len(rects_balcony) == 0:
         rects_balcony = [
-            [978, 431, 1248, 446],
-            [1608, 551, 1758, 571],
-            [978, 1436, 1348, 1450],
-            [1332, 1361, 1348, 1436]
+            [570, 382, 670, 392]
         ]
 
     # 提取并解析文本
@@ -407,35 +431,37 @@ def parse_area(task_id, dwgname):
 
     # 门框处理
     poly_walls = [Polygon(wall) for wall in walls]
+    poly_walls = [poly_wall for poly_wall in poly_walls if poly_wall.area > 30]   # 剔除门框之类的干扰元素线
+
     poly_arc_doors, poly_slide_doors = handle_door_frame(closed_arc_doors, slide_doors, poly_walls)
     # 矩形转多边形
     poly_windows = rects_to_polygons(rects_window)
     poly_balconys = rects_to_polygons(rects_balcony)
 
-    poly_slide_doors = rects_to_polygons(slide_doors)    # 后面要删
+    # poly_slide_doors = rects_to_polygons(slide_doors)    # 后面要删，用于T3
 
     polygons = poly_arc_doors + poly_slide_doors + poly_windows + poly_balconys + poly_walls
     # labelme格式可视化多边形
     labelme_path = os.path.join(work_dir, dwg + '_LabelmePolygon.json')
     save_to_labelme_poly(img_path, polygons, labelme_path)
 
-    # tmp_dir = os.path.join(work_dir, 'tmp')
-    # os.makedirs(tmp_dir, exist_ok=True)
-    # labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeDoor1.json')
-    # save_to_labelme_poly(img_path, poly_arc_doors + poly_slide_doors, labelme_path)
-    # poly_doors = rects_to_polygons(closed_arc_doors + slide_doors)
-    # labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeDoor2.json')
-    # save_to_labelme_poly(img_path, poly_doors, labelme_path)
-    # labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeWall.json')
-    # save_to_labelme_poly(img_path, poly_walls, labelme_path)
-    # labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeWallLine.json')
-    # save_to_labelme_line(img_path, lines, labelme_path) 
+    tmp_dir = os.path.join(work_dir, 'tmp')
+    os.makedirs(tmp_dir, exist_ok=True)
+    labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeDoor1.json')
+    save_to_labelme_poly(img_path, poly_arc_doors + poly_slide_doors, labelme_path)
+    poly_doors = rects_to_polygons(closed_arc_doors + slide_doors)
+    labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeDoor2.json')
+    save_to_labelme_poly(img_path, poly_doors, labelme_path)
+    labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeWall.json')
+    save_to_labelme_poly(img_path, poly_walls, labelme_path)
+    labelme_path = os.path.join(tmp_dir, dwg + '_LabelmeWallLine.json')
+    save_to_labelme_line(img_path, lines, labelme_path) 
 
     # 区域提取与标签分配
     rooms = handle_room_partition(polygons, texts)
 
     # 客厅区域再分割
-    rooms = handle_living_room_partition(rooms)
+    # rooms = handle_living_room_partition(rooms)
 
     # 房间数据保存
     data_room = data_template.copy()
@@ -477,8 +503,10 @@ def parse_area(task_id, dwgname):
     return 'Succeed'
 
 def test():
-    task_id = 'ece90b31-7a47-4e1b-945b-32f21b6d37c4'
-    dwgname = '(T3) 12#楼105户型平面图（镜像）.dwg'
+    # task_id = 'ece90b31-7a47-4e1b-945b-32f21b6d37c4'
+    # dwgname = '(T3) 12#楼105户型平面图（镜像）.dwg'
+    task_id = '2c34a2b5-88c3-4d78-a42b-5623cf225044'
+    dwgname = 'plan_2.dwg'
     res = parse_area(task_id, dwgname)
     print('test res:', res)
 

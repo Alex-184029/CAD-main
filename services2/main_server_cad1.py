@@ -345,9 +345,9 @@ def parse_area():
     return jsonify({'status': 'error', 'error info': 'Parse dwg fail.'}), 400
 
 def test():
-    pdf_path = r'C:\Users\DELL\Desktop\test3\legend-data-test1\legend_data\pdfs'
-    label_path = r'C:\Users\DELL\Desktop\test3\legend-data-test1\legend_data'
-    img_path = r'C:\Users\DELL\Desktop\test3\legend-data-test1\legend_data\imgs'
+    pdf_path = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public3\dwgs2\2c34a2b5-88c3-4d78-a42b-5623cf225044\legend_data\pdfs'
+    label_path = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public3\dwgs2\2c34a2b5-88c3-4d78-a42b-5623cf225044\legend_data\legends'
+    img_path = r'E:\School\Grad1\CAD\MyCAD2\CAD-main\dwg_file\public3\dwgs2\2c34a2b5-88c3-4d78-a42b-5623cf225044\legend_data\imgs'
     os.makedirs(img_path, exist_ok=True)
     labels = os.listdir(label_path)
     labels = [label for label in labels if label.endswith('.json')]
@@ -361,5 +361,5 @@ def test():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5005)
-    # test()
+    # app.run(host='0.0.0.0', port=5005)
+    test()
