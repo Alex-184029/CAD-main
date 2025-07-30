@@ -1007,7 +1007,7 @@ def parse_matched_legends(legend_match_json, out_path):
                     else:
                         legend_list2.append(item_i)
         if not signs[i]:
-            legend_list2.append(signs[i])
+            legend_list2.append(item_i)
     print('legend list num:', len(legend_list), len(legend_list2))
 
     legend_bill = dict()
@@ -1026,7 +1026,7 @@ def parse_matched_legends(legend_match_json, out_path):
 
     out_json = os.path.join(out_path, dwg_name + '-legend-bill.json')
     with open(out_json, 'w', encoding='utf-8') as f:
-        json.dump(legend_bill, f, ensure_ascii=False)
+        json.dump(legend_bill, f, ensure_ascii=False, indent=4)
     print('----- finish -----')
     
 
