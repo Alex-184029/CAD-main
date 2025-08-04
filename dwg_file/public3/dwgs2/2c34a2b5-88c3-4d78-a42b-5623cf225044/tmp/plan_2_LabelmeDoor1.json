@@ -1,0 +1,250 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "imagePath": "E:\\School\\Grad1\\CAD\\MyCAD2\\CAD-main\\dwg_file\\public3\\dwgs2\\2c34a2b5-88c3-4d78-a42b-5623cf225044\\plan_2_PlaneLayout.jpg",
+  "imageData": null,
+  "imageHeight": 1624,
+  "imageWidth": 2296,
+  "shapes": [
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          580.0,
+          732.0
+        ],
+        [
+          660.0,
+          732.0
+        ],
+        [
+          660.0,
+          735.0
+        ],
+        [
+          580.0,
+          735.0
+        ],
+        [
+          580.0,
+          732.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          860.0,
+          732.0
+        ],
+        [
+          950.0,
+          732.0
+        ],
+        [
+          950.0,
+          736.0
+        ],
+        [
+          860.0,
+          736.0
+        ],
+        [
+          860.0,
+          732.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          980.0,
+          732.0
+        ],
+        [
+          1060.0,
+          732.0
+        ],
+        [
+          1060.0,
+          734.0
+        ],
+        [
+          980.0,
+          734.0
+        ],
+        [
+          980.0,
+          732.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          840.0,
+          762.0
+        ],
+        [
+          844.0,
+          762.0
+        ],
+        [
+          844.0,
+          852.0
+        ],
+        [
+          840.0,
+          852.0
+        ],
+        [
+          840.0,
+          762.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          870.0,
+          878.0
+        ],
+        [
+          960.0,
+          878.0
+        ],
+        [
+          960.0,
+          882.0
+        ],
+        [
+          870.0,
+          882.0
+        ],
+        [
+          870.0,
+          878.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1493.0,
+          739.0
+        ],
+        [
+          1597.0,
+          739.0
+        ],
+        [
+          1597.0,
+          741.0
+        ],
+        [
+          1493.0,
+          741.0
+        ],
+        [
+          1493.0,
+          739.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1560.0,
+          908.0
+        ],
+        [
+          1564.0,
+          908.0
+        ],
+        [
+          1564.0,
+          998.0
+        ],
+        [
+          1560.0,
+          998.0
+        ],
+        [
+          1560.0,
+          908.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "Polygon",
+      "points": [
+        [
+          1225.0,
+          438.0
+        ],
+        [
+          1385.0,
+          438.0
+        ],
+        [
+          1385.0,
+          443.0
+        ],
+        [
+          1225.0,
+          443.0
+        ],
+        [
+          1225.0,
+          438.0
+        ]
+      ],
+      "shape_type": "polygon",
+      "group_id": null,
+      "description": "",
+      "flags": {},
+      "mask": null
+    }
+  ]
+}

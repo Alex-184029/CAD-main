@@ -1,9 +1,9 @@
 {
-    "dwg_name": "plan_1",
-    "vp_index": 1,
+    "dwg_name": "01、C户型平面图",
+    "vp_index": 7,
     "facade_index": {
         "1": {
-            "position": [],
+            "position": [78382, -244629],
             "facade": [
                 {
                     "frame_name": "C-EL-06",
@@ -28,7 +28,32 @@
             ]
         },
         "2": {
-            "position": [],
+            "position": [78375, -247557],
+            "facade": [
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "27",
+                    "direction": "N"
+                },
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "28",
+                    "direction": "E"
+                },
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "29",
+                    "direction": "S"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "30",
+                    "direction": "W"
+                }
+            ]
+        },
+        "3": {
+            "position": [78382, -244629],
             "facade": [
                 {
                     "frame_name": "C-EL-06",
@@ -48,6 +73,131 @@
                 {
                     "frame_name": "C-EL-06",
                     "sub_frame_name": "21",
+                    "direction": "W"
+                }
+            ]
+        },
+        "4": {
+            "position": [78375, -247557],
+            "facade": [
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "27",
+                    "direction": "N"
+                },
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "28",
+                    "direction": "E"
+                },
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "29",
+                    "direction": "S"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "30",
+                    "direction": "W"
+                }
+            ]
+        },
+        "5": {
+            "position": [78382, -244629],
+            "facade": [
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "18",
+                    "direction": "N"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "19",
+                    "direction": "E"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "20",
+                    "direction": "S"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "21",
+                    "direction": "W"
+                }
+            ]
+        },
+        "6": {
+            "position": [78375, -247557],
+            "facade": [
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "27",
+                    "direction": "N"
+                },
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "28",
+                    "direction": "E"
+                },
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "29",
+                    "direction": "S"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "30",
+                    "direction": "W"
+                }
+            ]
+        },
+        "7": {
+            "position": [78382, -244629],
+            "facade": [
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "18",
+                    "direction": "N"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "19",
+                    "direction": "E"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "20",
+                    "direction": "S"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "21",
+                    "direction": "W"
+                }
+            ]
+        },
+        "8": {
+            "position": [78375, -247557],
+            "facade": [
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "27",
+                    "direction": "N"
+                },
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "28",
+                    "direction": "E"
+                },
+                {
+                    "frame_name": "C-EL-08",
+                    "sub_frame_name": "29",
+                    "direction": "S"
+                },
+                {
+                    "frame_name": "C-EL-06",
+                    "sub_frame_name": "30",
                     "direction": "W"
                 }
             ]
